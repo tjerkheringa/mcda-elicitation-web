@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Effects table with collapse</title>
+
+      <link rel="stylesheet" type="text/css" href="../app/css/nv.d3.css">
+      <link rel="stylesheet" type="text/css" href="../app/css/mcda-plain.css">
+ <!-- <link href="twitter-bootstrap/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet">  -->
+       <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+      <link rel="stylesheet" type="text/css" href="static.css">
+      <script src="bower_components/requirejs/require.js" data-main="app/js/main.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
+     <!-- <script src="bootstrap-tooltip.js"></script>
+		<script src="bootstrap-popover.js"></script> -->
+</head>
+<body>
+    
+<div class="row">  
+    
+   <div class="sidepanel shadow"><div class="button closebutt">Close</div>
+    <h1>PGA% no worse</h1>
+        <table cellspacing="0px">
+            <tr>
+                <th scope="col">Alternatives</th>
+                <th scope="col">%</th>
+            </tr>
+            <tr>
+                <td>Placebo</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>10mg</td>
+                <td>53</td>
+            </tr>
+            <tr>
+                <td>1 mg</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>Lorum</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td>Ipsum</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>Amet</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>Dolor</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Consectetur</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>Adipisicing</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>Elit</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Incididunt</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Labore</td>
+                <td>31</td>
+            </tr>
+        </table>
+        
+	</div>      
+    
+    <table id="effectstable" class="effectstable shadow " summary="table summary" data-role="table" data-mode="columntoggle">
+   
+    <caption>
+        Benlysta effects
+    </caption>
+    <thead>
+    <tr>
+        <th scope="col" class="rem10">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Units</th>
+        <th scope="col">Alternatives</th>
+        <th scope="col" data-priority="1">Placebo</th>
+        <th scope="col" data-priority="1">10mg</th>
+        <th scope="col" data-priority="1">1mg</th>
+        <th scope="col" data-priority="1">Lorum</th>
+        <th scope="col" data-priority="1">Ipsum</th>
+        <th scope="col" data-priority="1">Dolor</th>
+        <th scope="col" data-priority="1">Amet</th>
+        <th scope="col" data-priority="1">Ergo</th>
+        <th scope="col" data-priority="1">Sum</th>
+        <th scope="col" data-priority="1">Qualitate</th>
+        <th scope="col" data-priority="1">Qua</th>
+        <th scope="col" data-priority="1">Cum </th>
+        <th scope="col" data-priority="1">Laude</th>
+        <th scope="col" class="rem14" data-priority="3">Uncertainties (See EPAR &para;2.8)</th>
+    </tr>
+        </thead>
+        <tbody>
+    <tr>
+        <td colspan="18" class="firstheader favorable greenarrow">
+        <div class="firstheadertext">Favourable effects<span class="extratext"> (pooled data based on the EPAR)</span></div>
+        <div class="secondheader rounded-small">SLE Responder Index (SRI)</div>
+        </td>
+        </tr>
+    <tr>
+        <td>SLEDAI<span>% Improved &ge; 4</span></td>
+        <td>Percentage of patients with at least 4 points' reduction in SLEDAI<span class="sup">3</span></td>
+        <td>%</td>
+        <td><div class="slidesidepanel button">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="4">Approved only for patients with high disease activity.<br>
+            Uncertaintlies remain about optimal treatment duration, maintenance doses, treatment holidays and rebound phenomenon</td>
+    </tr>
+    <tr>
+        <td>PGA% no worse</td>
+        <td>Percentage of patients with no worsening in Physician's Global Assessment4 (worsening = an increase of less than 0.3 points)</td>
+        <td>%</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+    <tr>
+        <td>PGA<span>Mean score</span></td>
+        <td>Overall mean change of PGA score from baseline for the study population</td>
+        <td>Difference</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+    <tr>
+        <td>BILAG A/B</td>
+        <td>Percentage of patients with no new BILAG3 A/2B</td>
+        <td>%</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+    <tr>
+        <td colspan="18" class="firstheader favorable greenarrow">
+        <div class="firstheadertext">Favourable effects</div>
+        <div class="secondheader rounded-small">Secondary Endpoints</div>
+        </td>
+        </tr>
+    <tr>
+        <td>CS Sparing</td>
+        <td>Percentage of patients that reduced the dose of costicosteroids by more than 25% and to less than 7.5 mg/day</td>
+        <td>%</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="3">Support from the analyses of the secondary endpoints is weak for the overall population</td>
+        </tr>
+    <tr>
+        <td>Flare rate</td>
+        <td>Number of new BILAG A Cases per patient year</td>
+        <td>Number</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+    <tr>
+        <td>QoL</td>
+        <td>Mean change in the total score of SF 36 (Short Form)</td>
+        <td>Difference</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+    <tr>
+        <td colspan="18" class="firstheader unfavorable redarrow">
+        <div class="firstheadertext">Unfavourable effects</div></td>
+        </tr>
+    <tr>
+        <td>Potential SAEs</td>
+        <td>Potential for developing tumour, opportunistic infections of PML</td>
+        <td>Judgement</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>The mechanism of action could increase potential for developing infections</td>
+        </tr>
+    <tr>
+        <td>Infections</td>
+        <td>Proportion of patients with serious infections that are life-threatening</td>
+        <td>%</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Sensitivity Reaction</td>
+        <td>Proportion of patients with hypersensitivity reactions at any time in the study</td>
+        <td>%</td>
+        <td><div class="slidesidepanel button closebutt">View</div></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td></td>
+        </tr>
+    </tbody>
+        <tfoot>
+    <tr>        
+        <td colspan="18" class="effectstable-footer">
+            (1) Best and Worst: For similar scales, the most preffered and least preferred values that would be realistically realisable (e.g., 0 to 100% for both SLEDAI and PGA scales). For dissimilar scales, a range that facilitaties comparing the relative importance of the scales (e.g., Infections 0-10%, and Sensitivity Reaction 0-2%).<br>
+            (2) Treatment effect estimates.</td>
+        </tr>
+
+        </tfoot>
+    </table>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".slidesidepanel").click(function () {
+
+                $(".sidepanel").slideToggle("slow", "swing");
+
+                //  $(".sidepanel").animate({ right: '0%' });
+
+                $(".sidepanel").css({
+                    'position': 'fixed !important',
+                    'top': '10%'
+                });
+
+                $(".sidepanel").css({
+                    'margin-top': -this.outerHeight() / 2 + 'px'
+                });
+
+            });
+
+            $(".sidepanel .button").click(function () {
+                $(".sidepanel").slideToggle("slow", "swing");
+            });
+        });
+
+    </script>
+     
+   <script>
+$(function ()
+{ 
+$(".showpop").popover({placement:'top', title: 'Alternatives', content: "Hier komen de waarden te staan nnnnnn nnnnnnn nnnnnnnnnnnnn nnnnnn nnnnnnnnn"});
+});
+</script>
+
+</body>
+</html>
