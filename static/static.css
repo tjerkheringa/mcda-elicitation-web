@@ -82,6 +82,7 @@
 	  font-weight: normal;
 	  letter-spacing: 0.05rem;
       padding: 0.5rem 0.8rem;
+      border-right: 1px solid #452F8C;
   }
 
 
@@ -89,13 +90,13 @@
 	  vertical-align:top;
       padding: 4px 8px 4px 8px;
       margin: 0;
-	  border-right: 1px solid #CCC;
+	  border-right: 1px solid #452F8C;
 	  font-size: 0.78rem;
       position: relative;
   }
   
   .effectstable td:last-child {
-	  border-right: none;
+	/*  border-right: none; */
   }
   
       .effectstable-footer {
