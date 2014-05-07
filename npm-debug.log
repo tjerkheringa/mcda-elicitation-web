@@ -31,21 +31,21 @@
 16 verbose url raw bower
 17 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
 18 verbose url resolved https://registry.npmjs.org/bower
-19 info trying registry request attempt 1 at 10:37:10
+19 info trying registry request attempt 1 at 12:31:35
 20 verbose etag "AUZTX53ZA4I6TS2NPKXITCZ9P"
 21 http GET https://registry.npmjs.org/bower
 22 http 304 https://registry.npmjs.org/bower
 23 silly registry.get cb [ 304,
-23 silly registry.get   { date: 'Wed, 07 May 2014 08:36:26 GMT',
+23 silly registry.get   { date: 'Wed, 07 May 2014 10:31:35 GMT',
 23 silly registry.get     server: 'Apache',
 23 silly registry.get     via: '1.1 varnish',
-23 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:26 GMT',
+23 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:35 GMT',
 23 silly registry.get     'cache-control': 'max-age=1',
 23 silly registry.get     etag: '"AUZTX53ZA4I6TS2NPKXITCZ9P"',
-23 silly registry.get     'x-served-by': 'cache-am76-AMS',
+23 silly registry.get     'x-served-by': 'cache-am69-AMS',
 23 silly registry.get     'x-cache': 'HIT',
 23 silly registry.get     'x-cache-hits': '1',
-23 silly registry.get     'x-timer': 'S1399451786.537125349,VS0,VE86',
+23 silly registry.get     'x-timer': 'S1399458695.844399929,VS0,VE93',
 23 silly registry.get     vary: 'Accept',
 23 silly registry.get     'content-length': '0',
 23 silly registry.get     'keep-alive': 'timeout=10, max=50',
@@ -1722,51 +1722,51 @@
 669 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
 670 verbose lock which@~1.0.5 C:\Users\tjerk\AppData\Roaming\npm-cache\d158d65e-which-1-0-5.lock
 671 silly addNameRange { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: false }
-672 silly addNameRange { name: 'bower-config',
-672 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
-672 silly addNameRange   hasData: false }
-673 silly addNameRange { name: 'bower-endpoint-parser',
-673 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+672 silly addNameRange { name: 'archy', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
+673 silly addNameRange { name: 'bower-config',
+673 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
 673 silly addNameRange   hasData: false }
-674 silly addNameRange { name: 'bower-json',
-674 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+674 silly addNameRange { name: 'bower-endpoint-parser',
+674 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
 674 silly addNameRange   hasData: false }
-675 silly addNameRange { name: 'bower-logger',
-675 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+675 silly addNameRange { name: 'bower-json',
+675 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
 675 silly addNameRange   hasData: false }
-676 silly addNameRange { name: 'bower-registry-client',
-676 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+676 silly addNameRange { name: 'bower-logger',
+676 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
 676 silly addNameRange   hasData: false }
-677 silly addNameRange { name: 'cardinal', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
-678 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
-679 silly addNameRange { name: 'chmodr', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
-680 silly addNameRange { name: 'decompress-zip',
-680 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
-680 silly addNameRange   hasData: false }
-681 silly addNameRange { name: 'fstream', range: '>=0.1.22-0 <0.2.0-0', hasData: false }
-682 silly addNameRange { name: 'fstream-ignore',
-682 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
-682 silly addNameRange   hasData: false }
-683 silly addNameRange { name: 'glob', range: '>=3.2.9-0 <3.3.0-0', hasData: false }
+677 silly addNameRange { name: 'bower-registry-client',
+677 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+677 silly addNameRange   hasData: false }
+678 silly addNameRange { name: 'cardinal', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+679 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+680 silly addNameRange { name: 'chmodr', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+681 silly addNameRange { name: 'decompress-zip',
+681 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
+681 silly addNameRange   hasData: false }
+682 silly addNameRange { name: 'fstream', range: '>=0.1.22-0 <0.2.0-0', hasData: false }
+683 silly addNameRange { name: 'fstream-ignore',
+683 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
+683 silly addNameRange   hasData: false }
 684 silly addNameRange { name: 'graceful-fs',
 684 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
 684 silly addNameRange   hasData: false }
 685 silly addNameRange { name: 'handlebars',
 685 silly addNameRange   range: '>=1.3.0-0 <1.4.0-0',
 685 silly addNameRange   hasData: false }
-686 silly addNameRange { name: 'archy', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
-687 silly addNameRange { name: 'is-root', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
-688 silly addNameRange { name: 'insight', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
-689 silly addNameRange { name: 'junk', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
-690 silly addNameRange { name: 'lockfile', range: '>=0.4.2-0 <0.5.0-0', hasData: false }
-691 silly addNameRange { name: 'lru-cache',
-691 silly addNameRange   range: '>=2.5.0-0 <2.6.0-0',
-691 silly addNameRange   hasData: false }
-692 silly addNameRange { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
-693 silly addNameRange { name: 'mout', range: '>=0.9.1-0 <0.10.0-0', hasData: false }
-694 silly addNameRange { name: 'nopt', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
-695 silly addNameRange { name: 'opn', range: '>=0.1.1-0 <0.2.0-0', hasData: false }
-696 silly addNameRange { name: 'inquirer', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+686 silly addNameRange { name: 'glob', range: '>=3.2.9-0 <3.3.0-0', hasData: false }
+687 silly addNameRange { name: 'inquirer', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+688 silly addNameRange { name: 'is-root', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+689 silly addNameRange { name: 'insight', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+690 silly addNameRange { name: 'junk', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+691 silly addNameRange { name: 'lockfile', range: '>=0.4.2-0 <0.5.0-0', hasData: false }
+692 silly addNameRange { name: 'mout', range: '>=0.9.1-0 <0.10.0-0', hasData: false }
+693 silly addNameRange { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
+694 silly addNameRange { name: 'lru-cache',
+694 silly addNameRange   range: '>=2.5.0-0 <2.6.0-0',
+694 silly addNameRange   hasData: false }
+695 silly addNameRange { name: 'nopt', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
+696 silly addNameRange { name: 'opn', range: '>=0.1.1-0 <0.2.0-0', hasData: false }
 697 silly addNameRange { name: 'osenv', range: '>=0.0.3-0 <0.1.0-0', hasData: false }
 698 silly addNameRange { name: 'p-throttler',
 698 silly addNameRange   range: '>=0.0.1-0 <0.1.0-0',
@@ -1781,1599 +1781,1971 @@
 702 silly addNameRange   hasData: false }
 703 silly addNameRange { name: 'retry', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
 704 silly addNameRange { name: 'rimraf', range: '>=2.2.0-0 <2.3.0-0', hasData: false }
-705 silly addNameRange { name: 'shell-quote',
-705 silly addNameRange   range: '>=1.4.1-0 <1.5.0-0',
-705 silly addNameRange   hasData: false }
-706 silly addNameRange { name: 'stringify-object',
-706 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
-706 silly addNameRange   hasData: false }
-707 silly addNameRange { name: 'tar', range: '>=0.1.17-0 <0.2.0-0', hasData: false }
-708 silly addNameRange { name: 'update-notifier',
-708 silly addNameRange   range: '>=0.1.8-0 <0.2.0-0',
+705 silly addNameRange { name: 'tar', range: '>=0.1.17-0 <0.2.0-0', hasData: false }
+706 silly addNameRange { name: 'semver', range: '>=2.2.1-0 <2.3.0-0', hasData: false }
+707 silly addNameRange { name: 'stringify-object',
+707 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+707 silly addNameRange   hasData: false }
+708 silly addNameRange { name: 'shell-quote',
+708 silly addNameRange   range: '>=1.4.1-0 <1.5.0-0',
 708 silly addNameRange   hasData: false }
-709 silly addNameRange { name: 'semver', range: '>=2.2.1-0 <2.3.0-0', hasData: false }
-710 silly addNameRange { name: 'tmp', range: '>=0.0.20-0 <0.1.0-0', hasData: false }
+709 silly addNameRange { name: 'tmp', range: '>=0.0.20-0 <0.1.0-0', hasData: false }
+710 silly addNameRange { name: 'update-notifier',
+710 silly addNameRange   range: '>=0.1.8-0 <0.2.0-0',
+710 silly addNameRange   hasData: false }
 711 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
 712 verbose url raw abbrev
 713 verbose url resolving [ 'https://registry.npmjs.org/', './abbrev' ]
 714 verbose url resolved https://registry.npmjs.org/abbrev
-715 info trying registry request attempt 1 at 10:37:17
+715 info trying registry request attempt 1 at 12:31:42
 716 verbose etag "3JURXAOF37GE5UVET5431Q5YL"
 717 http GET https://registry.npmjs.org/abbrev
-718 verbose url raw bower-config
-719 verbose url resolving [ 'https://registry.npmjs.org/', './bower-config' ]
-720 verbose url resolved https://registry.npmjs.org/bower-config
-721 info trying registry request attempt 1 at 10:37:17
-722 verbose etag "1Y0J0RJBDKDQ8J2OG1JIZS9WD"
-723 http GET https://registry.npmjs.org/bower-config
-724 verbose url raw bower-endpoint-parser
-725 verbose url resolving [ 'https://registry.npmjs.org/', './bower-endpoint-parser' ]
-726 verbose url resolved https://registry.npmjs.org/bower-endpoint-parser
-727 info trying registry request attempt 1 at 10:37:17
-728 verbose etag "4EV0HRYX1D250I3OBZEI5EP0G"
-729 http GET https://registry.npmjs.org/bower-endpoint-parser
+718 verbose url raw archy
+719 verbose url resolving [ 'https://registry.npmjs.org/', './archy' ]
+720 verbose url resolved https://registry.npmjs.org/archy
+721 info trying registry request attempt 1 at 12:31:42
+722 verbose etag "8G937WVUQ9MMZVXIHKCSTNOPR"
+723 http GET https://registry.npmjs.org/archy
+724 verbose url raw bower-config
+725 verbose url resolving [ 'https://registry.npmjs.org/', './bower-config' ]
+726 verbose url resolved https://registry.npmjs.org/bower-config
+727 info trying registry request attempt 1 at 12:31:42
+728 verbose etag "1Y0J0RJBDKDQ8J2OG1JIZS9WD"
+729 http GET https://registry.npmjs.org/bower-config
 730 verbose url raw bower-json
 731 verbose url resolving [ 'https://registry.npmjs.org/', './bower-json' ]
 732 verbose url resolved https://registry.npmjs.org/bower-json
-733 info trying registry request attempt 1 at 10:37:17
+733 info trying registry request attempt 1 at 12:31:42
 734 verbose etag "4RJNPMCXRJNAXHBKS0JV0KKBO"
 735 http GET https://registry.npmjs.org/bower-json
-736 verbose url raw bower-logger
-737 verbose url resolving [ 'https://registry.npmjs.org/', './bower-logger' ]
-738 verbose url resolved https://registry.npmjs.org/bower-logger
-739 info trying registry request attempt 1 at 10:37:17
-740 verbose etag "8SR8UNFFTGVFEMMRRVKIK1BPM"
-741 http GET https://registry.npmjs.org/bower-logger
-742 verbose url raw bower-registry-client
-743 verbose url resolving [ 'https://registry.npmjs.org/', './bower-registry-client' ]
-744 verbose url resolved https://registry.npmjs.org/bower-registry-client
-745 info trying registry request attempt 1 at 10:37:17
-746 verbose etag "D3YB0I3C5QAF6R5MFESHD495V"
-747 http GET https://registry.npmjs.org/bower-registry-client
-748 verbose url raw cardinal
-749 verbose url resolving [ 'https://registry.npmjs.org/', './cardinal' ]
-750 verbose url resolved https://registry.npmjs.org/cardinal
-751 info trying registry request attempt 1 at 10:37:17
-752 verbose etag "EBSK6G86GA35H8LUJUUUSNY89"
-753 http GET https://registry.npmjs.org/cardinal
-754 verbose url raw chalk
-755 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
-756 verbose url resolved https://registry.npmjs.org/chalk
-757 info trying registry request attempt 1 at 10:37:17
-758 verbose etag "13QLXJSEGTLSAKJ3T160U5M3R"
-759 http GET https://registry.npmjs.org/chalk
-760 verbose url raw chmodr
-761 verbose url resolving [ 'https://registry.npmjs.org/', './chmodr' ]
-762 verbose url resolved https://registry.npmjs.org/chmodr
-763 info trying registry request attempt 1 at 10:37:17
-764 verbose etag "6ANMTMYVZ3FR4PE110XDOGG2S"
-765 http GET https://registry.npmjs.org/chmodr
-766 verbose url raw decompress-zip
-767 verbose url resolving [ 'https://registry.npmjs.org/', './decompress-zip' ]
-768 verbose url resolved https://registry.npmjs.org/decompress-zip
-769 info trying registry request attempt 1 at 10:37:17
-770 verbose etag "3QXEJKUD8EP8T5ROFMZFHI1QB"
-771 http GET https://registry.npmjs.org/decompress-zip
-772 verbose url raw fstream
-773 verbose url resolving [ 'https://registry.npmjs.org/', './fstream' ]
-774 verbose url resolved https://registry.npmjs.org/fstream
-775 info trying registry request attempt 1 at 10:37:17
-776 verbose etag "83I50Z4UFBRHZIITH0F7A966D"
-777 http GET https://registry.npmjs.org/fstream
-778 verbose url raw fstream-ignore
-779 verbose url resolving [ 'https://registry.npmjs.org/', './fstream-ignore' ]
-780 verbose url resolved https://registry.npmjs.org/fstream-ignore
-781 info trying registry request attempt 1 at 10:37:17
-782 verbose etag "7Z3F6BU98J8JA6XZGQTDISA1T"
-783 http GET https://registry.npmjs.org/fstream-ignore
-784 verbose url raw glob
-785 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
-786 verbose url resolved https://registry.npmjs.org/glob
-787 info trying registry request attempt 1 at 10:37:17
-788 verbose etag "39GDCKKFWC2MHY6HJCJXC8QS7"
-789 http GET https://registry.npmjs.org/glob
-790 verbose url raw graceful-fs
-791 verbose url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
-792 verbose url resolved https://registry.npmjs.org/graceful-fs
-793 info trying registry request attempt 1 at 10:37:17
-794 verbose etag "CYB1G9YMI1R0K364JALO65NBN"
-795 http GET https://registry.npmjs.org/graceful-fs
-796 verbose url raw handlebars
-797 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
-798 verbose url resolved https://registry.npmjs.org/handlebars
-799 info trying registry request attempt 1 at 10:37:17
-800 verbose etag "WVSHG9BJQN25RIVKHK6TBO6B"
-801 http GET https://registry.npmjs.org/handlebars
-802 verbose url raw archy
-803 verbose url resolving [ 'https://registry.npmjs.org/', './archy' ]
-804 verbose url resolved https://registry.npmjs.org/archy
-805 info trying registry request attempt 1 at 10:37:17
-806 verbose etag "8G937WVUQ9MMZVXIHKCSTNOPR"
-807 http GET https://registry.npmjs.org/archy
-808 verbose url raw is-root
-809 verbose url resolving [ 'https://registry.npmjs.org/', './is-root' ]
-810 verbose url resolved https://registry.npmjs.org/is-root
-811 info trying registry request attempt 1 at 10:37:17
-812 verbose etag "BX3IQFWESESRZBR62UPBZ25W8"
-813 http GET https://registry.npmjs.org/is-root
-814 verbose url raw insight
-815 verbose url resolving [ 'https://registry.npmjs.org/', './insight' ]
-816 verbose url resolved https://registry.npmjs.org/insight
-817 info trying registry request attempt 1 at 10:37:17
-818 verbose etag "19RFG4TW07D8I738VSBWQ4RGP"
-819 http GET https://registry.npmjs.org/insight
-820 verbose url raw junk
-821 verbose url resolving [ 'https://registry.npmjs.org/', './junk' ]
-822 verbose url resolved https://registry.npmjs.org/junk
-823 info trying registry request attempt 1 at 10:37:17
-824 verbose etag "5YWNG1G42GV1ZCGAV1ZC1CKER"
-825 http GET https://registry.npmjs.org/junk
-826 verbose url raw lru-cache
-827 verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
-828 verbose url resolved https://registry.npmjs.org/lru-cache
-829 info trying registry request attempt 1 at 10:37:17
-830 verbose etag "2BBLP3S8ATDK6KH34WWTIOKD8"
-831 http GET https://registry.npmjs.org/lru-cache
-832 verbose url raw mkdirp
-833 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
-834 verbose url resolved https://registry.npmjs.org/mkdirp
-835 info trying registry request attempt 1 at 10:37:17
-836 verbose etag "5TIHXRX5HSIYV6EU4PXR4JW26"
-837 http GET https://registry.npmjs.org/mkdirp
-838 verbose url raw lockfile
-839 verbose url resolving [ 'https://registry.npmjs.org/', './lockfile' ]
-840 verbose url resolved https://registry.npmjs.org/lockfile
-841 info trying registry request attempt 1 at 10:37:17
-842 verbose etag "85GNZ7PQG4MVVI85QPDZ5CXKD"
-843 http GET https://registry.npmjs.org/lockfile
-844 verbose url raw mout
-845 verbose url resolving [ 'https://registry.npmjs.org/', './mout' ]
-846 verbose url resolved https://registry.npmjs.org/mout
-847 info trying registry request attempt 1 at 10:37:17
-848 verbose etag "2Y24OTPJN2GJZMI8611QM90AF"
-849 http GET https://registry.npmjs.org/mout
-850 verbose url raw nopt
-851 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
-852 verbose url resolved https://registry.npmjs.org/nopt
-853 info trying registry request attempt 1 at 10:37:17
-854 verbose etag "DGC4MFCY9YGMG816QPXUQJ2HS"
-855 http GET https://registry.npmjs.org/nopt
-856 verbose url raw opn
-857 verbose url resolving [ 'https://registry.npmjs.org/', './opn' ]
-858 verbose url resolved https://registry.npmjs.org/opn
-859 info trying registry request attempt 1 at 10:37:17
-860 verbose etag "6VBB5B3JNJSFTUSVND7LS1XI0"
-861 http GET https://registry.npmjs.org/opn
+736 verbose url raw bower-registry-client
+737 verbose url resolving [ 'https://registry.npmjs.org/', './bower-registry-client' ]
+738 verbose url resolved https://registry.npmjs.org/bower-registry-client
+739 info trying registry request attempt 1 at 12:31:42
+740 verbose etag "D3YB0I3C5QAF6R5MFESHD495V"
+741 http GET https://registry.npmjs.org/bower-registry-client
+742 verbose url raw bower-endpoint-parser
+743 verbose url resolving [ 'https://registry.npmjs.org/', './bower-endpoint-parser' ]
+744 verbose url resolved https://registry.npmjs.org/bower-endpoint-parser
+745 info trying registry request attempt 1 at 12:31:42
+746 verbose etag "4EV0HRYX1D250I3OBZEI5EP0G"
+747 http GET https://registry.npmjs.org/bower-endpoint-parser
+748 verbose url raw chalk
+749 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+750 verbose url resolved https://registry.npmjs.org/chalk
+751 info trying registry request attempt 1 at 12:31:42
+752 verbose etag "13QLXJSEGTLSAKJ3T160U5M3R"
+753 http GET https://registry.npmjs.org/chalk
+754 verbose url raw chmodr
+755 verbose url resolving [ 'https://registry.npmjs.org/', './chmodr' ]
+756 verbose url resolved https://registry.npmjs.org/chmodr
+757 info trying registry request attempt 1 at 12:31:42
+758 verbose etag "6ANMTMYVZ3FR4PE110XDOGG2S"
+759 http GET https://registry.npmjs.org/chmodr
+760 verbose url raw fstream-ignore
+761 verbose url resolving [ 'https://registry.npmjs.org/', './fstream-ignore' ]
+762 verbose url resolved https://registry.npmjs.org/fstream-ignore
+763 info trying registry request attempt 1 at 12:31:42
+764 verbose etag "7Z3F6BU98J8JA6XZGQTDISA1T"
+765 http GET https://registry.npmjs.org/fstream-ignore
+766 verbose url raw bower-logger
+767 verbose url resolving [ 'https://registry.npmjs.org/', './bower-logger' ]
+768 verbose url resolved https://registry.npmjs.org/bower-logger
+769 info trying registry request attempt 1 at 12:31:42
+770 verbose etag "8SR8UNFFTGVFEMMRRVKIK1BPM"
+771 http GET https://registry.npmjs.org/bower-logger
+772 verbose url raw decompress-zip
+773 verbose url resolving [ 'https://registry.npmjs.org/', './decompress-zip' ]
+774 verbose url resolved https://registry.npmjs.org/decompress-zip
+775 info trying registry request attempt 1 at 12:31:42
+776 verbose etag "3QXEJKUD8EP8T5ROFMZFHI1QB"
+777 http GET https://registry.npmjs.org/decompress-zip
+778 verbose url raw graceful-fs
+779 verbose url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
+780 verbose url resolved https://registry.npmjs.org/graceful-fs
+781 info trying registry request attempt 1 at 12:31:42
+782 verbose etag "CYB1G9YMI1R0K364JALO65NBN"
+783 http GET https://registry.npmjs.org/graceful-fs
+784 verbose url raw insight
+785 verbose url resolving [ 'https://registry.npmjs.org/', './insight' ]
+786 verbose url resolved https://registry.npmjs.org/insight
+787 info trying registry request attempt 1 at 12:31:42
+788 verbose etag "19RFG4TW07D8I738VSBWQ4RGP"
+789 http GET https://registry.npmjs.org/insight
+790 verbose url raw handlebars
+791 verbose url resolving [ 'https://registry.npmjs.org/', './handlebars' ]
+792 verbose url resolved https://registry.npmjs.org/handlebars
+793 info trying registry request attempt 1 at 12:31:42
+794 verbose etag "WVSHG9BJQN25RIVKHK6TBO6B"
+795 http GET https://registry.npmjs.org/handlebars
+796 verbose url raw junk
+797 verbose url resolving [ 'https://registry.npmjs.org/', './junk' ]
+798 verbose url resolved https://registry.npmjs.org/junk
+799 info trying registry request attempt 1 at 12:31:42
+800 verbose etag "5YWNG1G42GV1ZCGAV1ZC1CKER"
+801 http GET https://registry.npmjs.org/junk
+802 verbose url raw mkdirp
+803 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+804 verbose url resolved https://registry.npmjs.org/mkdirp
+805 info trying registry request attempt 1 at 12:31:42
+806 verbose etag "5TIHXRX5HSIYV6EU4PXR4JW26"
+807 http GET https://registry.npmjs.org/mkdirp
+808 verbose url raw glob
+809 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+810 verbose url resolved https://registry.npmjs.org/glob
+811 info trying registry request attempt 1 at 12:31:42
+812 verbose etag "39GDCKKFWC2MHY6HJCJXC8QS7"
+813 http GET https://registry.npmjs.org/glob
+814 verbose url raw opn
+815 verbose url resolving [ 'https://registry.npmjs.org/', './opn' ]
+816 verbose url resolved https://registry.npmjs.org/opn
+817 info trying registry request attempt 1 at 12:31:42
+818 verbose etag "6VBB5B3JNJSFTUSVND7LS1XI0"
+819 http GET https://registry.npmjs.org/opn
+820 verbose url raw is-root
+821 verbose url resolving [ 'https://registry.npmjs.org/', './is-root' ]
+822 verbose url resolved https://registry.npmjs.org/is-root
+823 info trying registry request attempt 1 at 12:31:42
+824 verbose etag "BX3IQFWESESRZBR62UPBZ25W8"
+825 http GET https://registry.npmjs.org/is-root
+826 verbose url raw retry
+827 verbose url resolving [ 'https://registry.npmjs.org/', './retry' ]
+828 verbose url resolved https://registry.npmjs.org/retry
+829 info trying registry request attempt 1 at 12:31:42
+830 verbose etag "8SV8OGIXUA5HP5HXZV2LWKTA5"
+831 http GET https://registry.npmjs.org/retry
+832 verbose url raw cardinal
+833 verbose url resolving [ 'https://registry.npmjs.org/', './cardinal' ]
+834 verbose url resolved https://registry.npmjs.org/cardinal
+835 info trying registry request attempt 1 at 12:31:42
+836 verbose etag "EBSK6G86GA35H8LUJUUUSNY89"
+837 http GET https://registry.npmjs.org/cardinal
+838 verbose url raw request-progress
+839 verbose url resolving [ 'https://registry.npmjs.org/', './request-progress' ]
+840 verbose url resolved https://registry.npmjs.org/request-progress
+841 info trying registry request attempt 1 at 12:31:42
+842 verbose etag "45K9CQFHKTCUH0KYOX5ILA2NL"
+843 http GET https://registry.npmjs.org/request-progress
+844 verbose url raw p-throttler
+845 verbose url resolving [ 'https://registry.npmjs.org/', './p-throttler' ]
+846 verbose url resolved https://registry.npmjs.org/p-throttler
+847 info trying registry request attempt 1 at 12:31:42
+848 verbose etag "7FYPEKSRHQ5H68SQVMFL19M1U"
+849 http GET https://registry.npmjs.org/p-throttler
+850 verbose url raw lockfile
+851 verbose url resolving [ 'https://registry.npmjs.org/', './lockfile' ]
+852 verbose url resolved https://registry.npmjs.org/lockfile
+853 info trying registry request attempt 1 at 12:31:42
+854 verbose etag "85GNZ7PQG4MVVI85QPDZ5CXKD"
+855 http GET https://registry.npmjs.org/lockfile
+856 verbose url raw mout
+857 verbose url resolving [ 'https://registry.npmjs.org/', './mout' ]
+858 verbose url resolved https://registry.npmjs.org/mout
+859 info trying registry request attempt 1 at 12:31:42
+860 verbose etag "2Y24OTPJN2GJZMI8611QM90AF"
+861 http GET https://registry.npmjs.org/mout
 862 verbose url raw inquirer
 863 verbose url resolving [ 'https://registry.npmjs.org/', './inquirer' ]
 864 verbose url resolved https://registry.npmjs.org/inquirer
-865 info trying registry request attempt 1 at 10:37:17
+865 info trying registry request attempt 1 at 12:31:42
 866 verbose etag "6DQPN61ZLXP88QAL1YZR9IA1J"
 867 http GET https://registry.npmjs.org/inquirer
-868 verbose url raw osenv
-869 verbose url resolving [ 'https://registry.npmjs.org/', './osenv' ]
-870 verbose url resolved https://registry.npmjs.org/osenv
-871 info trying registry request attempt 1 at 10:37:17
-872 verbose etag "6KMLTT3BDAZ7370JLWCXJ7LC5"
-873 http GET https://registry.npmjs.org/osenv
-874 verbose url raw p-throttler
-875 verbose url resolving [ 'https://registry.npmjs.org/', './p-throttler' ]
-876 verbose url resolved https://registry.npmjs.org/p-throttler
-877 info trying registry request attempt 1 at 10:37:17
-878 verbose etag "7FYPEKSRHQ5H68SQVMFL19M1U"
-879 http GET https://registry.npmjs.org/p-throttler
-880 verbose url raw promptly
-881 verbose url resolving [ 'https://registry.npmjs.org/', './promptly' ]
-882 verbose url resolved https://registry.npmjs.org/promptly
-883 info trying registry request attempt 1 at 10:37:17
-884 verbose etag "GUYI98TDI8A6RYCNTEFTI0NS"
-885 http GET https://registry.npmjs.org/promptly
-886 verbose url raw q
-887 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
-888 verbose url resolved https://registry.npmjs.org/q
-889 info trying registry request attempt 1 at 10:37:17
-890 verbose etag "8TD8RR5SWP9KP11M01UGVC1N"
-891 http GET https://registry.npmjs.org/q
-892 verbose url raw request
-893 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
-894 verbose url resolved https://registry.npmjs.org/request
-895 info trying registry request attempt 1 at 10:37:17
-896 verbose etag "2H74F4E5JYQHP7RZLSI8N178R"
-897 http GET https://registry.npmjs.org/request
-898 verbose url raw request-progress
-899 verbose url resolving [ 'https://registry.npmjs.org/', './request-progress' ]
-900 verbose url resolved https://registry.npmjs.org/request-progress
-901 info trying registry request attempt 1 at 10:37:17
-902 verbose etag "45K9CQFHKTCUH0KYOX5ILA2NL"
-903 http GET https://registry.npmjs.org/request-progress
-904 verbose url raw retry
-905 verbose url resolving [ 'https://registry.npmjs.org/', './retry' ]
-906 verbose url resolved https://registry.npmjs.org/retry
-907 info trying registry request attempt 1 at 10:37:17
-908 verbose etag "8SV8OGIXUA5HP5HXZV2LWKTA5"
-909 http GET https://registry.npmjs.org/retry
+868 verbose url raw lru-cache
+869 verbose url resolving [ 'https://registry.npmjs.org/', './lru-cache' ]
+870 verbose url resolved https://registry.npmjs.org/lru-cache
+871 info trying registry request attempt 1 at 12:31:42
+872 verbose etag "2BBLP3S8ATDK6KH34WWTIOKD8"
+873 http GET https://registry.npmjs.org/lru-cache
+874 verbose url raw osenv
+875 verbose url resolving [ 'https://registry.npmjs.org/', './osenv' ]
+876 verbose url resolved https://registry.npmjs.org/osenv
+877 info trying registry request attempt 1 at 12:31:42
+878 verbose etag "6KMLTT3BDAZ7370JLWCXJ7LC5"
+879 http GET https://registry.npmjs.org/osenv
+880 verbose url raw request
+881 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+882 verbose url resolved https://registry.npmjs.org/request
+883 info trying registry request attempt 1 at 12:31:42
+884 verbose etag "2H74F4E5JYQHP7RZLSI8N178R"
+885 http GET https://registry.npmjs.org/request
+886 verbose url raw fstream
+887 verbose url resolving [ 'https://registry.npmjs.org/', './fstream' ]
+888 verbose url resolved https://registry.npmjs.org/fstream
+889 info trying registry request attempt 1 at 12:31:42
+890 verbose etag "83I50Z4UFBRHZIITH0F7A966D"
+891 http GET https://registry.npmjs.org/fstream
+892 verbose url raw nopt
+893 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+894 verbose url resolved https://registry.npmjs.org/nopt
+895 info trying registry request attempt 1 at 12:31:42
+896 verbose etag "DGC4MFCY9YGMG816QPXUQJ2HS"
+897 http GET https://registry.npmjs.org/nopt
+898 verbose url raw promptly
+899 verbose url resolving [ 'https://registry.npmjs.org/', './promptly' ]
+900 verbose url resolved https://registry.npmjs.org/promptly
+901 info trying registry request attempt 1 at 12:31:42
+902 verbose etag "GUYI98TDI8A6RYCNTEFTI0NS"
+903 http GET https://registry.npmjs.org/promptly
+904 verbose url raw q
+905 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+906 verbose url resolved https://registry.npmjs.org/q
+907 info trying registry request attempt 1 at 12:31:42
+908 verbose etag "8TD8RR5SWP9KP11M01UGVC1N"
+909 http GET https://registry.npmjs.org/q
 910 verbose url raw rimraf
 911 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
 912 verbose url resolved https://registry.npmjs.org/rimraf
-913 info trying registry request attempt 1 at 10:37:17
+913 info trying registry request attempt 1 at 12:31:42
 914 verbose etag "5W3WXV577LVH5XUHYL029X5R9"
 915 http GET https://registry.npmjs.org/rimraf
-916 verbose url raw shell-quote
-917 verbose url resolving [ 'https://registry.npmjs.org/', './shell-quote' ]
-918 verbose url resolved https://registry.npmjs.org/shell-quote
-919 info trying registry request attempt 1 at 10:37:17
-920 verbose etag "5H5FPWF8ST18RL6G9YG9VFMCF"
-921 http GET https://registry.npmjs.org/shell-quote
+916 verbose url raw stringify-object
+917 verbose url resolving [ 'https://registry.npmjs.org/', './stringify-object' ]
+918 verbose url resolved https://registry.npmjs.org/stringify-object
+919 info trying registry request attempt 1 at 12:31:42
+920 verbose etag "5EN3N7EDMIO34DQZCTNNI7M22"
+921 http GET https://registry.npmjs.org/stringify-object
 922 verbose url raw tar
 923 verbose url resolving [ 'https://registry.npmjs.org/', './tar' ]
 924 verbose url resolved https://registry.npmjs.org/tar
-925 info trying registry request attempt 1 at 10:37:17
+925 info trying registry request attempt 1 at 12:31:42
 926 verbose etag "4DD8W4J7NN69UKXNIXZ2KZRSQ"
 927 http GET https://registry.npmjs.org/tar
-928 verbose url raw stringify-object
-929 verbose url resolving [ 'https://registry.npmjs.org/', './stringify-object' ]
-930 verbose url resolved https://registry.npmjs.org/stringify-object
-931 info trying registry request attempt 1 at 10:37:17
-932 verbose etag "5EN3N7EDMIO34DQZCTNNI7M22"
-933 http GET https://registry.npmjs.org/stringify-object
+928 verbose url raw semver
+929 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+930 verbose url resolved https://registry.npmjs.org/semver
+931 info trying registry request attempt 1 at 12:31:42
+932 verbose etag "T4NBD4IYGN8BIC090V2SICIE"
+933 http GET https://registry.npmjs.org/semver
 934 verbose url raw update-notifier
 935 verbose url resolving [ 'https://registry.npmjs.org/', './update-notifier' ]
 936 verbose url resolved https://registry.npmjs.org/update-notifier
-937 info trying registry request attempt 1 at 10:37:17
+937 info trying registry request attempt 1 at 12:31:42
 938 verbose etag "9DXGQQFJIIGM3WN9SFGW30SIT"
 939 http GET https://registry.npmjs.org/update-notifier
-940 verbose url raw semver
-941 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
-942 verbose url resolved https://registry.npmjs.org/semver
-943 info trying registry request attempt 1 at 10:37:17
-944 verbose etag "T4NBD4IYGN8BIC090V2SICIE"
-945 http GET https://registry.npmjs.org/semver
-946 verbose url raw tmp
-947 verbose url resolving [ 'https://registry.npmjs.org/', './tmp' ]
-948 verbose url resolved https://registry.npmjs.org/tmp
-949 info trying registry request attempt 1 at 10:37:17
-950 verbose etag "37U0J6B5O8396C0U62D8C0321"
-951 http GET https://registry.npmjs.org/tmp
+940 verbose url raw tmp
+941 verbose url resolving [ 'https://registry.npmjs.org/', './tmp' ]
+942 verbose url resolved https://registry.npmjs.org/tmp
+943 info trying registry request attempt 1 at 12:31:42
+944 verbose etag "37U0J6B5O8396C0U62D8C0321"
+945 http GET https://registry.npmjs.org/tmp
+946 verbose url raw shell-quote
+947 verbose url resolving [ 'https://registry.npmjs.org/', './shell-quote' ]
+948 verbose url resolved https://registry.npmjs.org/shell-quote
+949 info trying registry request attempt 1 at 12:31:42
+950 verbose etag "5H5FPWF8ST18RL6G9YG9VFMCF"
+951 http GET https://registry.npmjs.org/shell-quote
 952 verbose url raw which
 953 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
 954 verbose url resolved https://registry.npmjs.org/which
-955 info trying registry request attempt 1 at 10:37:17
+955 info trying registry request attempt 1 at 12:31:42
 956 verbose etag "4U42AUANZD43I26W7W04SHTG3"
 957 http GET https://registry.npmjs.org/which
-958 http 304 https://registry.npmjs.org/abbrev
+958 http 304 https://registry.npmjs.org/archy
 959 silly registry.get cb [ 304,
-959 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
+959 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
 959 silly registry.get     server: 'Apache',
 959 silly registry.get     via: '1.1 varnish',
-959 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
+959 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
 959 silly registry.get     'cache-control': 'max-age=1',
-959 silly registry.get     etag: '"3JURXAOF37GE5UVET5431Q5YL"',
-959 silly registry.get     'x-served-by': 'cache-am76-AMS',
+959 silly registry.get     etag: '"8G937WVUQ9MMZVXIHKCSTNOPR"',
+959 silly registry.get     'x-served-by': 'cache-am77-AMS',
 959 silly registry.get     'x-cache': 'HIT',
 959 silly registry.get     'x-cache-hits': '1',
-959 silly registry.get     'x-timer': 'S1399451793.462589741,VS0,VE0',
+959 silly registry.get     'x-timer': 'S1399458702.649393559,VS0,VE93',
 959 silly registry.get     vary: 'Accept',
 959 silly registry.get     'content-length': '0',
 959 silly registry.get     'keep-alive': 'timeout=10, max=50',
 959 silly registry.get     connection: 'Keep-Alive' } ]
-960 verbose etag abbrev from cache
-961 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: true }
-962 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5' ] ]
-963 verbose addNamed [ 'abbrev', '1.0.5' ]
-964 verbose addNamed [ '1.0.5', '1.0.5' ]
-965 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
-966 verbose lock abbrev@1.0.5 C:\Users\tjerk\AppData\Roaming\npm-cache\55d90b2f-abbrev-1-0-5.lock
-967 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
-968 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
-969 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
-970 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
-971 http 304 https://registry.npmjs.org/bower-config
-972 silly registry.get cb [ 304,
-972 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-972 silly registry.get     server: 'Apache',
-972 silly registry.get     via: '1.1 varnish',
-972 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-972 silly registry.get     'cache-control': 'max-age=1',
-972 silly registry.get     etag: '"1Y0J0RJBDKDQ8J2OG1JIZS9WD"',
-972 silly registry.get     'x-served-by': 'cache-am69-AMS',
-972 silly registry.get     'x-cache': 'HIT',
-972 silly registry.get     'x-cache-hits': '1',
-972 silly registry.get     'x-timer': 'S1399451793.461524010,VS0,VE86',
-972 silly registry.get     vary: 'Accept',
-972 silly registry.get     'content-length': '0',
-972 silly registry.get     'keep-alive': 'timeout=10, max=50',
-972 silly registry.get     connection: 'Keep-Alive' } ]
-973 verbose etag bower-config from cache
-974 http 304 https://registry.npmjs.org/bower-json
-975 silly registry.get cb [ 304,
-975 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-975 silly registry.get     server: 'Apache',
-975 silly registry.get     via: '1.1 varnish',
-975 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-975 silly registry.get     'cache-control': 'max-age=1',
-975 silly registry.get     etag: '"4RJNPMCXRJNAXHBKS0JV0KKBO"',
-975 silly registry.get     'x-served-by': 'cache-am72-AMS',
-975 silly registry.get     'x-cache': 'HIT',
-975 silly registry.get     'x-cache-hits': '1',
-975 silly registry.get     'x-timer': 'S1399451793.464569330,VS0,VE86',
-975 silly registry.get     vary: 'Accept',
-975 silly registry.get     'content-length': '0',
-975 silly registry.get     'keep-alive': 'timeout=10, max=50',
-975 silly registry.get     connection: 'Keep-Alive' } ]
-976 verbose etag bower-json from cache
-977 http 304 https://registry.npmjs.org/bower-endpoint-parser
-978 silly registry.get cb [ 304,
-978 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-978 silly registry.get     server: 'Apache',
-978 silly registry.get     via: '1.1 varnish',
-978 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-978 silly registry.get     'cache-control': 'max-age=1',
-978 silly registry.get     etag: '"4EV0HRYX1D250I3OBZEI5EP0G"',
-978 silly registry.get     'x-served-by': 'cache-am70-AMS',
-978 silly registry.get     'x-cache': 'HIT',
-978 silly registry.get     'x-cache-hits': '1',
-978 silly registry.get     'x-timer': 'S1399451793.462979555,VS0,VE89',
-978 silly registry.get     vary: 'Accept',
-978 silly registry.get     'content-length': '0',
-978 silly registry.get     'keep-alive': 'timeout=10, max=50',
-978 silly registry.get     connection: 'Keep-Alive' } ]
-979 verbose etag bower-endpoint-parser from cache
-980 http 304 https://registry.npmjs.org/bower-logger
-981 silly registry.get cb [ 304,
-981 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-981 silly registry.get     server: 'Apache',
-981 silly registry.get     via: '1.1 varnish',
-981 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-981 silly registry.get     'cache-control': 'max-age=1',
-981 silly registry.get     etag: '"8SR8UNFFTGVFEMMRRVKIK1BPM"',
-981 silly registry.get     'x-served-by': 'cache-am70-AMS',
-981 silly registry.get     'x-cache': 'HIT',
-981 silly registry.get     'x-cache-hits': '1',
-981 silly registry.get     'x-timer': 'S1399451793.467298031,VS0,VE86',
-981 silly registry.get     vary: 'Accept',
-981 silly registry.get     'content-length': '0',
-981 silly registry.get     'keep-alive': 'timeout=10, max=50',
-981 silly registry.get     connection: 'Keep-Alive' } ]
-982 verbose etag bower-logger from cache
-983 silly addNameRange number 2 { name: 'bower-endpoint-parser',
-983 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
-983 silly addNameRange   hasData: true }
-984 silly addNameRange versions [ 'bower-endpoint-parser',
-984 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1' ] ]
-985 verbose addNamed [ 'bower-endpoint-parser', '0.2.1' ]
-986 verbose addNamed [ '0.2.1', '0.2.1' ]
-987 silly lockFile 9acb0392-bower-endpoint-parser-0-2-1 bower-endpoint-parser@0.2.1
-988 verbose lock bower-endpoint-parser@0.2.1 C:\Users\tjerk\AppData\Roaming\npm-cache\9acb0392-bower-endpoint-parser-0-2-1.lock
-989 silly addNameRange number 2 { name: 'bower-logger',
-989 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
-989 silly addNameRange   hasData: true }
-990 silly addNameRange versions [ 'bower-logger',
-990 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
-991 verbose addNamed [ 'bower-logger', '0.2.2' ]
-992 verbose addNamed [ '0.2.2', '0.2.2' ]
-993 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
-994 verbose lock bower-logger@0.2.2 C:\Users\tjerk\AppData\Roaming\npm-cache\4a38f198-bower-logger-0-2-2.lock
-995 http 304 https://registry.npmjs.org/bower-registry-client
-996 silly registry.get cb [ 304,
-996 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-996 silly registry.get     server: 'Apache',
-996 silly registry.get     via: '1.1 varnish',
-996 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-996 silly registry.get     'cache-control': 'max-age=1',
-996 silly registry.get     etag: '"D3YB0I3C5QAF6R5MFESHD495V"',
-996 silly registry.get     'x-served-by': 'cache-am76-AMS',
-996 silly registry.get     'x-cache': 'MISS',
-996 silly registry.get     'x-cache-hits': '0',
-996 silly registry.get     'x-timer': 'S1399451793.473586798,VS0,VE89',
-996 silly registry.get     vary: 'Accept',
-996 silly registry.get     'content-length': '0',
-996 silly registry.get     'keep-alive': 'timeout=10, max=49',
-996 silly registry.get     connection: 'Keep-Alive' } ]
-997 verbose etag bower-registry-client from cache
-998 silly addNameRange number 2 { name: 'bower-config',
-998 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
-998 silly addNameRange   hasData: true }
-999 silly addNameRange versions [ 'bower-config',
-999 silly addNameRange   [ '0.1.0-rc.1',
-999 silly addNameRange     '0.1.0-rc.2',
-999 silly addNameRange     '0.1.0-rc.3',
-999 silly addNameRange     '0.1.0-rc.4',
-999 silly addNameRange     '0.1.0-rc.5',
-999 silly addNameRange     '0.2.0-rc.1',
-999 silly addNameRange     '0.2.0-rc.2',
-999 silly addNameRange     '0.3.0',
-999 silly addNameRange     '0.3.1',
-999 silly addNameRange     '0.3.3',
-999 silly addNameRange     '0.3.4',
-999 silly addNameRange     '0.3.5',
-999 silly addNameRange     '0.4.0',
-999 silly addNameRange     '0.4.1',
-999 silly addNameRange     '0.4.2',
-999 silly addNameRange     '0.4.3',
-999 silly addNameRange     '0.4.4',
-999 silly addNameRange     '0.4.5',
-999 silly addNameRange     '0.5.0' ] ]
-1000 verbose addNamed [ 'bower-config', '0.5.0' ]
-1001 verbose addNamed [ '0.5.0', '0.5.0' ]
-1002 silly lockFile d0905c7c-bower-config-0-5-0 bower-config@0.5.0
-1003 verbose lock bower-config@0.5.0 C:\Users\tjerk\AppData\Roaming\npm-cache\d0905c7c-bower-config-0-5-0.lock
-1004 silly addNameRange number 2 { name: 'bower-json',
-1004 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
-1004 silly addNameRange   hasData: true }
-1005 silly addNameRange versions [ 'bower-json', [ '0.1.0-rc.1', '0.2.0', '0.3.0', '0.4.0' ] ]
-1006 verbose addNamed [ 'bower-json', '0.4.0' ]
-1007 verbose addNamed [ '0.4.0', '0.4.0' ]
-1008 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
-1009 verbose lock bower-json@0.4.0 C:\Users\tjerk\AppData\Roaming\npm-cache\d39b341c-bower-json-0-4-0.lock
-1010 silly lockFile 9acb0392-bower-endpoint-parser-0-2-1 bower-endpoint-parser@0.2.1
-1011 silly lockFile 9acb0392-bower-endpoint-parser-0-2-1 bower-endpoint-parser@0.2.1
-1012 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
-1013 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
-1014 silly lockFile d0905c7c-bower-config-0-5-0 bower-config@0.5.0
-1015 silly lockFile d0905c7c-bower-config-0-5-0 bower-config@0.5.0
-1016 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
-1017 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
-1018 silly lockFile bf43e285-bower-endpoint-parser-0-2-0 bower-endpoint-parser@~0.2.0
-1019 silly lockFile bf43e285-bower-endpoint-parser-0-2-0 bower-endpoint-parser@~0.2.0
-1020 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
-1021 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
-1022 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
-1023 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
-1024 silly lockFile 58b6f241-bower-config-0-5-0 bower-config@~0.5.0
-1025 silly lockFile 58b6f241-bower-config-0-5-0 bower-config@~0.5.0
-1026 silly addNameRange number 2 { name: 'bower-registry-client',
-1026 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
-1026 silly addNameRange   hasData: true }
-1027 silly addNameRange versions [ 'bower-registry-client',
-1027 silly addNameRange   [ '0.1.0-rc.1',
-1027 silly addNameRange     '0.1.0-rc.2',
-1027 silly addNameRange     '0.1.0-rc.3',
-1027 silly addNameRange     '0.1.0-rc.4',
-1027 silly addNameRange     '0.1.0-rc.5',
-1027 silly addNameRange     '0.1.0',
-1027 silly addNameRange     '0.1.1',
-1027 silly addNameRange     '0.1.2',
-1027 silly addNameRange     '0.1.3',
-1027 silly addNameRange     '0.1.4',
-1027 silly addNameRange     '0.1.5',
-1027 silly addNameRange     '0.1.6',
-1027 silly addNameRange     '0.2.0' ] ]
-1028 verbose addNamed [ 'bower-registry-client', '0.2.0' ]
-1029 verbose addNamed [ '0.2.0', '0.2.0' ]
-1030 silly lockFile 59e20d75-bower-registry-client-0-2-0 bower-registry-client@0.2.0
-1031 verbose lock bower-registry-client@0.2.0 C:\Users\tjerk\AppData\Roaming\npm-cache\59e20d75-bower-registry-client-0-2-0.lock
-1032 silly lockFile 59e20d75-bower-registry-client-0-2-0 bower-registry-client@0.2.0
-1033 silly lockFile 59e20d75-bower-registry-client-0-2-0 bower-registry-client@0.2.0
-1034 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
-1035 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
-1036 http 304 https://registry.npmjs.org/cardinal
-1037 silly registry.get cb [ 304,
-1037 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1037 silly registry.get     server: 'Apache',
-1037 silly registry.get     via: '1.1 varnish',
-1037 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1037 silly registry.get     'cache-control': 'max-age=1',
-1037 silly registry.get     etag: '"EBSK6G86GA35H8LUJUUUSNY89"',
-1037 silly registry.get     'x-served-by': 'cache-am69-AMS',
-1037 silly registry.get     'x-cache': 'HIT',
-1037 silly registry.get     'x-cache-hits': '1',
-1037 silly registry.get     'x-timer': 'S1399451793.557432175,VS0,VE85',
-1037 silly registry.get     vary: 'Accept',
-1037 silly registry.get     'content-length': '0',
-1037 silly registry.get     'keep-alive': 'timeout=10, max=49',
-1037 silly registry.get     connection: 'Keep-Alive' } ]
-1038 verbose etag cardinal from cache
-1039 http 304 https://registry.npmjs.org/chalk
-1040 silly registry.get cb [ 304,
-1040 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1040 silly registry.get     server: 'Apache',
-1040 silly registry.get     via: '1.1 varnish',
-1040 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1040 silly registry.get     'cache-control': 'max-age=1',
-1040 silly registry.get     etag: '"13QLXJSEGTLSAKJ3T160U5M3R"',
-1040 silly registry.get     'x-served-by': 'cache-am72-AMS',
-1040 silly registry.get     'x-cache': 'MISS',
-1040 silly registry.get     'x-cache-hits': '0',
-1040 silly registry.get     'x-timer': 'S1399451793.560219526,VS0,VE87',
-1040 silly registry.get     vary: 'Accept',
-1040 silly registry.get     'content-length': '0',
-1040 silly registry.get     'keep-alive': 'timeout=10, max=49',
-1040 silly registry.get     connection: 'Keep-Alive' } ]
-1041 verbose etag chalk from cache
-1042 http 304 https://registry.npmjs.org/chmodr
-1043 silly registry.get cb [ 304,
-1043 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1043 silly registry.get     server: 'Apache',
-1043 silly registry.get     via: '1.1 varnish',
-1043 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1043 silly registry.get     'cache-control': 'max-age=1',
-1043 silly registry.get     etag: '"6ANMTMYVZ3FR4PE110XDOGG2S"',
-1043 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1043 silly registry.get     'x-cache': 'HIT',
-1043 silly registry.get     'x-cache-hits': '1',
-1043 silly registry.get     'x-timer': 'S1399451793.563175201,VS0,VE84',
-1043 silly registry.get     vary: 'Accept',
-1043 silly registry.get     'content-length': '0',
-1043 silly registry.get     'keep-alive': 'timeout=10, max=49',
-1043 silly registry.get     connection: 'Keep-Alive' } ]
-1044 verbose etag chmodr from cache
-1045 http 304 https://registry.npmjs.org/decompress-zip
-1046 silly registry.get cb [ 304,
-1046 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1046 silly registry.get     server: 'Apache',
-1046 silly registry.get     via: '1.1 varnish',
-1046 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1046 silly registry.get     'cache-control': 'max-age=1',
-1046 silly registry.get     etag: '"3QXEJKUD8EP8T5ROFMZFHI1QB"',
-1046 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1046 silly registry.get     'x-cache': 'HIT',
-1046 silly registry.get     'x-cache-hits': '1',
-1046 silly registry.get     'x-timer': 'S1399451793.564895391,VS0,VE86',
-1046 silly registry.get     vary: 'Accept',
-1046 silly registry.get     'content-length': '0',
-1046 silly registry.get     'keep-alive': 'timeout=10, max=49',
-1046 silly registry.get     connection: 'Keep-Alive' } ]
-1047 verbose etag decompress-zip from cache
-1048 http 304 https://registry.npmjs.org/glob
-1049 silly registry.get cb [ 304,
-1049 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1049 silly registry.get     server: 'Apache',
-1049 silly registry.get     via: '1.1 varnish',
-1049 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1049 silly registry.get     'cache-control': 'max-age=1',
-1049 silly registry.get     etag: '"39GDCKKFWC2MHY6HJCJXC8QS7"',
-1049 silly registry.get     'x-served-by': 'cache-am72-AMS',
-1049 silly registry.get     'x-cache': 'HIT',
-1049 silly registry.get     'x-cache-hits': '1',
-1049 silly registry.get     'x-timer': 'S1399451793.656383276,VS0,VE0',
-1049 silly registry.get     vary: 'Accept',
-1049 silly registry.get     'content-length': '0',
-1049 silly registry.get     'keep-alive': 'timeout=10, max=48',
-1049 silly registry.get     connection: 'Keep-Alive' } ]
-1050 verbose etag glob from cache
-1051 silly addNameRange number 2 { name: 'cardinal', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
-1052 silly addNameRange versions [ 'cardinal',
-1052 silly addNameRange   [ '0.1.0',
-1052 silly addNameRange     '0.1.1',
-1052 silly addNameRange     '0.1.2',
-1052 silly addNameRange     '0.1.3',
-1052 silly addNameRange     '0.2.0',
-1052 silly addNameRange     '0.3.0',
-1052 silly addNameRange     '0.3.1',
-1052 silly addNameRange     '0.3.2',
-1052 silly addNameRange     '0.4.0',
-1052 silly addNameRange     '0.4.1',
-1052 silly addNameRange     '0.4.2',
-1052 silly addNameRange     '0.4.3',
-1052 silly addNameRange     '0.4.4' ] ]
-1053 verbose addNamed [ 'cardinal', '0.4.4' ]
-1054 verbose addNamed [ '0.4.4', '0.4.4' ]
-1055 silly lockFile 6295c634-cardinal-0-4-4 cardinal@0.4.4
-1056 verbose lock cardinal@0.4.4 C:\Users\tjerk\AppData\Roaming\npm-cache\6295c634-cardinal-0-4-4.lock
-1057 http 304 https://registry.npmjs.org/fstream
-1058 silly registry.get cb [ 304,
-1058 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1058 silly registry.get     server: 'Apache',
-1058 silly registry.get     via: '1.1 varnish',
-1058 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1058 silly registry.get     'cache-control': 'max-age=1',
-1058 silly registry.get     etag: '"83I50Z4UFBRHZIITH0F7A966D"',
-1058 silly registry.get     'x-served-by': 'cache-am76-AMS',
-1058 silly registry.get     'x-cache': 'MISS',
-1058 silly registry.get     'x-cache-hits': '0',
-1058 silly registry.get     'x-timer': 'S1399451793.575837135,VS0,VE86',
-1058 silly registry.get     vary: 'Accept',
-1058 silly registry.get     'content-length': '0',
-1058 silly registry.get     'keep-alive': 'timeout=10, max=48',
-1058 silly registry.get     connection: 'Keep-Alive' } ]
-1059 verbose etag fstream from cache
-1060 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
-1061 silly addNameRange versions [ 'chalk',
-1061 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.2.1', '0.3.0', '0.4.0' ] ]
-1062 verbose addNamed [ 'chalk', '0.4.0' ]
-1063 verbose addNamed [ '0.4.0', '0.4.0' ]
-1064 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
-1065 verbose lock chalk@0.4.0 C:\Users\tjerk\AppData\Roaming\npm-cache\1efe4790-chalk-0-4-0.lock
-1066 silly addNameRange number 2 { name: 'chmodr', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
-1067 silly addNameRange versions [ 'chmodr', [ '0.0.1', '0.1.0' ] ]
-1068 verbose addNamed [ 'chmodr', '0.1.0' ]
-1069 verbose addNamed [ '0.1.0', '0.1.0' ]
-1070 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
-1071 verbose lock chmodr@0.1.0 C:\Users\tjerk\AppData\Roaming\npm-cache\3c50e6b3-chmodr-0-1-0.lock
-1072 silly addNameRange number 2 { name: 'decompress-zip',
-1072 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
-1072 silly addNameRange   hasData: true }
-1073 silly addNameRange versions [ 'decompress-zip',
-1073 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6' ] ]
-1074 verbose addNamed [ 'decompress-zip', '0.0.6' ]
-1075 verbose addNamed [ '0.0.6', '0.0.6' ]
-1076 silly lockFile 739822fe-decompress-zip-0-0-6 decompress-zip@0.0.6
-1077 verbose lock decompress-zip@0.0.6 C:\Users\tjerk\AppData\Roaming\npm-cache\739822fe-decompress-zip-0-0-6.lock
-1078 silly addNameRange number 2 { name: 'glob', range: '>=3.2.9-0 <3.3.0-0', hasData: true }
-1079 silly addNameRange versions [ 'glob',
-1079 silly addNameRange   [ '1.1.0',
-1079 silly addNameRange     '2.0.9',
-1079 silly addNameRange     '2.0.8',
-1079 silly addNameRange     '2.0.7',
-1079 silly addNameRange     '2.1.0',
-1079 silly addNameRange     '3.0.0',
-1079 silly addNameRange     '3.0.1',
-1079 silly addNameRange     '3.1.0',
-1079 silly addNameRange     '3.1.1',
-1079 silly addNameRange     '3.1.2',
-1079 silly addNameRange     '3.1.3',
-1079 silly addNameRange     '3.1.4',
-1079 silly addNameRange     '3.1.5',
-1079 silly addNameRange     '3.1.6',
-1079 silly addNameRange     '3.1.7',
-1079 silly addNameRange     '3.1.9',
-1079 silly addNameRange     '3.1.10',
-1079 silly addNameRange     '3.1.11',
-1079 silly addNameRange     '3.1.12',
-1079 silly addNameRange     '3.1.13',
-1079 silly addNameRange     '3.1.14',
-1079 silly addNameRange     '3.1.15',
-1079 silly addNameRange     '3.1.16',
-1079 silly addNameRange     '3.1.17',
-1079 silly addNameRange     '3.1.18',
-1079 silly addNameRange     '3.1.19',
-1079 silly addNameRange     '3.1.20',
-1079 silly addNameRange     '3.1.21',
-1079 silly addNameRange     '3.2.0',
-1079 silly addNameRange     '3.2.1',
-1079 silly addNameRange     '3.2.3',
-1079 silly addNameRange     '3.2.4',
-1079 silly addNameRange     '3.2.5',
-1079 silly addNameRange     '3.2.6',
-1079 silly addNameRange     '3.2.7',
-1079 silly addNameRange     '3.2.8',
-1079 silly addNameRange     '3.2.9' ] ]
-1080 verbose addNamed [ 'glob', '3.2.9' ]
-1081 verbose addNamed [ '3.2.9', '3.2.9' ]
-1082 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
-1083 verbose lock glob@3.2.9 C:\Users\tjerk\AppData\Roaming\npm-cache\311bb488-glob-3-2-9.lock
-1084 silly addNameRange number 2 { name: 'fstream', range: '>=0.1.22-0 <0.2.0-0', hasData: true }
-1085 silly addNameRange versions [ 'fstream',
-1085 silly addNameRange   [ '0.0.0',
-1085 silly addNameRange     '0.0.1',
-1085 silly addNameRange     '0.1.0',
-1085 silly addNameRange     '0.1.1',
-1085 silly addNameRange     '0.1.2',
-1085 silly addNameRange     '0.1.3',
-1085 silly addNameRange     '0.1.5',
-1085 silly addNameRange     '0.1.6',
-1085 silly addNameRange     '0.1.7',
-1085 silly addNameRange     '0.1.8',
-1085 silly addNameRange     '0.1.9',
-1085 silly addNameRange     '0.1.10',
-1085 silly addNameRange     '0.1.11',
-1085 silly addNameRange     '0.1.12',
-1085 silly addNameRange     '0.1.13',
-1085 silly addNameRange     '0.1.14',
-1085 silly addNameRange     '0.1.15',
-1085 silly addNameRange     '0.1.16',
-1085 silly addNameRange     '0.1.17',
-1085 silly addNameRange     '0.1.18',
-1085 silly addNameRange     '0.1.19',
-1085 silly addNameRange     '0.1.20',
-1085 silly addNameRange     '0.1.21',
-1085 silly addNameRange     '0.1.22',
-1085 silly addNameRange     '0.1.23',
-1085 silly addNameRange     '0.1.24',
-1085 silly addNameRange     '0.1.25' ] ]
-1086 verbose addNamed [ 'fstream', '0.1.25' ]
-1087 verbose addNamed [ '0.1.25', '0.1.25' ]
-1088 silly lockFile 11eef8ec-fstream-0-1-25 fstream@0.1.25
-1089 verbose lock fstream@0.1.25 C:\Users\tjerk\AppData\Roaming\npm-cache\11eef8ec-fstream-0-1-25.lock
-1090 silly lockFile 6295c634-cardinal-0-4-4 cardinal@0.4.4
-1091 silly lockFile 6295c634-cardinal-0-4-4 cardinal@0.4.4
-1092 silly lockFile acc8665e-cardinal-0-4-0 cardinal@~0.4.0
-1093 silly lockFile acc8665e-cardinal-0-4-0 cardinal@~0.4.0
-1094 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
-1095 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
-1096 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
-1097 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
-1098 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
-1099 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
-1100 silly lockFile 739822fe-decompress-zip-0-0-6 decompress-zip@0.0.6
-1101 silly lockFile 739822fe-decompress-zip-0-0-6 decompress-zip@0.0.6
-1102 silly lockFile 5c476fe4-chmodr-0-1-0 chmodr@~0.1.0
-1103 silly lockFile 5c476fe4-chmodr-0-1-0 chmodr@~0.1.0
-1104 silly lockFile 67b19ab4-decompress-zip-0-0-6 decompress-zip@~0.0.6
-1105 silly lockFile 67b19ab4-decompress-zip-0-0-6 decompress-zip@~0.0.6
-1106 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
-1107 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
-1108 silly lockFile 11eef8ec-fstream-0-1-25 fstream@0.1.25
-1109 silly lockFile 11eef8ec-fstream-0-1-25 fstream@0.1.25
-1110 silly lockFile 200db29c-glob-3-2-9 glob@~3.2.9
-1111 silly lockFile 200db29c-glob-3-2-9 glob@~3.2.9
-1112 silly lockFile 75ffa414-fstream-0-1-22 fstream@~0.1.22
-1113 silly lockFile 75ffa414-fstream-0-1-22 fstream@~0.1.22
-1114 http 304 https://registry.npmjs.org/graceful-fs
-1115 silly registry.get cb [ 304,
-1115 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1115 silly registry.get     server: 'Apache',
-1115 silly registry.get     via: '1.1 varnish',
-1115 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1115 silly registry.get     'cache-control': 'max-age=1',
-1115 silly registry.get     etag: '"CYB1G9YMI1R0K364JALO65NBN"',
-1115 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1115 silly registry.get     'x-cache': 'MISS',
-1115 silly registry.get     'x-cache-hits': '0',
-1115 silly registry.get     'x-timer': 'S1399451793.660445929,VS0,VE78',
-1115 silly registry.get     vary: 'Accept',
-1115 silly registry.get     'content-length': '0',
-1115 silly registry.get     'keep-alive': 'timeout=10, max=48',
-1115 silly registry.get     connection: 'Keep-Alive' } ]
-1116 verbose etag graceful-fs from cache
-1117 silly addNameRange number 2 { name: 'graceful-fs',
-1117 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
-1117 silly addNameRange   hasData: true }
-1118 silly addNameRange versions [ 'graceful-fs',
-1118 silly addNameRange   [ '1.0.0',
-1118 silly addNameRange     '1.0.1',
-1118 silly addNameRange     '1.0.2',
-1118 silly addNameRange     '1.1.0',
-1118 silly addNameRange     '1.1.1',
-1118 silly addNameRange     '1.1.2',
-1118 silly addNameRange     '1.1.3',
-1118 silly addNameRange     '1.1.4',
-1118 silly addNameRange     '1.1.5',
-1118 silly addNameRange     '1.1.6',
-1118 silly addNameRange     '1.1.7',
-1118 silly addNameRange     '1.1.8',
-1118 silly addNameRange     '1.1.9',
-1118 silly addNameRange     '1.1.10',
-1118 silly addNameRange     '1.1.11',
-1118 silly addNameRange     '1.1.12',
-1118 silly addNameRange     '1.1.13',
-1118 silly addNameRange     '1.1.14',
-1118 silly addNameRange     '1.2.0',
-1118 silly addNameRange     '1.2.1',
-1118 silly addNameRange     '1.2.2',
-1118 silly addNameRange     '1.2.3',
-1118 silly addNameRange     '2.0.0',
-1118 silly addNameRange     '2.0.1',
-1118 silly addNameRange     '2.0.2',
-1118 silly addNameRange     '2.0.3' ] ]
-1119 verbose addNamed [ 'graceful-fs', '2.0.3' ]
-1120 verbose addNamed [ '2.0.3', '2.0.3' ]
-1121 silly lockFile aa717173-graceful-fs-2-0-3 graceful-fs@2.0.3
-1122 verbose lock graceful-fs@2.0.3 C:\Users\tjerk\AppData\Roaming\npm-cache\aa717173-graceful-fs-2-0-3.lock
-1123 silly lockFile aa717173-graceful-fs-2-0-3 graceful-fs@2.0.3
-1124 silly lockFile aa717173-graceful-fs-2-0-3 graceful-fs@2.0.3
-1125 http 304 https://registry.npmjs.org/handlebars
-1126 silly registry.get cb [ 304,
-1126 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1126 silly registry.get     server: 'Apache',
-1126 silly registry.get     via: '1.1 varnish',
-1126 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1126 silly registry.get     'cache-control': 'max-age=1',
-1126 silly registry.get     etag: '"WVSHG9BJQN25RIVKHK6TBO6B"',
-1126 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1126 silly registry.get     'x-cache': 'HIT',
-1126 silly registry.get     'x-cache-hits': '1',
-1126 silly registry.get     'x-timer': 'S1399451793.664468527,VS0,VE85',
-1126 silly registry.get     vary: 'Accept',
-1126 silly registry.get     'content-length': '0',
-1126 silly registry.get     'keep-alive': 'timeout=10, max=48',
-1126 silly registry.get     connection: 'Keep-Alive' } ]
-1127 verbose etag handlebars from cache
-1128 silly lockFile 8863dcc9-graceful-fs-2-0-0 graceful-fs@~2.0.0
-1129 silly lockFile 8863dcc9-graceful-fs-2-0-0 graceful-fs@~2.0.0
-1130 silly addNameRange number 2 { name: 'handlebars',
-1130 silly addNameRange   range: '>=1.3.0-0 <1.4.0-0',
-1130 silly addNameRange   hasData: true }
-1131 silly addNameRange versions [ 'handlebars',
-1131 silly addNameRange   [ '1.0.6',
-1131 silly addNameRange     '1.0.6-2',
-1131 silly addNameRange     '1.0.7',
-1131 silly addNameRange     '1.0.8',
-1131 silly addNameRange     '1.0.9',
-1131 silly addNameRange     '1.0.10',
-1131 silly addNameRange     '1.0.11',
-1131 silly addNameRange     '1.0.12',
-1131 silly addNameRange     '1.1.0',
-1131 silly addNameRange     '1.1.1',
-1131 silly addNameRange     '1.1.2',
-1131 silly addNameRange     '1.2.0',
-1131 silly addNameRange     '1.2.1',
-1131 silly addNameRange     '1.3.0',
-1131 silly addNameRange     '2.0.0-alpha.1',
-1131 silly addNameRange     '2.0.0-alpha.2',
-1131 silly addNameRange     '1.0.2-beta',
-1131 silly addNameRange     '1.0.4-beta',
-1131 silly addNameRange     '1.0.5-beta' ] ]
-1132 verbose addNamed [ 'handlebars', '1.3.0' ]
-1133 verbose addNamed [ '1.3.0', '1.3.0' ]
-1134 silly lockFile 15405714-handlebars-1-3-0 handlebars@1.3.0
-1135 verbose lock handlebars@1.3.0 C:\Users\tjerk\AppData\Roaming\npm-cache\15405714-handlebars-1-3-0.lock
-1136 http 304 https://registry.npmjs.org/archy
-1137 silly registry.get cb [ 304,
-1137 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1137 silly registry.get     server: 'Apache',
-1137 silly registry.get     via: '1.1 varnish',
-1137 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1137 silly registry.get     'cache-control': 'max-age=1',
-1137 silly registry.get     etag: '"8G937WVUQ9MMZVXIHKCSTNOPR"',
-1137 silly registry.get     'x-served-by': 'cache-am72-AMS',
-1137 silly registry.get     'x-cache': 'HIT',
-1137 silly registry.get     'x-cache-hits': '1',
-1137 silly registry.get     'x-timer': 'S1399451793.667512894,VS0,VE95',
-1137 silly registry.get     vary: 'Accept',
-1137 silly registry.get     'content-length': '0',
-1137 silly registry.get     'keep-alive': 'timeout=10, max=47',
-1137 silly registry.get     connection: 'Keep-Alive' } ]
-1138 verbose etag archy from cache
-1139 silly lockFile 15405714-handlebars-1-3-0 handlebars@1.3.0
-1140 silly lockFile 15405714-handlebars-1-3-0 handlebars@1.3.0
-1141 silly addNameRange number 2 { name: 'archy', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
-1142 silly addNameRange versions [ 'archy', [ '0.0.0', '0.0.1', '0.0.2' ] ]
-1143 verbose addNamed [ 'archy', '0.0.2' ]
-1144 verbose addNamed [ '0.0.2', '0.0.2' ]
-1145 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
-1146 verbose lock archy@0.0.2 C:\Users\tjerk\AppData\Roaming\npm-cache\c97e9070-archy-0-0-2.lock
-1147 silly lockFile 080fb592-handlebars-1-3-0 handlebars@~1.3.0
-1148 silly lockFile 080fb592-handlebars-1-3-0 handlebars@~1.3.0
-1149 http 304 https://registry.npmjs.org/lru-cache
-1150 silly registry.get cb [ 304,
-1150 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1150 silly registry.get     server: 'Apache',
-1150 silly registry.get     via: '1.1 varnish',
-1150 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1150 silly registry.get     'cache-control': 'max-age=1',
-1150 silly registry.get     etag: '"2BBLP3S8ATDK6KH34WWTIOKD8"',
-1150 silly registry.get     'x-served-by': 'cache-am72-AMS',
-1150 silly registry.get     'x-cache': 'HIT',
-1150 silly registry.get     'x-cache-hits': '1',
-1150 silly registry.get     'x-timer': 'S1399451793.770759106,VS0,VE0',
-1150 silly registry.get     vary: 'Accept',
-1150 silly registry.get     'content-length': '0',
-1150 silly registry.get     'keep-alive': 'timeout=10, max=46',
-1150 silly registry.get     connection: 'Keep-Alive' } ]
-1151 verbose etag lru-cache from cache
-1152 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
-1153 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
-1154 silly lockFile 835d25e0-archy-0-0-2 archy@~0.0.2
-1155 silly lockFile 835d25e0-archy-0-0-2 archy@~0.0.2
-1156 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.5.0-0 <2.6.0-0', hasData: true }
-1157 silly addNameRange versions [ 'lru-cache',
-1157 silly addNameRange   [ '1.0.1',
-1157 silly addNameRange     '1.0.2',
-1157 silly addNameRange     '1.0.3',
-1157 silly addNameRange     '1.0.4',
-1157 silly addNameRange     '1.0.5',
-1157 silly addNameRange     '1.0.6',
-1157 silly addNameRange     '1.1.0',
-1157 silly addNameRange     '1.1.1',
-1157 silly addNameRange     '2.0.0',
-1157 silly addNameRange     '2.0.1',
-1157 silly addNameRange     '2.0.2',
-1157 silly addNameRange     '2.0.3',
-1157 silly addNameRange     '2.0.4',
-1157 silly addNameRange     '2.1.0',
-1157 silly addNameRange     '2.2.0',
-1157 silly addNameRange     '2.2.1',
-1157 silly addNameRange     '2.2.2',
-1157 silly addNameRange     '2.2.4',
-1157 silly addNameRange     '2.3.0',
-1157 silly addNameRange     '2.3.1',
-1157 silly addNameRange     '2.5.0' ] ]
-1158 verbose addNamed [ 'lru-cache', '2.5.0' ]
-1159 verbose addNamed [ '2.5.0', '2.5.0' ]
-1160 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
-1161 verbose lock lru-cache@2.5.0 C:\Users\tjerk\AppData\Roaming\npm-cache\30aa630e-lru-cache-2-5-0.lock
-1162 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
-1163 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
-1164 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
-1165 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
-1166 verbose about to build D:\websites\GitHub\mcda2\node_modules\bower
-1167 info D:\websites\GitHub\mcda2\node_modules\bower unbuild
-1168 info preuninstall bower@1.3.3
-1169 info uninstall bower@1.3.3
-1170 verbose true,D:\websites\GitHub\mcda2\node_modules,D:\websites\GitHub\mcda2\node_modules unbuild bower@1.3.3
-1171 verbose D:\websites\GitHub\mcda2\node_modules\.bin,[object Object] binRoot
-1172 info postuninstall bower@1.3.3
-1173 http 304 https://registry.npmjs.org/fstream-ignore
-1174 silly registry.get cb [ 304,
-1174 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1174 silly registry.get     server: 'Apache',
-1174 silly registry.get     via: '1.1 varnish',
-1174 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1174 silly registry.get     'cache-control': 'max-age=1',
-1174 silly registry.get     etag: '"7Z3F6BU98J8JA6XZGQTDISA1T"',
-1174 silly registry.get     'x-served-by': 'cache-am69-AMS',
-1174 silly registry.get     'x-cache': 'HIT',
-1174 silly registry.get     'x-cache-hits': '1',
-1174 silly registry.get     'x-timer': 'S1399451793.650704622,VS0,VE171',
-1174 silly registry.get     vary: 'Accept',
-1174 silly registry.get     'content-length': '0',
-1174 silly registry.get     'keep-alive': 'timeout=10, max=48',
-1174 silly registry.get     connection: 'Keep-Alive' } ]
-1175 verbose etag fstream-ignore from cache
-1176 http 304 https://registry.npmjs.org/insight
-1177 silly registry.get cb [ 304,
-1177 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1177 silly registry.get     server: 'Apache',
-1177 silly registry.get     via: '1.1 varnish',
-1177 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1177 silly registry.get     'cache-control': 'max-age=1',
-1177 silly registry.get     etag: '"19RFG4TW07D8I738VSBWQ4RGP"',
-1177 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1177 silly registry.get     'x-cache': 'MISS',
-1177 silly registry.get     'x-cache-hits': '0',
-1177 silly registry.get     'x-timer': 'S1399451793.746901035,VS0,VE86',
-1177 silly registry.get     vary: 'Accept',
-1177 silly registry.get     'content-length': '0',
-1177 silly registry.get     'keep-alive': 'timeout=10, max=47',
-1177 silly registry.get     connection: 'Keep-Alive' } ]
-1178 verbose etag insight from cache
-1179 silly addNameRange number 2 { name: 'fstream-ignore',
-1179 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
-1179 silly addNameRange   hasData: true }
-1180 silly addNameRange versions [ 'fstream-ignore',
-1180 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6', '0.0.7' ] ]
-1181 verbose addNamed [ 'fstream-ignore', '0.0.7' ]
-1182 verbose addNamed [ '0.0.7', '0.0.7' ]
-1183 silly lockFile 91b39f43-fstream-ignore-0-0-7 fstream-ignore@0.0.7
-1184 verbose lock fstream-ignore@0.0.7 C:\Users\tjerk\AppData\Roaming\npm-cache\91b39f43-fstream-ignore-0-0-7.lock
-1185 silly lockFile 91b39f43-fstream-ignore-0-0-7 fstream-ignore@0.0.7
-1186 silly lockFile 91b39f43-fstream-ignore-0-0-7 fstream-ignore@0.0.7
-1187 http 304 https://registry.npmjs.org/junk
-1188 silly registry.get cb [ 304,
-1188 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1188 silly registry.get     server: 'Apache',
-1188 silly registry.get     via: '1.1 varnish',
-1188 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1188 silly registry.get     'cache-control': 'max-age=1',
-1188 silly registry.get     etag: '"5YWNG1G42GV1ZCGAV1ZC1CKER"',
-1188 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1188 silly registry.get     'x-cache': 'HIT',
-1188 silly registry.get     'x-cache-hits': '1',
-1188 silly registry.get     'x-timer': 'S1399451793.758036852,VS0,VE84',
-1188 silly registry.get     vary: 'Accept',
-1188 silly registry.get     'content-length': '0',
-1188 silly registry.get     'keep-alive': 'timeout=10, max=47',
-1188 silly registry.get     connection: 'Keep-Alive' } ]
-1189 verbose etag junk from cache
-1190 silly lockFile faf433bd-fstream-ignore-0-0-6 fstream-ignore@~0.0.6
-1191 silly lockFile faf433bd-fstream-ignore-0-0-6 fstream-ignore@~0.0.6
-1192 silly addNameRange number 2 { name: 'insight', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
-1193 silly addNameRange versions [ 'insight',
-1193 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.2.0', '0.3.0', '0.3.1' ] ]
-1194 verbose addNamed [ 'insight', '0.3.1' ]
-1195 verbose addNamed [ '0.3.1', '0.3.1' ]
-1196 silly lockFile 10741e2f-insight-0-3-1 insight@0.3.1
-1197 verbose lock insight@0.3.1 C:\Users\tjerk\AppData\Roaming\npm-cache\10741e2f-insight-0-3-1.lock
-1198 silly addNameRange number 2 { name: 'junk', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
-1199 silly addNameRange versions [ 'junk', [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.3.0' ] ]
-1200 verbose addNamed [ 'junk', '0.3.0' ]
-1201 verbose addNamed [ '0.3.0', '0.3.0' ]
-1202 silly lockFile f3f60bec-junk-0-3-0 junk@0.3.0
-1203 verbose lock junk@0.3.0 C:\Users\tjerk\AppData\Roaming\npm-cache\f3f60bec-junk-0-3-0.lock
-1204 silly lockFile 10741e2f-insight-0-3-1 insight@0.3.1
-1205 silly lockFile 10741e2f-insight-0-3-1 insight@0.3.1
-1206 http 304 https://registry.npmjs.org/is-root
-1207 silly registry.get cb [ 304,
-1207 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1207 silly registry.get     server: 'Apache',
-1207 silly registry.get     via: '1.1 varnish',
-1207 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1207 silly registry.get     'cache-control': 'max-age=1',
-1207 silly registry.get     etag: '"BX3IQFWESESRZBR62UPBZ25W8"',
-1207 silly registry.get     'x-served-by': 'cache-am76-AMS',
-1207 silly registry.get     'x-cache': 'HIT',
-1207 silly registry.get     'x-cache-hits': '1',
-1207 silly registry.get     'x-timer': 'S1399451793.676395655,VS0,VE176',
-1207 silly registry.get     vary: 'Accept',
-1207 silly registry.get     'content-length': '0',
-1207 silly registry.get     'keep-alive': 'timeout=10, max=47',
-1207 silly registry.get     connection: 'Keep-Alive' } ]
-1208 verbose etag is-root from cache
-1209 silly lockFile ce14d85c-insight-0-3-0 insight@~0.3.0
-1210 silly lockFile ce14d85c-insight-0-3-0 insight@~0.3.0
-1211 silly lockFile f3f60bec-junk-0-3-0 junk@0.3.0
-1212 silly lockFile f3f60bec-junk-0-3-0 junk@0.3.0
-1213 silly addNameRange number 2 { name: 'is-root', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
-1214 silly addNameRange versions [ 'is-root', [ '0.1.0' ] ]
-1215 verbose addNamed [ 'is-root', '0.1.0' ]
-1216 verbose addNamed [ '0.1.0', '0.1.0' ]
-1217 silly lockFile 2bd5d7e4-is-root-0-1-0 is-root@0.1.0
-1218 verbose lock is-root@0.1.0 C:\Users\tjerk\AppData\Roaming\npm-cache\2bd5d7e4-is-root-0-1-0.lock
-1219 silly lockFile 41579b5e-junk-0-3-0 junk@~0.3.0
-1220 silly lockFile 41579b5e-junk-0-3-0 junk@~0.3.0
-1221 http 304 https://registry.npmjs.org/mkdirp
-1222 silly registry.get cb [ 304,
-1222 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1222 silly registry.get     server: 'Apache',
-1222 silly registry.get     via: '1.1 varnish',
-1222 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1222 silly registry.get     'cache-control': 'max-age=1',
-1222 silly registry.get     etag: '"5TIHXRX5HSIYV6EU4PXR4JW26"',
-1222 silly registry.get     'x-served-by': 'cache-am72-AMS',
-1222 silly registry.get     'x-cache': 'HIT',
-1222 silly registry.get     'x-cache-hits': '1',
-1222 silly registry.get     'x-timer': 'S1399451793.780206203,VS0,VE86',
-1222 silly registry.get     vary: 'Accept',
-1222 silly registry.get     'content-length': '0',
-1222 silly registry.get     'keep-alive': 'timeout=10, max=45',
-1222 silly registry.get     connection: 'Keep-Alive' } ]
-1223 verbose etag mkdirp from cache
-1224 silly lockFile 2bd5d7e4-is-root-0-1-0 is-root@0.1.0
-1225 silly lockFile 2bd5d7e4-is-root-0-1-0 is-root@0.1.0
-1226 silly lockFile 3dc75358-is-root-0-1-0 is-root@~0.1.0
-1227 silly lockFile 3dc75358-is-root-0-1-0 is-root@~0.1.0
-1228 http 304 https://registry.npmjs.org/inquirer
-1229 silly registry.get cb [ 304,
-1229 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1229 silly registry.get     server: 'Apache',
-1229 silly registry.get     via: '1.1 varnish',
-1229 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1229 silly registry.get     'cache-control': 'max-age=1',
-1229 silly registry.get     etag: '"6DQPN61ZLXP88QAL1YZR9IA1J"',
-1229 silly registry.get     'x-served-by': 'cache-am72-AMS',
-1229 silly registry.get     'x-cache': 'HIT',
-1229 silly registry.get     'x-cache-hits': '2',
-1229 silly registry.get     'x-timer': 'S1399451793.875378609,VS0,VE0',
-1229 silly registry.get     vary: 'Accept',
-1229 silly registry.get     'content-length': '0',
-1229 silly registry.get     'keep-alive': 'timeout=10, max=44',
-1229 silly registry.get     connection: 'Keep-Alive' } ]
-1230 verbose etag inquirer from cache
-1231 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: true }
-1232 silly addNameRange versions [ 'mkdirp',
-1232 silly addNameRange   [ '0.0.1',
-1232 silly addNameRange     '0.0.2',
-1232 silly addNameRange     '0.0.3',
-1232 silly addNameRange     '0.0.4',
-1232 silly addNameRange     '0.0.5',
-1232 silly addNameRange     '0.0.6',
-1232 silly addNameRange     '0.0.7',
-1232 silly addNameRange     '0.1.0',
-1232 silly addNameRange     '0.2.0',
-1232 silly addNameRange     '0.2.1',
-1232 silly addNameRange     '0.2.2',
-1232 silly addNameRange     '0.3.0',
-1232 silly addNameRange     '0.3.1',
-1232 silly addNameRange     '0.3.2',
-1232 silly addNameRange     '0.3.3',
-1232 silly addNameRange     '0.3.4',
-1232 silly addNameRange     '0.3.5',
-1232 silly addNameRange     '0.4.0',
-1232 silly addNameRange     '0.4.1',
-1232 silly addNameRange     '0.4.2',
-1232 silly addNameRange     '0.5.0' ] ]
-1233 verbose addNamed [ 'mkdirp', '0.3.5' ]
-1234 verbose addNamed [ '0.3.5', '0.3.5' ]
-1235 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
-1236 verbose lock mkdirp@0.3.5 C:\Users\tjerk\AppData\Roaming\npm-cache\67d2df2a-mkdirp-0-3-5.lock
-1237 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
-1238 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
-1239 silly addNameRange number 2 { name: 'inquirer', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
-1240 silly addNameRange versions [ 'inquirer',
-1240 silly addNameRange   [ '0.1.0',
-1240 silly addNameRange     '0.1.1',
-1240 silly addNameRange     '0.1.2',
-1240 silly addNameRange     '0.1.3',
-1240 silly addNameRange     '0.1.4',
-1240 silly addNameRange     '0.1.5',
-1240 silly addNameRange     '0.1.6',
-1240 silly addNameRange     '0.1.7',
-1240 silly addNameRange     '0.1.8',
-1240 silly addNameRange     '0.1.9',
-1240 silly addNameRange     '0.2.0',
-1240 silly addNameRange     '0.2.1',
-1240 silly addNameRange     '0.1.11',
-1240 silly addNameRange     '0.1.12',
-1240 silly addNameRange     '0.2.2',
-1240 silly addNameRange     '0.2.3',
-1240 silly addNameRange     '0.2.4',
-1240 silly addNameRange     '0.2.5',
-1240 silly addNameRange     '0.3.0',
-1240 silly addNameRange     '0.3.1',
-1240 silly addNameRange     '0.3.2',
-1240 silly addNameRange     '0.3.3',
-1240 silly addNameRange     '0.3.4',
-1240 silly addNameRange     '0.3.5',
-1240 silly addNameRange     '0.4.0',
-1240 silly addNameRange     '0.4.1' ] ]
-1241 verbose addNamed [ 'inquirer', '0.4.1' ]
-1242 verbose addNamed [ '0.4.1', '0.4.1' ]
-1243 silly lockFile caff4c32-inquirer-0-4-1 inquirer@0.4.1
-1244 verbose lock inquirer@0.4.1 C:\Users\tjerk\AppData\Roaming\npm-cache\caff4c32-inquirer-0-4-1.lock
-1245 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
-1246 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
-1247 silly lockFile caff4c32-inquirer-0-4-1 inquirer@0.4.1
-1248 silly lockFile caff4c32-inquirer-0-4-1 inquirer@0.4.1
-1249 silly lockFile 24c291dd-inquirer-0-4-0 inquirer@~0.4.0
-1250 silly lockFile 24c291dd-inquirer-0-4-0 inquirer@~0.4.0
-1251 http 304 https://registry.npmjs.org/mout
-1252 silly registry.get cb [ 304,
-1252 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1252 silly registry.get     server: 'Apache',
-1252 silly registry.get     via: '1.1 varnish',
-1252 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1252 silly registry.get     'cache-control': 'max-age=1',
-1252 silly registry.get     etag: '"2Y24OTPJN2GJZMI8611QM90AF"',
-1252 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1252 silly registry.get     'x-cache': 'MISS',
-1252 silly registry.get     'x-cache-hits': '0',
-1252 silly registry.get     'x-timer': 'S1399451793.842040062,VS0,VE86',
-1252 silly registry.get     vary: 'Accept',
-1252 silly registry.get     'content-length': '0',
-1252 silly registry.get     'keep-alive': 'timeout=10, max=46',
-1252 silly registry.get     connection: 'Keep-Alive' } ]
-1253 verbose etag mout from cache
-1254 http 304 https://registry.npmjs.org/nopt
-1255 silly registry.get cb [ 304,
-1255 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1255 silly registry.get     server: 'Apache',
-1255 silly registry.get     via: '1.1 varnish',
-1255 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1255 silly registry.get     'cache-control': 'max-age=1',
-1255 silly registry.get     etag: '"DGC4MFCY9YGMG816QPXUQJ2HS"',
-1255 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1255 silly registry.get     'x-cache': 'HIT',
-1255 silly registry.get     'x-cache-hits': '1',
-1255 silly registry.get     'x-timer': 'S1399451793.853360653,VS0,VE87',
-1255 silly registry.get     vary: 'Accept',
-1255 silly registry.get     'content-length': '0',
-1255 silly registry.get     'keep-alive': 'timeout=10, max=46',
-1255 silly registry.get     connection: 'Keep-Alive' } ]
-1256 verbose etag nopt from cache
-1257 silly addNameRange number 2 { name: 'mout', range: '>=0.9.1-0 <0.10.0-0', hasData: true }
-1258 silly addNameRange versions [ 'mout',
-1258 silly addNameRange   [ '0.1.0',
-1258 silly addNameRange     '0.2.0',
-1258 silly addNameRange     '0.3.0',
-1258 silly addNameRange     '0.4.0',
-1258 silly addNameRange     '0.5.0',
-1258 silly addNameRange     '0.6.0',
-1258 silly addNameRange     '0.7.0',
-1258 silly addNameRange     '0.7.1',
-1258 silly addNameRange     '0.8.0',
-1258 silly addNameRange     '0.9.0',
-1258 silly addNameRange     '0.9.1' ] ]
-1259 verbose addNamed [ 'mout', '0.9.1' ]
-1260 verbose addNamed [ '0.9.1', '0.9.1' ]
-1261 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
-1262 verbose lock mout@0.9.1 C:\Users\tjerk\AppData\Roaming\npm-cache\87454de7-mout-0-9-1.lock
-1263 silly addNameRange number 2 { name: 'nopt', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
-1264 silly addNameRange versions [ 'nopt',
-1264 silly addNameRange   [ '1.0.0',
-1264 silly addNameRange     '1.0.1',
-1264 silly addNameRange     '1.0.2',
-1264 silly addNameRange     '1.0.3',
-1264 silly addNameRange     '1.0.4',
-1264 silly addNameRange     '1.0.5',
-1264 silly addNameRange     '1.0.6',
-1264 silly addNameRange     '1.0.7',
-1264 silly addNameRange     '1.0.8',
-1264 silly addNameRange     '1.0.9',
-1264 silly addNameRange     '1.0.10',
-1264 silly addNameRange     '2.0.0',
-1264 silly addNameRange     '2.1.0',
-1264 silly addNameRange     '2.1.1',
-1264 silly addNameRange     '2.1.2',
-1264 silly addNameRange     '2.2.0',
-1264 silly addNameRange     '2.2.1' ] ]
-1265 verbose addNamed [ 'nopt', '2.2.1' ]
-1266 verbose addNamed [ '2.2.1', '2.2.1' ]
-1267 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
-1268 verbose lock nopt@2.2.1 C:\Users\tjerk\AppData\Roaming\npm-cache\d02d193f-nopt-2-2-1.lock
-1269 http 304 https://registry.npmjs.org/osenv
-1270 silly registry.get cb [ 304,
-1270 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1270 silly registry.get     server: 'Apache',
-1270 silly registry.get     via: '1.1 varnish',
-1270 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1270 silly registry.get     'cache-control': 'max-age=1',
-1270 silly registry.get     etag: '"6KMLTT3BDAZ7370JLWCXJ7LC5"',
-1270 silly registry.get     'x-served-by': 'cache-am72-AMS',
-1270 silly registry.get     'x-cache': 'HIT',
-1270 silly registry.get     'x-cache-hits': '1',
-1270 silly registry.get     'x-timer': 'S1399451793.889537096,VS0,VE91',
-1270 silly registry.get     vary: 'Accept',
-1270 silly registry.get     'content-length': '0',
-1270 silly registry.get     'keep-alive': 'timeout=10, max=43',
-1270 silly registry.get     connection: 'Keep-Alive' } ]
-1271 verbose etag osenv from cache
-1272 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
-1273 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
-1274 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
-1275 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
-1276 silly lockFile 192577f3-mout-0-9-1 mout@~0.9.1
-1277 silly lockFile 192577f3-mout-0-9-1 mout@~0.9.1
-1278 silly lockFile 84cb411c-nopt-2-2-0 nopt@~2.2.0
-1279 silly lockFile 84cb411c-nopt-2-2-0 nopt@~2.2.0
-1280 silly addNameRange number 2 { name: 'osenv', range: '>=0.0.3-0 <0.1.0-0', hasData: true }
-1281 silly addNameRange versions [ 'osenv', [ '0.0.1', '0.0.2', '0.0.3' ] ]
-1282 verbose addNamed [ 'osenv', '0.0.3' ]
-1283 verbose addNamed [ '0.0.3', '0.0.3' ]
-1284 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
-1285 verbose lock osenv@0.0.3 C:\Users\tjerk\AppData\Roaming\npm-cache\4085d016-osenv-0-0-3.lock
-1286 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
-1287 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
-1288 silly lockFile 7367c0c9-osenv-0-0-3 osenv@~0.0.3
-1289 silly lockFile 7367c0c9-osenv-0-0-3 osenv@~0.0.3
-1290 http 304 https://registry.npmjs.org/lockfile
-1291 silly registry.get cb [ 304,
-1291 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1291 silly registry.get     server: 'Apache',
-1291 silly registry.get     via: '1.1 varnish',
-1291 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:33 GMT',
-1291 silly registry.get     'cache-control': 'max-age=1',
-1291 silly registry.get     etag: '"85GNZ7PQG4MVVI85QPDZ5CXKD"',
-1291 silly registry.get     'x-served-by': 'cache-am69-AMS',
-1291 silly registry.get     'x-cache': 'MISS',
-1291 silly registry.get     'x-cache-hits': '0',
-1291 silly registry.get     'x-timer': 'S1399451793.830651522,VS0,VE168',
-1291 silly registry.get     vary: 'Accept',
-1291 silly registry.get     'content-length': '0',
-1291 silly registry.get     'keep-alive': 'timeout=10, max=47',
-1291 silly registry.get     connection: 'Keep-Alive' } ]
-1292 verbose etag lockfile from cache
-1293 silly addNameRange number 2 { name: 'lockfile', range: '>=0.4.2-0 <0.5.0-0', hasData: true }
-1294 silly addNameRange versions [ 'lockfile',
+960 verbose etag archy from cache
+961 http 304 https://registry.npmjs.org/abbrev
+962 silly registry.get cb [ 304,
+962 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+962 silly registry.get     server: 'Apache',
+962 silly registry.get     via: '1.1 varnish',
+962 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+962 silly registry.get     'cache-control': 'max-age=1',
+962 silly registry.get     etag: '"3JURXAOF37GE5UVET5431Q5YL"',
+962 silly registry.get     'x-served-by': 'cache-am71-AMS',
+962 silly registry.get     'x-cache': 'HIT',
+962 silly registry.get     'x-cache-hits': '1',
+962 silly registry.get     'x-timer': 'S1399458702.663146257,VS0,VE84',
+962 silly registry.get     vary: 'Accept',
+962 silly registry.get     'content-length': '0',
+962 silly registry.get     'keep-alive': 'timeout=10, max=50',
+962 silly registry.get     connection: 'Keep-Alive' } ]
+963 verbose etag abbrev from cache
+964 http 304 https://registry.npmjs.org/bower-config
+965 silly registry.get cb [ 304,
+965 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+965 silly registry.get     server: 'Apache',
+965 silly registry.get     via: '1.1 varnish',
+965 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+965 silly registry.get     'cache-control': 'max-age=1',
+965 silly registry.get     etag: '"1Y0J0RJBDKDQ8J2OG1JIZS9WD"',
+965 silly registry.get     'x-served-by': 'cache-am70-AMS',
+965 silly registry.get     'x-cache': 'HIT',
+965 silly registry.get     'x-cache-hits': '1',
+965 silly registry.get     'x-timer': 'S1399458702.657452583,VS0,VE93',
+965 silly registry.get     vary: 'Accept',
+965 silly registry.get     'content-length': '0',
+965 silly registry.get     'keep-alive': 'timeout=10, max=50',
+965 silly registry.get     connection: 'Keep-Alive' } ]
+966 verbose etag bower-config from cache
+967 http 304 https://registry.npmjs.org/bower-json
+968 silly registry.get cb [ 304,
+968 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+968 silly registry.get     server: 'Apache',
+968 silly registry.get     via: '1.1 varnish',
+968 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+968 silly registry.get     'cache-control': 'max-age=1',
+968 silly registry.get     etag: '"4RJNPMCXRJNAXHBKS0JV0KKBO"',
+968 silly registry.get     'x-served-by': 'cache-am76-AMS',
+968 silly registry.get     'x-cache': 'HIT',
+968 silly registry.get     'x-cache-hits': '1',
+968 silly registry.get     'x-timer': 'S1399458702.660720587,VS0,VE92',
+968 silly registry.get     vary: 'Accept',
+968 silly registry.get     'content-length': '0',
+968 silly registry.get     'keep-alive': 'timeout=10, max=50',
+968 silly registry.get     connection: 'Keep-Alive' } ]
+969 verbose etag bower-json from cache
+970 silly addNameRange number 2 { name: 'archy', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
+971 silly addNameRange versions [ 'archy', [ '0.0.0', '0.0.1', '0.0.2' ] ]
+972 verbose addNamed [ 'archy', '0.0.2' ]
+973 verbose addNamed [ '0.0.2', '0.0.2' ]
+974 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+975 verbose lock archy@0.0.2 C:\Users\tjerk\AppData\Roaming\npm-cache\c97e9070-archy-0-0-2.lock
+976 silly addNameRange number 2 { name: 'bower-config',
+976 silly addNameRange   range: '>=0.5.0-0 <0.6.0-0',
+976 silly addNameRange   hasData: true }
+977 silly addNameRange versions [ 'bower-config',
+977 silly addNameRange   [ '0.1.0-rc.1',
+977 silly addNameRange     '0.1.0-rc.2',
+977 silly addNameRange     '0.1.0-rc.3',
+977 silly addNameRange     '0.1.0-rc.4',
+977 silly addNameRange     '0.1.0-rc.5',
+977 silly addNameRange     '0.2.0-rc.1',
+977 silly addNameRange     '0.2.0-rc.2',
+977 silly addNameRange     '0.3.0',
+977 silly addNameRange     '0.3.1',
+977 silly addNameRange     '0.3.3',
+977 silly addNameRange     '0.3.4',
+977 silly addNameRange     '0.3.5',
+977 silly addNameRange     '0.4.0',
+977 silly addNameRange     '0.4.1',
+977 silly addNameRange     '0.4.2',
+977 silly addNameRange     '0.4.3',
+977 silly addNameRange     '0.4.4',
+977 silly addNameRange     '0.4.5',
+977 silly addNameRange     '0.5.0' ] ]
+978 verbose addNamed [ 'bower-config', '0.5.0' ]
+979 verbose addNamed [ '0.5.0', '0.5.0' ]
+980 silly lockFile d0905c7c-bower-config-0-5-0 bower-config@0.5.0
+981 verbose lock bower-config@0.5.0 C:\Users\tjerk\AppData\Roaming\npm-cache\d0905c7c-bower-config-0-5-0.lock
+982 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.4-0 <1.1.0-0', hasData: true }
+983 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5' ] ]
+984 verbose addNamed [ 'abbrev', '1.0.5' ]
+985 verbose addNamed [ '1.0.5', '1.0.5' ]
+986 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+987 verbose lock abbrev@1.0.5 C:\Users\tjerk\AppData\Roaming\npm-cache\55d90b2f-abbrev-1-0-5.lock
+988 silly addNameRange number 2 { name: 'bower-json',
+988 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+988 silly addNameRange   hasData: true }
+989 silly addNameRange versions [ 'bower-json', [ '0.1.0-rc.1', '0.2.0', '0.3.0', '0.4.0' ] ]
+990 verbose addNamed [ 'bower-json', '0.4.0' ]
+991 verbose addNamed [ '0.4.0', '0.4.0' ]
+992 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+993 verbose lock bower-json@0.4.0 C:\Users\tjerk\AppData\Roaming\npm-cache\d39b341c-bower-json-0-4-0.lock
+994 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+995 silly lockFile c97e9070-archy-0-0-2 archy@0.0.2
+996 silly lockFile d0905c7c-bower-config-0-5-0 bower-config@0.5.0
+997 silly lockFile d0905c7c-bower-config-0-5-0 bower-config@0.5.0
+998 silly lockFile 835d25e0-archy-0-0-2 archy@~0.0.2
+999 silly lockFile 835d25e0-archy-0-0-2 archy@~0.0.2
+1000 silly lockFile 58b6f241-bower-config-0-5-0 bower-config@~0.5.0
+1001 silly lockFile 58b6f241-bower-config-0-5-0 bower-config@~0.5.0
+1002 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+1003 silly lockFile 55d90b2f-abbrev-1-0-5 abbrev@1.0.5
+1004 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1005 silly lockFile d39b341c-bower-json-0-4-0 bower-json@0.4.0
+1006 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+1007 silly lockFile efa0e9e0-abbrev-1-0-4 abbrev@~1.0.4
+1008 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+1009 silly lockFile ea848668-bower-json-0-4-0 bower-json@~0.4.0
+1010 http 304 https://registry.npmjs.org/bower-registry-client
+1011 silly registry.get cb [ 304,
+1011 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1011 silly registry.get     server: 'Apache',
+1011 silly registry.get     via: '1.1 varnish',
+1011 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+1011 silly registry.get     'cache-control': 'max-age=1',
+1011 silly registry.get     etag: '"D3YB0I3C5QAF6R5MFESHD495V"',
+1011 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1011 silly registry.get     'x-cache': 'MISS',
+1011 silly registry.get     'x-cache-hits': '0',
+1011 silly registry.get     'x-timer': 'S1399458702.660747528,VS0,VE168',
+1011 silly registry.get     vary: 'Accept',
+1011 silly registry.get     'content-length': '0',
+1011 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1011 silly registry.get     connection: 'Keep-Alive' } ]
+1012 verbose etag bower-registry-client from cache
+1013 silly addNameRange number 2 { name: 'bower-registry-client',
+1013 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+1013 silly addNameRange   hasData: true }
+1014 silly addNameRange versions [ 'bower-registry-client',
+1014 silly addNameRange   [ '0.1.0-rc.1',
+1014 silly addNameRange     '0.1.0-rc.2',
+1014 silly addNameRange     '0.1.0-rc.3',
+1014 silly addNameRange     '0.1.0-rc.4',
+1014 silly addNameRange     '0.1.0-rc.5',
+1014 silly addNameRange     '0.1.0',
+1014 silly addNameRange     '0.1.1',
+1014 silly addNameRange     '0.1.2',
+1014 silly addNameRange     '0.1.3',
+1014 silly addNameRange     '0.1.4',
+1014 silly addNameRange     '0.1.5',
+1014 silly addNameRange     '0.1.6',
+1014 silly addNameRange     '0.2.0' ] ]
+1015 verbose addNamed [ 'bower-registry-client', '0.2.0' ]
+1016 verbose addNamed [ '0.2.0', '0.2.0' ]
+1017 silly lockFile 59e20d75-bower-registry-client-0-2-0 bower-registry-client@0.2.0
+1018 verbose lock bower-registry-client@0.2.0 C:\Users\tjerk\AppData\Roaming\npm-cache\59e20d75-bower-registry-client-0-2-0.lock
+1019 http 304 https://registry.npmjs.org/chalk
+1020 silly registry.get cb [ 304,
+1020 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1020 silly registry.get     server: 'Apache',
+1020 silly registry.get     via: '1.1 varnish',
+1020 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+1020 silly registry.get     'cache-control': 'max-age=1',
+1020 silly registry.get     etag: '"13QLXJSEGTLSAKJ3T160U5M3R"',
+1020 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1020 silly registry.get     'x-cache': 'MISS',
+1020 silly registry.get     'x-cache-hits': '0',
+1020 silly registry.get     'x-timer': 'S1399458702.756789207,VS0,VE89',
+1020 silly registry.get     vary: 'Accept',
+1020 silly registry.get     'content-length': '0',
+1020 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1020 silly registry.get     connection: 'Keep-Alive' } ]
+1021 verbose etag chalk from cache
+1022 http 304 https://registry.npmjs.org/bower-endpoint-parser
+1023 silly registry.get cb [ 304,
+1023 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1023 silly registry.get     server: 'Apache',
+1023 silly registry.get     via: '1.1 varnish',
+1023 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+1023 silly registry.get     'cache-control': 'max-age=1',
+1023 silly registry.get     etag: '"4EV0HRYX1D250I3OBZEI5EP0G"',
+1023 silly registry.get     'x-served-by': 'cache-am77-AMS',
+1023 silly registry.get     'x-cache': 'HIT',
+1023 silly registry.get     'x-cache-hits': '1',
+1023 silly registry.get     'x-timer': 'S1399458702.753208637,VS0,VE94',
+1023 silly registry.get     vary: 'Accept',
+1023 silly registry.get     'content-length': '0',
+1023 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1023 silly registry.get     connection: 'Keep-Alive' } ]
+1024 verbose etag bower-endpoint-parser from cache
+1025 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+1026 silly addNameRange versions [ 'chalk',
+1026 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.2.1', '0.3.0', '0.4.0' ] ]
+1027 verbose addNamed [ 'chalk', '0.4.0' ]
+1028 verbose addNamed [ '0.4.0', '0.4.0' ]
+1029 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+1030 verbose lock chalk@0.4.0 C:\Users\tjerk\AppData\Roaming\npm-cache\1efe4790-chalk-0-4-0.lock
+1031 silly addNameRange number 2 { name: 'bower-endpoint-parser',
+1031 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+1031 silly addNameRange   hasData: true }
+1032 silly addNameRange versions [ 'bower-endpoint-parser',
+1032 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1' ] ]
+1033 verbose addNamed [ 'bower-endpoint-parser', '0.2.1' ]
+1034 verbose addNamed [ '0.2.1', '0.2.1' ]
+1035 silly lockFile 9acb0392-bower-endpoint-parser-0-2-1 bower-endpoint-parser@0.2.1
+1036 verbose lock bower-endpoint-parser@0.2.1 C:\Users\tjerk\AppData\Roaming\npm-cache\9acb0392-bower-endpoint-parser-0-2-1.lock
+1037 silly lockFile 59e20d75-bower-registry-client-0-2-0 bower-registry-client@0.2.0
+1038 silly lockFile 59e20d75-bower-registry-client-0-2-0 bower-registry-client@0.2.0
+1039 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+1040 silly lockFile f1b922af-bower-registry-client-0-2-0 bower-registry-client@~0.2.0
+1041 silly lockFile 9acb0392-bower-endpoint-parser-0-2-1 bower-endpoint-parser@0.2.1
+1042 silly lockFile 9acb0392-bower-endpoint-parser-0-2-1 bower-endpoint-parser@0.2.1
+1043 silly lockFile bf43e285-bower-endpoint-parser-0-2-0 bower-endpoint-parser@~0.2.0
+1044 silly lockFile bf43e285-bower-endpoint-parser-0-2-0 bower-endpoint-parser@~0.2.0
+1045 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+1046 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+1047 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+1048 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+1049 http 304 https://registry.npmjs.org/chmodr
+1050 silly registry.get cb [ 304,
+1050 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1050 silly registry.get     server: 'Apache',
+1050 silly registry.get     via: '1.1 varnish',
+1050 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+1050 silly registry.get     'cache-control': 'max-age=1',
+1050 silly registry.get     etag: '"6ANMTMYVZ3FR4PE110XDOGG2S"',
+1050 silly registry.get     'x-served-by': 'cache-am70-AMS',
+1050 silly registry.get     'x-cache': 'HIT',
+1050 silly registry.get     'x-cache-hits': '1',
+1050 silly registry.get     'x-timer': 'S1399458702.760051966,VS0,VE179',
+1050 silly registry.get     vary: 'Accept',
+1050 silly registry.get     'content-length': '0',
+1050 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1050 silly registry.get     connection: 'Keep-Alive' } ]
+1051 verbose etag chmodr from cache
+1052 http 304 https://registry.npmjs.org/fstream-ignore
+1053 silly registry.get cb [ 304,
+1053 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1053 silly registry.get     server: 'Apache',
+1053 silly registry.get     via: '1.1 varnish',
+1053 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:42 GMT',
+1053 silly registry.get     'cache-control': 'max-age=1',
+1053 silly registry.get     etag: '"7Z3F6BU98J8JA6XZGQTDISA1T"',
+1053 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1053 silly registry.get     'x-cache': 'HIT',
+1053 silly registry.get     'x-cache-hits': '1',
+1053 silly registry.get     'x-timer': 'S1399458702.763990164,VS0,VE179',
+1053 silly registry.get     vary: 'Accept',
+1053 silly registry.get     'content-length': '0',
+1053 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1053 silly registry.get     connection: 'Keep-Alive' } ]
+1054 verbose etag fstream-ignore from cache
+1055 silly addNameRange number 2 { name: 'chmodr', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+1056 silly addNameRange versions [ 'chmodr', [ '0.0.1', '0.1.0' ] ]
+1057 verbose addNamed [ 'chmodr', '0.1.0' ]
+1058 verbose addNamed [ '0.1.0', '0.1.0' ]
+1059 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+1060 verbose lock chmodr@0.1.0 C:\Users\tjerk\AppData\Roaming\npm-cache\3c50e6b3-chmodr-0-1-0.lock
+1061 silly addNameRange number 2 { name: 'fstream-ignore',
+1061 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
+1061 silly addNameRange   hasData: true }
+1062 silly addNameRange versions [ 'fstream-ignore',
+1062 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6', '0.0.7' ] ]
+1063 verbose addNamed [ 'fstream-ignore', '0.0.7' ]
+1064 verbose addNamed [ '0.0.7', '0.0.7' ]
+1065 silly lockFile 91b39f43-fstream-ignore-0-0-7 fstream-ignore@0.0.7
+1066 verbose lock fstream-ignore@0.0.7 C:\Users\tjerk\AppData\Roaming\npm-cache\91b39f43-fstream-ignore-0-0-7.lock
+1067 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+1068 silly lockFile 3c50e6b3-chmodr-0-1-0 chmodr@0.1.0
+1069 silly lockFile 5c476fe4-chmodr-0-1-0 chmodr@~0.1.0
+1070 silly lockFile 5c476fe4-chmodr-0-1-0 chmodr@~0.1.0
+1071 silly lockFile 91b39f43-fstream-ignore-0-0-7 fstream-ignore@0.0.7
+1072 silly lockFile 91b39f43-fstream-ignore-0-0-7 fstream-ignore@0.0.7
+1073 silly lockFile faf433bd-fstream-ignore-0-0-6 fstream-ignore@~0.0.6
+1074 silly lockFile faf433bd-fstream-ignore-0-0-6 fstream-ignore@~0.0.6
+1075 http 304 https://registry.npmjs.org/bower-logger
+1076 silly registry.get cb [ 304,
+1076 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1076 silly registry.get     server: 'Apache',
+1076 silly registry.get     via: '1.1 varnish',
+1076 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1076 silly registry.get     'cache-control': 'max-age=1',
+1076 silly registry.get     etag: '"8SR8UNFFTGVFEMMRRVKIK1BPM"',
+1076 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1076 silly registry.get     'x-cache': 'HIT',
+1076 silly registry.get     'x-cache-hits': '1',
+1076 silly registry.get     'x-timer': 'S1399458702.839215755,VS0,VE179',
+1076 silly registry.get     vary: 'Accept',
+1076 silly registry.get     'content-length': '0',
+1076 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1076 silly registry.get     connection: 'Keep-Alive' } ]
+1077 verbose etag bower-logger from cache
+1078 http 304 https://registry.npmjs.org/decompress-zip
+1079 silly registry.get cb [ 304,
+1079 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1079 silly registry.get     server: 'Apache',
+1079 silly registry.get     via: '1.1 varnish',
+1079 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1079 silly registry.get     'cache-control': 'max-age=1',
+1079 silly registry.get     etag: '"3QXEJKUD8EP8T5ROFMZFHI1QB"',
+1079 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1079 silly registry.get     'x-cache': 'MISS',
+1079 silly registry.get     'x-cache-hits': '0',
+1079 silly registry.get     'x-timer': 'S1399458702.854810715,VS0,VE167',
+1079 silly registry.get     vary: 'Accept',
+1079 silly registry.get     'content-length': '0',
+1079 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1079 silly registry.get     connection: 'Keep-Alive' } ]
+1080 verbose etag decompress-zip from cache
+1081 silly addNameRange number 2 { name: 'bower-logger',
+1081 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+1081 silly addNameRange   hasData: true }
+1082 silly addNameRange versions [ 'bower-logger',
+1082 silly addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+1083 verbose addNamed [ 'bower-logger', '0.2.2' ]
+1084 verbose addNamed [ '0.2.2', '0.2.2' ]
+1085 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1086 verbose lock bower-logger@0.2.2 C:\Users\tjerk\AppData\Roaming\npm-cache\4a38f198-bower-logger-0-2-2.lock
+1087 silly addNameRange number 2 { name: 'decompress-zip',
+1087 silly addNameRange   range: '>=0.0.6-0 <0.1.0-0',
+1087 silly addNameRange   hasData: true }
+1088 silly addNameRange versions [ 'decompress-zip',
+1088 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6' ] ]
+1089 verbose addNamed [ 'decompress-zip', '0.0.6' ]
+1090 verbose addNamed [ '0.0.6', '0.0.6' ]
+1091 silly lockFile 739822fe-decompress-zip-0-0-6 decompress-zip@0.0.6
+1092 verbose lock decompress-zip@0.0.6 C:\Users\tjerk\AppData\Roaming\npm-cache\739822fe-decompress-zip-0-0-6.lock
+1093 http 304 https://registry.npmjs.org/graceful-fs
+1094 silly registry.get cb [ 304,
+1094 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1094 silly registry.get     server: 'Apache',
+1094 silly registry.get     via: '1.1 varnish',
+1094 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1094 silly registry.get     'cache-control': 'max-age=1',
+1094 silly registry.get     etag: '"CYB1G9YMI1R0K364JALO65NBN"',
+1094 silly registry.get     'x-served-by': 'cache-am77-AMS',
+1094 silly registry.get     'x-cache': 'HIT',
+1094 silly registry.get     'x-cache-hits': '1',
+1094 silly registry.get     'x-timer': 'S1399458702.858575583,VS0,VE184',
+1094 silly registry.get     vary: 'Accept',
+1094 silly registry.get     'content-length': '0',
+1094 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1094 silly registry.get     connection: 'Keep-Alive' } ]
+1095 verbose etag graceful-fs from cache
+1096 http 304 https://registry.npmjs.org/handlebars
+1097 silly registry.get cb [ 304,
+1097 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1097 silly registry.get     server: 'Apache',
+1097 silly registry.get     via: '1.1 varnish',
+1097 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1097 silly registry.get     'cache-control': 'max-age=1',
+1097 silly registry.get     etag: '"WVSHG9BJQN25RIVKHK6TBO6B"',
+1097 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1097 silly registry.get     'x-cache': 'HIT',
+1097 silly registry.get     'x-cache-hits': '1',
+1097 silly registry.get     'x-timer': 'S1399458702.952502728,VS0,VE94',
+1097 silly registry.get     vary: 'Accept',
+1097 silly registry.get     'content-length': '0',
+1097 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1097 silly registry.get     connection: 'Keep-Alive' } ]
+1098 verbose etag handlebars from cache
+1099 http 304 https://registry.npmjs.org/glob
+1100 silly registry.get cb [ 304,
+1100 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1100 silly registry.get     server: 'Apache',
+1100 silly registry.get     via: '1.1 varnish',
+1100 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1100 silly registry.get     'cache-control': 'max-age=1',
+1100 silly registry.get     etag: '"39GDCKKFWC2MHY6HJCJXC8QS7"',
+1100 silly registry.get     'x-served-by': 'cache-am77-AMS',
+1100 silly registry.get     'x-cache': 'HIT',
+1100 silly registry.get     'x-cache-hits': '1',
+1100 silly registry.get     'x-timer': 'S1399458703.051566839,VS0,VE0',
+1100 silly registry.get     vary: 'Accept',
+1100 silly registry.get     'content-length': '0',
+1100 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1100 silly registry.get     connection: 'Keep-Alive' } ]
+1101 verbose etag glob from cache
+1102 silly addNameRange number 2 { name: 'graceful-fs',
+1102 silly addNameRange   range: '>=2.0.0-0 <2.1.0-0',
+1102 silly addNameRange   hasData: true }
+1103 silly addNameRange versions [ 'graceful-fs',
+1103 silly addNameRange   [ '1.0.0',
+1103 silly addNameRange     '1.0.1',
+1103 silly addNameRange     '1.0.2',
+1103 silly addNameRange     '1.1.0',
+1103 silly addNameRange     '1.1.1',
+1103 silly addNameRange     '1.1.2',
+1103 silly addNameRange     '1.1.3',
+1103 silly addNameRange     '1.1.4',
+1103 silly addNameRange     '1.1.5',
+1103 silly addNameRange     '1.1.6',
+1103 silly addNameRange     '1.1.7',
+1103 silly addNameRange     '1.1.8',
+1103 silly addNameRange     '1.1.9',
+1103 silly addNameRange     '1.1.10',
+1103 silly addNameRange     '1.1.11',
+1103 silly addNameRange     '1.1.12',
+1103 silly addNameRange     '1.1.13',
+1103 silly addNameRange     '1.1.14',
+1103 silly addNameRange     '1.2.0',
+1103 silly addNameRange     '1.2.1',
+1103 silly addNameRange     '1.2.2',
+1103 silly addNameRange     '1.2.3',
+1103 silly addNameRange     '2.0.0',
+1103 silly addNameRange     '2.0.1',
+1103 silly addNameRange     '2.0.2',
+1103 silly addNameRange     '2.0.3' ] ]
+1104 verbose addNamed [ 'graceful-fs', '2.0.3' ]
+1105 verbose addNamed [ '2.0.3', '2.0.3' ]
+1106 silly lockFile aa717173-graceful-fs-2-0-3 graceful-fs@2.0.3
+1107 verbose lock graceful-fs@2.0.3 C:\Users\tjerk\AppData\Roaming\npm-cache\aa717173-graceful-fs-2-0-3.lock
+1108 silly addNameRange number 2 { name: 'handlebars',
+1108 silly addNameRange   range: '>=1.3.0-0 <1.4.0-0',
+1108 silly addNameRange   hasData: true }
+1109 silly addNameRange versions [ 'handlebars',
+1109 silly addNameRange   [ '1.0.6',
+1109 silly addNameRange     '1.0.6-2',
+1109 silly addNameRange     '1.0.7',
+1109 silly addNameRange     '1.0.8',
+1109 silly addNameRange     '1.0.9',
+1109 silly addNameRange     '1.0.10',
+1109 silly addNameRange     '1.0.11',
+1109 silly addNameRange     '1.0.12',
+1109 silly addNameRange     '1.1.0',
+1109 silly addNameRange     '1.1.1',
+1109 silly addNameRange     '1.1.2',
+1109 silly addNameRange     '1.2.0',
+1109 silly addNameRange     '1.2.1',
+1109 silly addNameRange     '1.3.0',
+1109 silly addNameRange     '2.0.0-alpha.1',
+1109 silly addNameRange     '2.0.0-alpha.2',
+1109 silly addNameRange     '1.0.2-beta',
+1109 silly addNameRange     '1.0.4-beta',
+1109 silly addNameRange     '1.0.5-beta' ] ]
+1110 verbose addNamed [ 'handlebars', '1.3.0' ]
+1111 verbose addNamed [ '1.3.0', '1.3.0' ]
+1112 silly lockFile 15405714-handlebars-1-3-0 handlebars@1.3.0
+1113 verbose lock handlebars@1.3.0 C:\Users\tjerk\AppData\Roaming\npm-cache\15405714-handlebars-1-3-0.lock
+1114 silly addNameRange number 2 { name: 'glob', range: '>=3.2.9-0 <3.3.0-0', hasData: true }
+1115 silly addNameRange versions [ 'glob',
+1115 silly addNameRange   [ '1.1.0',
+1115 silly addNameRange     '2.0.9',
+1115 silly addNameRange     '2.0.8',
+1115 silly addNameRange     '2.0.7',
+1115 silly addNameRange     '2.1.0',
+1115 silly addNameRange     '3.0.0',
+1115 silly addNameRange     '3.0.1',
+1115 silly addNameRange     '3.1.0',
+1115 silly addNameRange     '3.1.1',
+1115 silly addNameRange     '3.1.2',
+1115 silly addNameRange     '3.1.3',
+1115 silly addNameRange     '3.1.4',
+1115 silly addNameRange     '3.1.5',
+1115 silly addNameRange     '3.1.6',
+1115 silly addNameRange     '3.1.7',
+1115 silly addNameRange     '3.1.9',
+1115 silly addNameRange     '3.1.10',
+1115 silly addNameRange     '3.1.11',
+1115 silly addNameRange     '3.1.12',
+1115 silly addNameRange     '3.1.13',
+1115 silly addNameRange     '3.1.14',
+1115 silly addNameRange     '3.1.15',
+1115 silly addNameRange     '3.1.16',
+1115 silly addNameRange     '3.1.17',
+1115 silly addNameRange     '3.1.18',
+1115 silly addNameRange     '3.1.19',
+1115 silly addNameRange     '3.1.20',
+1115 silly addNameRange     '3.1.21',
+1115 silly addNameRange     '3.2.0',
+1115 silly addNameRange     '3.2.1',
+1115 silly addNameRange     '3.2.3',
+1115 silly addNameRange     '3.2.4',
+1115 silly addNameRange     '3.2.5',
+1115 silly addNameRange     '3.2.6',
+1115 silly addNameRange     '3.2.7',
+1115 silly addNameRange     '3.2.8',
+1115 silly addNameRange     '3.2.9' ] ]
+1116 verbose addNamed [ 'glob', '3.2.9' ]
+1117 verbose addNamed [ '3.2.9', '3.2.9' ]
+1118 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
+1119 verbose lock glob@3.2.9 C:\Users\tjerk\AppData\Roaming\npm-cache\311bb488-glob-3-2-9.lock
+1120 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1121 silly lockFile 4a38f198-bower-logger-0-2-2 bower-logger@0.2.2
+1122 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+1123 silly lockFile 4dfc8f43-bower-logger-0-2-2 bower-logger@~0.2.2
+1124 silly lockFile 739822fe-decompress-zip-0-0-6 decompress-zip@0.0.6
+1125 silly lockFile 739822fe-decompress-zip-0-0-6 decompress-zip@0.0.6
+1126 silly lockFile 67b19ab4-decompress-zip-0-0-6 decompress-zip@~0.0.6
+1127 silly lockFile 67b19ab4-decompress-zip-0-0-6 decompress-zip@~0.0.6
+1128 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
+1129 silly lockFile 311bb488-glob-3-2-9 glob@3.2.9
+1130 silly lockFile 15405714-handlebars-1-3-0 handlebars@1.3.0
+1131 silly lockFile 15405714-handlebars-1-3-0 handlebars@1.3.0
+1132 silly lockFile 200db29c-glob-3-2-9 glob@~3.2.9
+1133 silly lockFile 200db29c-glob-3-2-9 glob@~3.2.9
+1134 silly lockFile 080fb592-handlebars-1-3-0 handlebars@~1.3.0
+1135 silly lockFile 080fb592-handlebars-1-3-0 handlebars@~1.3.0
+1136 silly lockFile aa717173-graceful-fs-2-0-3 graceful-fs@2.0.3
+1137 silly lockFile aa717173-graceful-fs-2-0-3 graceful-fs@2.0.3
+1138 silly lockFile 8863dcc9-graceful-fs-2-0-0 graceful-fs@~2.0.0
+1139 silly lockFile 8863dcc9-graceful-fs-2-0-0 graceful-fs@~2.0.0
+1140 http 304 https://registry.npmjs.org/insight
+1141 silly registry.get cb [ 304,
+1141 silly registry.get   { date: 'Wed, 07 May 2014 10:31:42 GMT',
+1141 silly registry.get     server: 'Apache',
+1141 silly registry.get     via: '1.1 varnish',
+1141 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1141 silly registry.get     'cache-control': 'max-age=1',
+1141 silly registry.get     etag: '"19RFG4TW07D8I738VSBWQ4RGP"',
+1141 silly registry.get     'x-served-by': 'cache-am70-AMS',
+1141 silly registry.get     'x-cache': 'HIT',
+1141 silly registry.get     'x-cache-hits': '1',
+1141 silly registry.get     'x-timer': 'S1399458702.948053360,VS0,VE179',
+1141 silly registry.get     vary: 'Accept',
+1141 silly registry.get     'content-length': '0',
+1141 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1141 silly registry.get     connection: 'Keep-Alive' } ]
+1142 verbose etag insight from cache
+1143 silly addNameRange number 2 { name: 'insight', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+1144 silly addNameRange versions [ 'insight',
+1144 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.2.0', '0.3.0', '0.3.1' ] ]
+1145 verbose addNamed [ 'insight', '0.3.1' ]
+1146 verbose addNamed [ '0.3.1', '0.3.1' ]
+1147 silly lockFile 10741e2f-insight-0-3-1 insight@0.3.1
+1148 verbose lock insight@0.3.1 C:\Users\tjerk\AppData\Roaming\npm-cache\10741e2f-insight-0-3-1.lock
+1149 silly lockFile 10741e2f-insight-0-3-1 insight@0.3.1
+1150 silly lockFile 10741e2f-insight-0-3-1 insight@0.3.1
+1151 silly lockFile ce14d85c-insight-0-3-0 insight@~0.3.0
+1152 silly lockFile ce14d85c-insight-0-3-0 insight@~0.3.0
+1153 http 304 https://registry.npmjs.org/mkdirp
+1154 silly registry.get cb [ 304,
+1154 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1154 silly registry.get     server: 'Apache',
+1154 silly registry.get     via: '1.1 varnish',
+1154 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1154 silly registry.get     'cache-control': 'max-age=1',
+1154 silly registry.get     etag: '"5TIHXRX5HSIYV6EU4PXR4JW26"',
+1154 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1154 silly registry.get     'x-cache': 'HIT',
+1154 silly registry.get     'x-cache-hits': '1',
+1154 silly registry.get     'x-timer': 'S1399458703.031771660,VS0,VE115',
+1154 silly registry.get     vary: 'Accept',
+1154 silly registry.get     'content-length': '0',
+1154 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1154 silly registry.get     connection: 'Keep-Alive' } ]
+1155 verbose etag mkdirp from cache
+1156 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: true }
+1157 silly addNameRange versions [ 'mkdirp',
+1157 silly addNameRange   [ '0.0.1',
+1157 silly addNameRange     '0.0.2',
+1157 silly addNameRange     '0.0.3',
+1157 silly addNameRange     '0.0.4',
+1157 silly addNameRange     '0.0.5',
+1157 silly addNameRange     '0.0.6',
+1157 silly addNameRange     '0.0.7',
+1157 silly addNameRange     '0.1.0',
+1157 silly addNameRange     '0.2.0',
+1157 silly addNameRange     '0.2.1',
+1157 silly addNameRange     '0.2.2',
+1157 silly addNameRange     '0.3.0',
+1157 silly addNameRange     '0.3.1',
+1157 silly addNameRange     '0.3.2',
+1157 silly addNameRange     '0.3.3',
+1157 silly addNameRange     '0.3.4',
+1157 silly addNameRange     '0.3.5',
+1157 silly addNameRange     '0.4.0',
+1157 silly addNameRange     '0.4.1',
+1157 silly addNameRange     '0.4.2',
+1157 silly addNameRange     '0.5.0' ] ]
+1158 verbose addNamed [ 'mkdirp', '0.3.5' ]
+1159 verbose addNamed [ '0.3.5', '0.3.5' ]
+1160 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+1161 verbose lock mkdirp@0.3.5 C:\Users\tjerk\AppData\Roaming\npm-cache\67d2df2a-mkdirp-0-3-5.lock
+1162 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+1163 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+1164 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+1165 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+1166 http 304 https://registry.npmjs.org/junk
+1167 silly registry.get cb [ 304,
+1167 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1167 silly registry.get     server: 'Apache',
+1167 silly registry.get     via: '1.1 varnish',
+1167 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1167 silly registry.get     'cache-control': 'max-age=1',
+1167 silly registry.get     etag: '"5YWNG1G42GV1ZCGAV1ZC1CKER"',
+1167 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1167 silly registry.get     'x-cache': 'HIT',
+1167 silly registry.get     'x-cache-hits': '1',
+1167 silly registry.get     'x-timer': 'S1399458703.028538942,VS0,VE175',
+1167 silly registry.get     vary: 'Accept',
+1167 silly registry.get     'content-length': '0',
+1167 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1167 silly registry.get     connection: 'Keep-Alive' } ]
+1168 verbose etag junk from cache
+1169 silly addNameRange number 2 { name: 'junk', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+1170 silly addNameRange versions [ 'junk', [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.3.0' ] ]
+1171 verbose addNamed [ 'junk', '0.3.0' ]
+1172 verbose addNamed [ '0.3.0', '0.3.0' ]
+1173 silly lockFile f3f60bec-junk-0-3-0 junk@0.3.0
+1174 verbose lock junk@0.3.0 C:\Users\tjerk\AppData\Roaming\npm-cache\f3f60bec-junk-0-3-0.lock
+1175 silly lockFile f3f60bec-junk-0-3-0 junk@0.3.0
+1176 silly lockFile f3f60bec-junk-0-3-0 junk@0.3.0
+1177 silly lockFile 41579b5e-junk-0-3-0 junk@~0.3.0
+1178 silly lockFile 41579b5e-junk-0-3-0 junk@~0.3.0
+1179 http 304 https://registry.npmjs.org/opn
+1180 silly registry.get cb [ 304,
+1180 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1180 silly registry.get     server: 'Apache',
+1180 silly registry.get     via: '1.1 varnish',
+1180 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1180 silly registry.get     'cache-control': 'max-age=1',
+1180 silly registry.get     etag: '"6VBB5B3JNJSFTUSVND7LS1XI0"',
+1180 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1180 silly registry.get     'x-cache': 'MISS',
+1180 silly registry.get     'x-cache-hits': '0',
+1180 silly registry.get     'x-timer': 'S1399458703.056174040,VS0,VE181',
+1180 silly registry.get     vary: 'Accept',
+1180 silly registry.get     'content-length': '0',
+1180 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1180 silly registry.get     connection: 'Keep-Alive' } ]
+1181 verbose etag opn from cache
+1182 http 304 https://registry.npmjs.org/is-root
+1183 silly registry.get cb [ 304,
+1183 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1183 silly registry.get     server: 'Apache',
+1183 silly registry.get     via: '1.1 varnish',
+1183 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1183 silly registry.get     'cache-control': 'max-age=1',
+1183 silly registry.get     etag: '"BX3IQFWESESRZBR62UPBZ25W8"',
+1183 silly registry.get     'x-served-by': 'cache-am77-AMS',
+1183 silly registry.get     'x-cache': 'HIT',
+1183 silly registry.get     'x-cache-hits': '1',
+1183 silly registry.get     'x-timer': 'S1399458703.061975241,VS0,VE178',
+1183 silly registry.get     vary: 'Accept',
+1183 silly registry.get     'content-length': '0',
+1183 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1183 silly registry.get     connection: 'Keep-Alive' } ]
+1184 verbose etag is-root from cache
+1185 silly addNameRange number 2 { name: 'is-root', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+1186 silly addNameRange versions [ 'is-root', [ '0.1.0' ] ]
+1187 verbose addNamed [ 'is-root', '0.1.0' ]
+1188 verbose addNamed [ '0.1.0', '0.1.0' ]
+1189 silly lockFile 2bd5d7e4-is-root-0-1-0 is-root@0.1.0
+1190 verbose lock is-root@0.1.0 C:\Users\tjerk\AppData\Roaming\npm-cache\2bd5d7e4-is-root-0-1-0.lock
+1191 silly addNameRange number 2 { name: 'opn', range: '>=0.1.1-0 <0.2.0-0', hasData: true }
+1192 silly addNameRange versions [ 'opn', [ '0.1.0', '0.1.1' ] ]
+1193 verbose addNamed [ 'opn', '0.1.1' ]
+1194 verbose addNamed [ '0.1.1', '0.1.1' ]
+1195 silly lockFile 80281f7c-opn-0-1-1 opn@0.1.1
+1196 verbose lock opn@0.1.1 C:\Users\tjerk\AppData\Roaming\npm-cache\80281f7c-opn-0-1-1.lock
+1197 silly lockFile 2bd5d7e4-is-root-0-1-0 is-root@0.1.0
+1198 silly lockFile 2bd5d7e4-is-root-0-1-0 is-root@0.1.0
+1199 silly lockFile 3dc75358-is-root-0-1-0 is-root@~0.1.0
+1200 silly lockFile 3dc75358-is-root-0-1-0 is-root@~0.1.0
+1201 silly lockFile 80281f7c-opn-0-1-1 opn@0.1.1
+1202 silly lockFile 80281f7c-opn-0-1-1 opn@0.1.1
+1203 silly lockFile 445f6667-opn-0-1-1 opn@~0.1.1
+1204 silly lockFile 445f6667-opn-0-1-1 opn@~0.1.1
+1205 http 304 https://registry.npmjs.org/retry
+1206 silly registry.get cb [ 304,
+1206 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1206 silly registry.get     server: 'Apache',
+1206 silly registry.get     via: '1.1 varnish',
+1206 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1206 silly registry.get     'cache-control': 'max-age=1',
+1206 silly registry.get     etag: '"8SV8OGIXUA5HP5HXZV2LWKTA5"',
+1206 silly registry.get     'x-served-by': 'cache-am70-AMS',
+1206 silly registry.get     'x-cache': 'HIT',
+1206 silly registry.get     'x-cache-hits': '1',
+1206 silly registry.get     'x-timer': 'S1399458703.135647297,VS0,VE178',
+1206 silly registry.get     vary: 'Accept',
+1206 silly registry.get     'content-length': '0',
+1206 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1206 silly registry.get     connection: 'Keep-Alive' } ]
+1207 verbose etag retry from cache
+1208 silly addNameRange number 2 { name: 'retry', range: '>=0.6.0-0 <0.7.0-0', hasData: true }
+1209 silly addNameRange versions [ 'retry',
+1209 silly addNameRange   [ '0.0.1', '0.1.0', '0.2.0', '0.3.0', '0.4.0', '0.5.0', '0.6.0' ] ]
+1210 verbose addNamed [ 'retry', '0.6.0' ]
+1211 verbose addNamed [ '0.6.0', '0.6.0' ]
+1212 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+1213 verbose lock retry@0.6.0 C:\Users\tjerk\AppData\Roaming\npm-cache\874cb068-retry-0-6-0.lock
+1214 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+1215 silly lockFile 874cb068-retry-0-6-0 retry@0.6.0
+1216 silly lockFile 51b5c643-retry-0-6-0 retry@~0.6.0
+1217 silly lockFile 51b5c643-retry-0-6-0 retry@~0.6.0
+1218 http 304 https://registry.npmjs.org/cardinal
+1219 silly registry.get cb [ 304,
+1219 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1219 silly registry.get     server: 'Apache',
+1219 silly registry.get     via: '1.1 varnish',
+1219 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1219 silly registry.get     'cache-control': 'max-age=1',
+1219 silly registry.get     etag: '"EBSK6G86GA35H8LUJUUUSNY89"',
+1219 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1219 silly registry.get     'x-cache': 'HIT',
+1219 silly registry.get     'x-cache-hits': '1',
+1219 silly registry.get     'x-timer': 'S1399458703.156266451,VS0,VE180',
+1219 silly registry.get     vary: 'Accept',
+1219 silly registry.get     'content-length': '0',
+1219 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1219 silly registry.get     connection: 'Keep-Alive' } ]
+1220 verbose etag cardinal from cache
+1221 silly addNameRange number 2 { name: 'cardinal', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+1222 silly addNameRange versions [ 'cardinal',
+1222 silly addNameRange   [ '0.1.0',
+1222 silly addNameRange     '0.1.1',
+1222 silly addNameRange     '0.1.2',
+1222 silly addNameRange     '0.1.3',
+1222 silly addNameRange     '0.2.0',
+1222 silly addNameRange     '0.3.0',
+1222 silly addNameRange     '0.3.1',
+1222 silly addNameRange     '0.3.2',
+1222 silly addNameRange     '0.4.0',
+1222 silly addNameRange     '0.4.1',
+1222 silly addNameRange     '0.4.2',
+1222 silly addNameRange     '0.4.3',
+1222 silly addNameRange     '0.4.4' ] ]
+1223 verbose addNamed [ 'cardinal', '0.4.4' ]
+1224 verbose addNamed [ '0.4.4', '0.4.4' ]
+1225 silly lockFile 6295c634-cardinal-0-4-4 cardinal@0.4.4
+1226 verbose lock cardinal@0.4.4 C:\Users\tjerk\AppData\Roaming\npm-cache\6295c634-cardinal-0-4-4.lock
+1227 silly lockFile 6295c634-cardinal-0-4-4 cardinal@0.4.4
+1228 silly lockFile 6295c634-cardinal-0-4-4 cardinal@0.4.4
+1229 silly lockFile acc8665e-cardinal-0-4-0 cardinal@~0.4.0
+1230 silly lockFile acc8665e-cardinal-0-4-0 cardinal@~0.4.0
+1231 http 304 https://registry.npmjs.org/request-progress
+1232 silly registry.get cb [ 304,
+1232 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1232 silly registry.get     server: 'Apache',
+1232 silly registry.get     via: '1.1 varnish',
+1232 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1232 silly registry.get     'cache-control': 'max-age=1',
+1232 silly registry.get     etag: '"45K9CQFHKTCUH0KYOX5ILA2NL"',
+1232 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1232 silly registry.get     'x-cache': 'MISS',
+1232 silly registry.get     'x-cache-hits': '0',
+1232 silly registry.get     'x-timer': 'S1399458703.212340832,VS0,VE190',
+1232 silly registry.get     vary: 'Accept',
+1232 silly registry.get     'content-length': '0',
+1232 silly registry.get     'keep-alive': 'timeout=10, max=47',
+1232 silly registry.get     connection: 'Keep-Alive' } ]
+1233 verbose etag request-progress from cache
+1234 http 304 https://registry.npmjs.org/p-throttler
+1235 silly registry.get cb [ 304,
+1235 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1235 silly registry.get     server: 'Apache',
+1235 silly registry.get     via: '1.1 varnish',
+1235 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1235 silly registry.get     'cache-control': 'max-age=1',
+1235 silly registry.get     etag: '"7FYPEKSRHQ5H68SQVMFL19M1U"',
+1235 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1235 silly registry.get     'x-cache': 'HIT',
+1235 silly registry.get     'x-cache-hits': '1',
+1235 silly registry.get     'x-timer': 'S1399458703.246099710,VS0,VE162',
+1235 silly registry.get     vary: 'Accept',
+1235 silly registry.get     'content-length': '0',
+1235 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1235 silly registry.get     connection: 'Keep-Alive' } ]
+1236 verbose etag p-throttler from cache
+1237 http 304 https://registry.npmjs.org/lru-cache
+1238 silly registry.get cb [ 304,
+1238 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1238 silly registry.get     server: 'Apache',
+1238 silly registry.get     via: '1.1 varnish',
+1238 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1238 silly registry.get     'cache-control': 'max-age=1',
+1238 silly registry.get     etag: '"2BBLP3S8ATDK6KH34WWTIOKD8"',
+1238 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1238 silly registry.get     'x-cache': 'HIT',
+1238 silly registry.get     'x-cache-hits': '2',
+1238 silly registry.get     'x-timer': 'S1399458703.413792372,VS0,VE0',
+1238 silly registry.get     vary: 'Accept',
+1238 silly registry.get     'content-length': '0',
+1238 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1238 silly registry.get     connection: 'Keep-Alive' } ]
+1239 verbose etag lru-cache from cache
+1240 silly addNameRange number 2 { name: 'request-progress',
+1240 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+1240 silly addNameRange   hasData: true }
+1241 silly addNameRange versions [ 'request-progress',
+1241 silly addNameRange   [ '0.1.0',
+1241 silly addNameRange     '0.1.1',
+1241 silly addNameRange     '0.2.0',
+1241 silly addNameRange     '0.2.1',
+1241 silly addNameRange     '0.2.2',
+1241 silly addNameRange     '0.2.3',
+1241 silly addNameRange     '0.3.0',
+1241 silly addNameRange     '0.3.1' ] ]
+1242 verbose addNamed [ 'request-progress', '0.3.1' ]
+1243 verbose addNamed [ '0.3.1', '0.3.1' ]
+1244 silly lockFile a2b190cd-request-progress-0-3-1 request-progress@0.3.1
+1245 verbose lock request-progress@0.3.1 C:\Users\tjerk\AppData\Roaming\npm-cache\a2b190cd-request-progress-0-3-1.lock
+1246 silly addNameRange number 2 { name: 'lru-cache', range: '>=2.5.0-0 <2.6.0-0', hasData: true }
+1247 silly addNameRange versions [ 'lru-cache',
+1247 silly addNameRange   [ '1.0.1',
+1247 silly addNameRange     '1.0.2',
+1247 silly addNameRange     '1.0.3',
+1247 silly addNameRange     '1.0.4',
+1247 silly addNameRange     '1.0.5',
+1247 silly addNameRange     '1.0.6',
+1247 silly addNameRange     '1.1.0',
+1247 silly addNameRange     '1.1.1',
+1247 silly addNameRange     '2.0.0',
+1247 silly addNameRange     '2.0.1',
+1247 silly addNameRange     '2.0.2',
+1247 silly addNameRange     '2.0.3',
+1247 silly addNameRange     '2.0.4',
+1247 silly addNameRange     '2.1.0',
+1247 silly addNameRange     '2.2.0',
+1247 silly addNameRange     '2.2.1',
+1247 silly addNameRange     '2.2.2',
+1247 silly addNameRange     '2.2.4',
+1247 silly addNameRange     '2.3.0',
+1247 silly addNameRange     '2.3.1',
+1247 silly addNameRange     '2.5.0' ] ]
+1248 verbose addNamed [ 'lru-cache', '2.5.0' ]
+1249 verbose addNamed [ '2.5.0', '2.5.0' ]
+1250 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+1251 verbose lock lru-cache@2.5.0 C:\Users\tjerk\AppData\Roaming\npm-cache\30aa630e-lru-cache-2-5-0.lock
+1252 silly addNameRange number 2 { name: 'p-throttler',
+1252 silly addNameRange   range: '>=0.0.1-0 <0.1.0-0',
+1252 silly addNameRange   hasData: true }
+1253 silly addNameRange versions [ 'p-throttler', [ '0.0.1' ] ]
+1254 verbose addNamed [ 'p-throttler', '0.0.1' ]
+1255 verbose addNamed [ '0.0.1', '0.0.1' ]
+1256 silly lockFile def2f925-p-throttler-0-0-1 p-throttler@0.0.1
+1257 verbose lock p-throttler@0.0.1 C:\Users\tjerk\AppData\Roaming\npm-cache\def2f925-p-throttler-0-0-1.lock
+1258 http 304 https://registry.npmjs.org/lockfile
+1259 silly registry.get cb [ 304,
+1259 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1259 silly registry.get     server: 'Apache',
+1259 silly registry.get     via: '1.1 varnish',
+1259 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1259 silly registry.get     'cache-control': 'max-age=1',
+1259 silly registry.get     etag: '"85GNZ7PQG4MVVI85QPDZ5CXKD"',
+1259 silly registry.get     'x-served-by': 'cache-am77-AMS',
+1259 silly registry.get     'x-cache': 'MISS',
+1259 silly registry.get     'x-cache-hits': '0',
+1259 silly registry.get     'x-timer': 'S1399458703.248289824,VS0,VE177',
+1259 silly registry.get     vary: 'Accept',
+1259 silly registry.get     'content-length': '0',
+1259 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1259 silly registry.get     connection: 'Keep-Alive' } ]
+1260 verbose etag lockfile from cache
+1261 silly lockFile a2b190cd-request-progress-0-3-1 request-progress@0.3.1
+1262 silly lockFile a2b190cd-request-progress-0-3-1 request-progress@0.3.1
+1263 silly lockFile 4fa06f6c-request-progress-0-3-0 request-progress@~0.3.0
+1264 silly lockFile 4fa06f6c-request-progress-0-3-0 request-progress@~0.3.0
+1265 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+1266 silly lockFile 30aa630e-lru-cache-2-5-0 lru-cache@2.5.0
+1267 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
+1268 silly lockFile d9ec30b5-lru-cache-2-5-0 lru-cache@~2.5.0
+1269 silly addNameRange number 2 { name: 'lockfile', range: '>=0.4.2-0 <0.5.0-0', hasData: true }
+1270 silly addNameRange versions [ 'lockfile',
+1270 silly addNameRange   [ '0.1.0',
+1270 silly addNameRange     '0.1.1',
+1270 silly addNameRange     '0.2.0',
+1270 silly addNameRange     '0.2.1',
+1270 silly addNameRange     '0.2.2',
+1270 silly addNameRange     '0.3.0',
+1270 silly addNameRange     '0.3.1',
+1270 silly addNameRange     '0.3.2',
+1270 silly addNameRange     '0.3.3',
+1270 silly addNameRange     '0.3.4',
+1270 silly addNameRange     '0.4.0',
+1270 silly addNameRange     '0.4.1',
+1270 silly addNameRange     '0.4.2' ] ]
+1271 verbose addNamed [ 'lockfile', '0.4.2' ]
+1272 verbose addNamed [ '0.4.2', '0.4.2' ]
+1273 silly lockFile a8695a62-lockfile-0-4-2 lockfile@0.4.2
+1274 verbose lock lockfile@0.4.2 C:\Users\tjerk\AppData\Roaming\npm-cache\a8695a62-lockfile-0-4-2.lock
+1275 verbose about to build D:\websites\GitHub\mcda2\node_modules\bower
+1276 info D:\websites\GitHub\mcda2\node_modules\bower unbuild
+1277 info preuninstall bower@1.3.3
+1278 info uninstall bower@1.3.3
+1279 verbose true,D:\websites\GitHub\mcda2\node_modules,D:\websites\GitHub\mcda2\node_modules unbuild bower@1.3.3
+1280 verbose D:\websites\GitHub\mcda2\node_modules\.bin,[object Object] binRoot
+1281 silly lockFile def2f925-p-throttler-0-0-1 p-throttler@0.0.1
+1282 silly lockFile def2f925-p-throttler-0-0-1 p-throttler@0.0.1
+1283 http 304 https://registry.npmjs.org/inquirer
+1284 silly registry.get cb [ 304,
+1284 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1284 silly registry.get     server: 'Apache',
+1284 silly registry.get     via: '1.1 varnish',
+1284 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1284 silly registry.get     'cache-control': 'max-age=1',
+1284 silly registry.get     etag: '"6DQPN61ZLXP88QAL1YZR9IA1J"',
+1284 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1284 silly registry.get     'x-cache': 'HIT',
+1284 silly registry.get     'x-cache-hits': '1',
+1284 silly registry.get     'x-timer': 'S1399458703.345762253,VS0,VE94',
+1284 silly registry.get     vary: 'Accept',
+1284 silly registry.get     'content-length': '0',
+1284 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1284 silly registry.get     connection: 'Keep-Alive' } ]
+1285 verbose etag inquirer from cache
+1286 silly lockFile 52064f95-p-throttler-0-0-1 p-throttler@~0.0.1
+1287 silly lockFile 52064f95-p-throttler-0-0-1 p-throttler@~0.0.1
+1288 info postuninstall bower@1.3.3
+1289 silly lockFile a8695a62-lockfile-0-4-2 lockfile@0.4.2
+1290 silly lockFile a8695a62-lockfile-0-4-2 lockfile@0.4.2
+1291 silly lockFile 734876a6-lockfile-0-4-2 lockfile@~0.4.2
+1292 silly lockFile 734876a6-lockfile-0-4-2 lockfile@~0.4.2
+1293 silly addNameRange number 2 { name: 'inquirer', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+1294 silly addNameRange versions [ 'inquirer',
 1294 silly addNameRange   [ '0.1.0',
 1294 silly addNameRange     '0.1.1',
+1294 silly addNameRange     '0.1.2',
+1294 silly addNameRange     '0.1.3',
+1294 silly addNameRange     '0.1.4',
+1294 silly addNameRange     '0.1.5',
+1294 silly addNameRange     '0.1.6',
+1294 silly addNameRange     '0.1.7',
+1294 silly addNameRange     '0.1.8',
+1294 silly addNameRange     '0.1.9',
 1294 silly addNameRange     '0.2.0',
 1294 silly addNameRange     '0.2.1',
+1294 silly addNameRange     '0.1.11',
+1294 silly addNameRange     '0.1.12',
 1294 silly addNameRange     '0.2.2',
+1294 silly addNameRange     '0.2.3',
+1294 silly addNameRange     '0.2.4',
+1294 silly addNameRange     '0.2.5',
 1294 silly addNameRange     '0.3.0',
 1294 silly addNameRange     '0.3.1',
 1294 silly addNameRange     '0.3.2',
 1294 silly addNameRange     '0.3.3',
 1294 silly addNameRange     '0.3.4',
+1294 silly addNameRange     '0.3.5',
 1294 silly addNameRange     '0.4.0',
-1294 silly addNameRange     '0.4.1',
-1294 silly addNameRange     '0.4.2' ] ]
-1295 verbose addNamed [ 'lockfile', '0.4.2' ]
-1296 verbose addNamed [ '0.4.2', '0.4.2' ]
-1297 silly lockFile a8695a62-lockfile-0-4-2 lockfile@0.4.2
-1298 verbose lock lockfile@0.4.2 C:\Users\tjerk\AppData\Roaming\npm-cache\a8695a62-lockfile-0-4-2.lock
-1299 silly lockFile a8695a62-lockfile-0-4-2 lockfile@0.4.2
-1300 silly lockFile a8695a62-lockfile-0-4-2 lockfile@0.4.2
-1301 silly lockFile 734876a6-lockfile-0-4-2 lockfile@~0.4.2
-1302 silly lockFile 734876a6-lockfile-0-4-2 lockfile@~0.4.2
-1303 http 304 https://registry.npmjs.org/opn
+1294 silly addNameRange     '0.4.1' ] ]
+1295 verbose addNamed [ 'inquirer', '0.4.1' ]
+1296 verbose addNamed [ '0.4.1', '0.4.1' ]
+1297 silly lockFile caff4c32-inquirer-0-4-1 inquirer@0.4.1
+1298 verbose lock inquirer@0.4.1 C:\Users\tjerk\AppData\Roaming\npm-cache\caff4c32-inquirer-0-4-1.lock
+1299 silly lockFile caff4c32-inquirer-0-4-1 inquirer@0.4.1
+1300 silly lockFile caff4c32-inquirer-0-4-1 inquirer@0.4.1
+1301 silly lockFile 24c291dd-inquirer-0-4-0 inquirer@~0.4.0
+1302 silly lockFile 24c291dd-inquirer-0-4-0 inquirer@~0.4.0
+1303 http 304 https://registry.npmjs.org/mout
 1304 silly registry.get cb [ 304,
-1304 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
+1304 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
 1304 silly registry.get     server: 'Apache',
 1304 silly registry.get     via: '1.1 varnish',
-1304 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:34 GMT',
+1304 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
 1304 silly registry.get     'cache-control': 'max-age=1',
-1304 silly registry.get     etag: '"6VBB5B3JNJSFTUSVND7LS1XI0"',
-1304 silly registry.get     'x-served-by': 'cache-am76-AMS',
-1304 silly registry.get     'x-cache': 'MISS',
-1304 silly registry.get     'x-cache-hits': '0',
-1304 silly registry.get     'x-timer': 'S1399451793.861328363,VS0,VE172',
+1304 silly registry.get     etag: '"2Y24OTPJN2GJZMI8611QM90AF"',
+1304 silly registry.get     'x-served-by': 'cache-am70-AMS',
+1304 silly registry.get     'x-cache': 'HIT',
+1304 silly registry.get     'x-cache-hits': '1',
+1304 silly registry.get     'x-timer': 'S1399458703.324099302,VS0,VE180',
 1304 silly registry.get     vary: 'Accept',
 1304 silly registry.get     'content-length': '0',
 1304 silly registry.get     'keep-alive': 'timeout=10, max=46',
 1304 silly registry.get     connection: 'Keep-Alive' } ]
-1305 verbose etag opn from cache
-1306 http 304 https://registry.npmjs.org/promptly
+1305 verbose etag mout from cache
+1306 http 304 https://registry.npmjs.org/request
 1307 silly registry.get cb [ 304,
-1307 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
+1307 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
 1307 silly registry.get     server: 'Apache',
 1307 silly registry.get     via: '1.1 varnish',
-1307 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:34 GMT',
+1307 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
 1307 silly registry.get     'cache-control': 'max-age=1',
-1307 silly registry.get     etag: '"GUYI98TDI8A6RYCNTEFTI0NS"',
-1307 silly registry.get     'x-served-by': 'cache-am70-AMS',
+1307 silly registry.get     etag: '"2H74F4E5JYQHP7RZLSI8N178R"',
+1307 silly registry.get     'x-served-by': 'cache-am76-AMS',
 1307 silly registry.get     'x-cache': 'HIT',
 1307 silly registry.get     'x-cache-hits': '1',
-1307 silly registry.get     'x-timer': 'S1399451793.949942589,VS0,VE85',
+1307 silly registry.get     'x-timer': 'S1399458703.423801184,VS0,VE85',
 1307 silly registry.get     vary: 'Accept',
 1307 silly registry.get     'content-length': '0',
 1307 silly registry.get     'keep-alive': 'timeout=10, max=45',
 1307 silly registry.get     connection: 'Keep-Alive' } ]
-1308 verbose etag promptly from cache
-1309 http 304 https://registry.npmjs.org/p-throttler
-1310 silly registry.get cb [ 304,
-1310 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
-1310 silly registry.get     server: 'Apache',
-1310 silly registry.get     via: '1.1 varnish',
-1310 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:34 GMT',
-1310 silly registry.get     'cache-control': 'max-age=1',
-1310 silly registry.get     etag: '"7FYPEKSRHQ5H68SQVMFL19M1U"',
-1310 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1310 silly registry.get     'x-cache': 'HIT',
-1310 silly registry.get     'x-cache-hits': '1',
-1310 silly registry.get     'x-timer': 'S1399451793.938003778,VS0,VE100',
-1310 silly registry.get     vary: 'Accept',
-1310 silly registry.get     'content-length': '0',
-1310 silly registry.get     'keep-alive': 'timeout=10, max=45',
-1310 silly registry.get     connection: 'Keep-Alive' } ]
-1311 verbose etag p-throttler from cache
-1312 silly addNameRange number 2 { name: 'opn', range: '>=0.1.1-0 <0.2.0-0', hasData: true }
-1313 silly addNameRange versions [ 'opn', [ '0.1.0', '0.1.1' ] ]
-1314 verbose addNamed [ 'opn', '0.1.1' ]
-1315 verbose addNamed [ '0.1.1', '0.1.1' ]
-1316 silly lockFile 80281f7c-opn-0-1-1 opn@0.1.1
-1317 verbose lock opn@0.1.1 C:\Users\tjerk\AppData\Roaming\npm-cache\80281f7c-opn-0-1-1.lock
-1318 silly addNameRange number 2 { name: 'p-throttler',
-1318 silly addNameRange   range: '>=0.0.1-0 <0.1.0-0',
-1318 silly addNameRange   hasData: true }
-1319 silly addNameRange versions [ 'p-throttler', [ '0.0.1' ] ]
-1320 verbose addNamed [ 'p-throttler', '0.0.1' ]
-1321 verbose addNamed [ '0.0.1', '0.0.1' ]
-1322 silly lockFile def2f925-p-throttler-0-0-1 p-throttler@0.0.1
-1323 verbose lock p-throttler@0.0.1 C:\Users\tjerk\AppData\Roaming\npm-cache\def2f925-p-throttler-0-0-1.lock
-1324 silly addNameRange number 2 { name: 'promptly', range: '>=0.2.0-0 <0.3.0-0', hasData: true }
-1325 silly addNameRange versions [ 'promptly', [ '0.0.0', '0.0.1', '0.1.0', '0.2.0' ] ]
-1326 verbose addNamed [ 'promptly', '0.2.0' ]
-1327 verbose addNamed [ '0.2.0', '0.2.0' ]
-1328 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
-1329 verbose lock promptly@0.2.0 C:\Users\tjerk\AppData\Roaming\npm-cache\c940dc36-promptly-0-2-0.lock
-1330 silly lockFile 80281f7c-opn-0-1-1 opn@0.1.1
-1331 silly lockFile 80281f7c-opn-0-1-1 opn@0.1.1
-1332 silly lockFile def2f925-p-throttler-0-0-1 p-throttler@0.0.1
-1333 silly lockFile def2f925-p-throttler-0-0-1 p-throttler@0.0.1
-1334 silly lockFile 445f6667-opn-0-1-1 opn@~0.1.1
-1335 silly lockFile 445f6667-opn-0-1-1 opn@~0.1.1
-1336 silly lockFile 52064f95-p-throttler-0-0-1 p-throttler@~0.0.1
-1337 silly lockFile 52064f95-p-throttler-0-0-1 p-throttler@~0.0.1
-1338 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
-1339 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
-1340 silly lockFile 6286f2d5-promptly-0-2-0 promptly@~0.2.0
-1341 silly lockFile 6286f2d5-promptly-0-2-0 promptly@~0.2.0
-1342 http 304 https://registry.npmjs.org/q
+1308 verbose etag request from cache
+1309 silly addNameRange number 2 { name: 'mout', range: '>=0.9.1-0 <0.10.0-0', hasData: true }
+1310 silly addNameRange versions [ 'mout',
+1310 silly addNameRange   [ '0.1.0',
+1310 silly addNameRange     '0.2.0',
+1310 silly addNameRange     '0.3.0',
+1310 silly addNameRange     '0.4.0',
+1310 silly addNameRange     '0.5.0',
+1310 silly addNameRange     '0.6.0',
+1310 silly addNameRange     '0.7.0',
+1310 silly addNameRange     '0.7.1',
+1310 silly addNameRange     '0.8.0',
+1310 silly addNameRange     '0.9.0',
+1310 silly addNameRange     '0.9.1' ] ]
+1311 verbose addNamed [ 'mout', '0.9.1' ]
+1312 verbose addNamed [ '0.9.1', '0.9.1' ]
+1313 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
+1314 verbose lock mout@0.9.1 C:\Users\tjerk\AppData\Roaming\npm-cache\87454de7-mout-0-9-1.lock
+1315 silly addNameRange number 2 { name: 'request', range: '>=2.34.0-0 <2.35.0-0', hasData: true }
+1316 silly addNameRange versions [ 'request',
+1316 silly addNameRange   [ '0.10.0',
+1316 silly addNameRange     '0.8.3',
+1316 silly addNameRange     '0.9.0',
+1316 silly addNameRange     '0.9.1',
+1316 silly addNameRange     '0.9.5',
+1316 silly addNameRange     '1.0.0',
+1316 silly addNameRange     '1.1.0',
+1316 silly addNameRange     '1.1.1',
+1316 silly addNameRange     '1.2.0',
+1316 silly addNameRange     '1.9.0',
+1316 silly addNameRange     '1.9.1',
+1316 silly addNameRange     '1.9.2',
+1316 silly addNameRange     '1.9.3',
+1316 silly addNameRange     '1.9.5',
+1316 silly addNameRange     '1.9.7',
+1316 silly addNameRange     '1.9.8',
+1316 silly addNameRange     '1.9.9',
+1316 silly addNameRange     '2.0.0',
+1316 silly addNameRange     '2.0.1',
+1316 silly addNameRange     '2.0.2',
+1316 silly addNameRange     '2.0.3',
+1316 silly addNameRange     '2.0.4',
+1316 silly addNameRange     '2.0.5',
+1316 silly addNameRange     '2.1.0',
+1316 silly addNameRange     '2.1.1',
+1316 silly addNameRange     '2.2.0',
+1316 silly addNameRange     '2.2.5',
+1316 silly addNameRange     '2.2.6',
+1316 silly addNameRange     '2.2.9',
+1316 silly addNameRange     '2.9.0',
+1316 silly addNameRange     '2.9.1',
+1316 silly addNameRange     '2.9.2',
+1316 silly addNameRange     '2.9.3',
+1316 silly addNameRange     '2.9.100',
+1316 silly addNameRange     '2.9.150',
+1316 silly addNameRange     '2.9.151',
+1316 silly addNameRange     '2.9.152',
+1316 silly addNameRange     '2.9.153',
+1316 silly addNameRange     '2.9.200',
+1316 silly addNameRange     '2.9.201',
+1316 silly addNameRange     '2.9.202',
+1316 silly addNameRange     '2.9.203',
+1316 silly addNameRange     '2.10.0',
+1316 silly addNameRange     '2.11.0',
+1316 silly addNameRange     '2.11.1',
+1316 silly addNameRange     '2.11.2',
+1316 silly addNameRange     '2.11.3',
+1316 silly addNameRange     '2.11.4',
+1316 silly addNameRange     '2.12.0',
+1316 silly addNameRange     '2.14.0',
+1316 silly addNameRange     '2.16.0',
+1316 silly addNameRange     '2.16.2',
+1316 silly addNameRange     '2.16.4',
+1316 silly addNameRange     '2.16.6',
+1316 silly addNameRange     '2.18.0',
+1316 silly addNameRange     '2.19.0',
+1316 silly addNameRange     '2.20.0',
+1316 silly addNameRange     '2.21.0',
+1316 silly addNameRange     '2.22.0',
+1316 silly addNameRange     '2.23.0',
+1316 silly addNameRange     '2.24.0',
+1316 silly addNameRange     '2.25.0',
+1316 silly addNameRange     '2.26.0',
+1316 silly addNameRange     '2.27.0',
+1316 silly addNameRange     '2.28.0',
+1316 silly addNameRange     '2.29.0',
+1316 silly addNameRange     '2.30.0',
+1316 silly addNameRange     '2.31.0',
+1316 silly addNameRange     '2.32.0',
+1316 silly addNameRange     '2.33.0',
+1316 silly addNameRange     '2.34.0' ] ]
+1317 verbose addNamed [ 'request', '2.34.0' ]
+1318 verbose addNamed [ '2.34.0', '2.34.0' ]
+1319 silly lockFile a8edf972-request-2-34-0 request@2.34.0
+1320 verbose lock request@2.34.0 C:\Users\tjerk\AppData\Roaming\npm-cache\a8edf972-request-2-34-0.lock
+1321 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
+1322 silly lockFile 87454de7-mout-0-9-1 mout@0.9.1
+1323 silly lockFile 192577f3-mout-0-9-1 mout@~0.9.1
+1324 silly lockFile 192577f3-mout-0-9-1 mout@~0.9.1
+1325 silly lockFile a8edf972-request-2-34-0 request@2.34.0
+1326 silly lockFile a8edf972-request-2-34-0 request@2.34.0
+1327 silly lockFile 1fb009df-request-2-34-0 request@~2.34.0
+1328 silly lockFile 1fb009df-request-2-34-0 request@~2.34.0
+1329 http 304 https://registry.npmjs.org/nopt
+1330 silly registry.get cb [ 304,
+1330 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1330 silly registry.get     server: 'Apache',
+1330 silly registry.get     via: '1.1 varnish',
+1330 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1330 silly registry.get     'cache-control': 'max-age=1',
+1330 silly registry.get     etag: '"DGC4MFCY9YGMG816QPXUQJ2HS"',
+1330 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1330 silly registry.get     'x-cache': 'HIT',
+1330 silly registry.get     'x-cache-hits': '1',
+1330 silly registry.get     'x-timer': 'S1399458703.449690104,VS0,VE95',
+1330 silly registry.get     vary: 'Accept',
+1330 silly registry.get     'content-length': '0',
+1330 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1330 silly registry.get     connection: 'Keep-Alive' } ]
+1331 verbose etag nopt from cache
+1332 silly addNameRange number 2 { name: 'nopt', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
+1333 silly addNameRange versions [ 'nopt',
+1333 silly addNameRange   [ '1.0.0',
+1333 silly addNameRange     '1.0.1',
+1333 silly addNameRange     '1.0.2',
+1333 silly addNameRange     '1.0.3',
+1333 silly addNameRange     '1.0.4',
+1333 silly addNameRange     '1.0.5',
+1333 silly addNameRange     '1.0.6',
+1333 silly addNameRange     '1.0.7',
+1333 silly addNameRange     '1.0.8',
+1333 silly addNameRange     '1.0.9',
+1333 silly addNameRange     '1.0.10',
+1333 silly addNameRange     '2.0.0',
+1333 silly addNameRange     '2.1.0',
+1333 silly addNameRange     '2.1.1',
+1333 silly addNameRange     '2.1.2',
+1333 silly addNameRange     '2.2.0',
+1333 silly addNameRange     '2.2.1' ] ]
+1334 verbose addNamed [ 'nopt', '2.2.1' ]
+1335 verbose addNamed [ '2.2.1', '2.2.1' ]
+1336 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
+1337 verbose lock nopt@2.2.1 C:\Users\tjerk\AppData\Roaming\npm-cache\d02d193f-nopt-2-2-1.lock
+1338 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
+1339 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
+1340 silly lockFile 84cb411c-nopt-2-2-0 nopt@~2.2.0
+1341 silly lockFile 84cb411c-nopt-2-2-0 nopt@~2.2.0
+1342 http 304 https://registry.npmjs.org/osenv
 1343 silly registry.get cb [ 304,
-1343 silly registry.get   { date: 'Wed, 07 May 2014 08:36:33 GMT',
+1343 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
 1343 silly registry.get     server: 'Apache',
 1343 silly registry.get     via: '1.1 varnish',
-1343 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:34 GMT',
+1343 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
 1343 silly registry.get     'cache-control': 'max-age=1',
-1343 silly registry.get     etag: '"8TD8RR5SWP9KP11M01UGVC1N"',
-1343 silly registry.get     'x-served-by': 'cache-am72-AMS',
+1343 silly registry.get     etag: '"6KMLTT3BDAZ7370JLWCXJ7LC5"',
+1343 silly registry.get     'x-served-by': 'cache-am76-AMS',
 1343 silly registry.get     'x-cache': 'HIT',
 1343 silly registry.get     'x-cache-hits': '1',
-1343 silly registry.get     'x-timer': 'S1399451793.989100456,VS0,VE85',
+1343 silly registry.get     'x-timer': 'S1399458703.419917345,VS0,VE185',
 1343 silly registry.get     vary: 'Accept',
 1343 silly registry.get     'content-length': '0',
-1343 silly registry.get     'keep-alive': 'timeout=10, max=42',
+1343 silly registry.get     'keep-alive': 'timeout=10, max=45',
 1343 silly registry.get     connection: 'Keep-Alive' } ]
-1344 verbose etag q from cache
-1345 silly addNameRange number 2 { name: 'q', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
-1346 silly addNameRange versions [ 'q',
-1346 silly addNameRange   [ '0.0.0',
-1346 silly addNameRange     '0.0.1',
-1346 silly addNameRange     '0.0.2',
-1346 silly addNameRange     '0.0.3',
-1346 silly addNameRange     '0.1.0',
-1346 silly addNameRange     '0.1.1',
-1346 silly addNameRange     '0.1.2',
-1346 silly addNameRange     '0.1.3',
-1346 silly addNameRange     '0.1.4',
-1346 silly addNameRange     '0.1.5',
-1346 silly addNameRange     '0.1.6',
-1346 silly addNameRange     '0.1.7',
-1346 silly addNameRange     '0.1.8',
-1346 silly addNameRange     '0.1.9',
-1346 silly addNameRange     '0.2.0-rc1',
-1346 silly addNameRange     '0.2.0',
-1346 silly addNameRange     '0.2.1',
-1346 silly addNameRange     '0.2.2',
-1346 silly addNameRange     '0.2.3',
-1346 silly addNameRange     '0.2.4',
-1346 silly addNameRange     '0.2.5',
-1346 silly addNameRange     '0.2.6',
-1346 silly addNameRange     '0.2.7',
-1346 silly addNameRange     '0.2.8',
-1346 silly addNameRange     '0.2.9',
-1346 silly addNameRange     '0.3.0',
-1346 silly addNameRange     '0.2.10',
-1346 silly addNameRange     '0.4.0',
-1346 silly addNameRange     '0.4.1',
-1346 silly addNameRange     '0.4.2',
-1346 silly addNameRange     '0.4.4',
-1346 silly addNameRange     '0.5.0',
-1346 silly addNameRange     '0.5.1',
-1346 silly addNameRange     '0.5.2',
-1346 silly addNameRange     '0.5.3',
-1346 silly addNameRange     '0.6.0',
-1346 silly addNameRange     '0.7.0',
-1346 silly addNameRange     '0.7.1',
-1346 silly addNameRange     '0.7.2',
-1346 silly addNameRange     '0.8.0',
-1346 silly addNameRange     '0.8.1',
-1346 silly addNameRange     '0.8.2',
-1346 silly addNameRange     '0.8.3',
-1346 silly addNameRange     '0.8.4',
-1346 silly addNameRange     '0.8.5',
-1346 silly addNameRange     '0.8.6',
-1346 silly addNameRange     '0.8.7',
-1346 silly addNameRange     '0.8.8',
-1346 silly addNameRange     '0.8.9',
-1346 silly addNameRange     '0.8.10',
-1346 silly addNameRange     '0.8.11',
-1346 silly addNameRange     '0.8.12',
-1346 silly addNameRange     '0.9.0',
-1346 silly addNameRange     '0.9.1',
-1346 silly addNameRange     '0.9.2',
-1346 silly addNameRange     '0.9.3',
-1346 silly addNameRange     '0.9.4',
-1346 silly addNameRange     '0.9.5',
-1346 silly addNameRange     '0.9.6',
-1346 silly addNameRange     '0.9.7',
-1346 silly addNameRange     '1.0.0',
-1346 silly addNameRange     '1.0.1',
-1346 silly addNameRange     '2.0.0',
-1346 silly addNameRange     '2.0.1' ] ]
-1347 verbose addNamed [ 'q', '1.0.1' ]
-1348 verbose addNamed [ '1.0.1', '1.0.1' ]
-1349 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
-1350 verbose lock q@1.0.1 C:\Users\tjerk\AppData\Roaming\npm-cache\5720ee24-q-1-0-1.lock
-1351 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
-1352 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
-1353 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
-1354 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
-1355 http 304 https://registry.npmjs.org/request
-1356 silly registry.get cb [ 304,
-1356 silly registry.get   { date: 'Wed, 07 May 2014 08:36:34 GMT',
-1356 silly registry.get     server: 'Apache',
-1356 silly registry.get     via: '1.1 varnish',
-1356 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:34 GMT',
-1356 silly registry.get     'cache-control': 'max-age=1',
-1356 silly registry.get     etag: '"2H74F4E5JYQHP7RZLSI8N178R"',
-1356 silly registry.get     'x-served-by': 'cache-am69-AMS',
-1356 silly registry.get     'x-cache': 'MISS',
-1356 silly registry.get     'x-cache-hits': '0',
-1356 silly registry.get     'x-timer': 'S1399451794.007973194,VS0,VE87',
-1356 silly registry.get     vary: 'Accept',
-1356 silly registry.get     'content-length': '0',
-1356 silly registry.get     'keep-alive': 'timeout=10, max=46',
-1356 silly registry.get     connection: 'Keep-Alive' } ]
-1357 verbose etag request from cache
-1358 silly addNameRange number 2 { name: 'request', range: '>=2.34.0-0 <2.35.0-0', hasData: true }
-1359 silly addNameRange versions [ 'request',
-1359 silly addNameRange   [ '0.10.0',
-1359 silly addNameRange     '0.8.3',
-1359 silly addNameRange     '0.9.0',
-1359 silly addNameRange     '0.9.1',
-1359 silly addNameRange     '0.9.5',
-1359 silly addNameRange     '1.0.0',
-1359 silly addNameRange     '1.1.0',
-1359 silly addNameRange     '1.1.1',
-1359 silly addNameRange     '1.2.0',
-1359 silly addNameRange     '1.9.0',
-1359 silly addNameRange     '1.9.1',
-1359 silly addNameRange     '1.9.2',
-1359 silly addNameRange     '1.9.3',
-1359 silly addNameRange     '1.9.5',
-1359 silly addNameRange     '1.9.7',
-1359 silly addNameRange     '1.9.8',
-1359 silly addNameRange     '1.9.9',
-1359 silly addNameRange     '2.0.0',
-1359 silly addNameRange     '2.0.1',
-1359 silly addNameRange     '2.0.2',
-1359 silly addNameRange     '2.0.3',
-1359 silly addNameRange     '2.0.4',
-1359 silly addNameRange     '2.0.5',
-1359 silly addNameRange     '2.1.0',
-1359 silly addNameRange     '2.1.1',
-1359 silly addNameRange     '2.2.0',
-1359 silly addNameRange     '2.2.5',
-1359 silly addNameRange     '2.2.6',
-1359 silly addNameRange     '2.2.9',
-1359 silly addNameRange     '2.9.0',
-1359 silly addNameRange     '2.9.1',
-1359 silly addNameRange     '2.9.2',
-1359 silly addNameRange     '2.9.3',
-1359 silly addNameRange     '2.9.100',
-1359 silly addNameRange     '2.9.150',
-1359 silly addNameRange     '2.9.151',
-1359 silly addNameRange     '2.9.152',
-1359 silly addNameRange     '2.9.153',
-1359 silly addNameRange     '2.9.200',
-1359 silly addNameRange     '2.9.201',
-1359 silly addNameRange     '2.9.202',
-1359 silly addNameRange     '2.9.203',
-1359 silly addNameRange     '2.10.0',
-1359 silly addNameRange     '2.11.0',
-1359 silly addNameRange     '2.11.1',
-1359 silly addNameRange     '2.11.2',
-1359 silly addNameRange     '2.11.3',
-1359 silly addNameRange     '2.11.4',
-1359 silly addNameRange     '2.12.0',
-1359 silly addNameRange     '2.14.0',
-1359 silly addNameRange     '2.16.0',
-1359 silly addNameRange     '2.16.2',
-1359 silly addNameRange     '2.16.4',
-1359 silly addNameRange     '2.16.6',
-1359 silly addNameRange     '2.18.0',
-1359 silly addNameRange     '2.19.0',
-1359 silly addNameRange     '2.20.0',
-1359 silly addNameRange     '2.21.0',
-1359 silly addNameRange     '2.22.0',
-1359 silly addNameRange     '2.23.0',
-1359 silly addNameRange     '2.24.0',
-1359 silly addNameRange     '2.25.0',
-1359 silly addNameRange     '2.26.0',
-1359 silly addNameRange     '2.27.0',
-1359 silly addNameRange     '2.28.0',
-1359 silly addNameRange     '2.29.0',
-1359 silly addNameRange     '2.30.0',
-1359 silly addNameRange     '2.31.0',
-1359 silly addNameRange     '2.32.0',
-1359 silly addNameRange     '2.33.0',
-1359 silly addNameRange     '2.34.0' ] ]
-1360 verbose addNamed [ 'request', '2.34.0' ]
-1361 verbose addNamed [ '2.34.0', '2.34.0' ]
-1362 silly lockFile a8edf972-request-2-34-0 request@2.34.0
-1363 verbose lock request@2.34.0 C:\Users\tjerk\AppData\Roaming\npm-cache\a8edf972-request-2-34-0.lock
-1364 silly lockFile a8edf972-request-2-34-0 request@2.34.0
-1365 silly lockFile a8edf972-request-2-34-0 request@2.34.0
-1366 silly lockFile 1fb009df-request-2-34-0 request@~2.34.0
-1367 silly lockFile 1fb009df-request-2-34-0 request@~2.34.0
-1368 http 304 https://registry.npmjs.org/rimraf
-1369 silly registry.get cb [ 304,
-1369 silly registry.get   { date: 'Wed, 07 May 2014 08:36:34 GMT',
-1369 silly registry.get     server: 'Apache',
-1369 silly registry.get     via: '1.1 varnish',
-1369 silly registry.get     'last-modified': 'Wed, 07 May 2014 08:36:34 GMT',
-1369 silly registry.get     'cache-control': 'max-age=1',
-1369 silly registry.get     etag: '"5W3WXV577LVH5XUHYL029X5R9"',
-1369 silly registry.get     'x-served-by': 'cache-am70-AMS',
-1369 silly registry.get     'x-cache': 'HIT',
-1369 silly registry.get     'x-cache-hits': '1',
-1369 silly registry.get     'x-timer': 'S1399451794.051287413,VS0,VE85',
-1369 silly registry.get     vary: 'Accept',
-1369 silly registry.get     'content-length': '0',
-1369 silly registry.get     'keep-alive': 'timeout=10, max=44',
-1369 silly registry.get     connection: 'Keep-Alive' } ]
-1370 verbose etag rimraf from cache
-1371 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
-1372 silly addNameRange versions [ 'rimraf',
-1372 silly addNameRange   [ '1.0.0',
-1372 silly addNameRange     '1.0.1',
-1372 silly addNameRange     '1.0.2',
-1372 silly addNameRange     '1.0.4',
-1372 silly addNameRange     '1.0.5',
-1372 silly addNameRange     '1.0.6',
-1372 silly addNameRange     '1.0.7',
-1372 silly addNameRange     '1.0.8',
-1372 silly addNameRange     '1.0.9',
-1372 silly addNameRange     '2.0.0',
-1372 silly addNameRange     '2.0.1',
-1372 silly addNameRange     '2.0.2',
-1372 silly addNameRange     '2.0.3',
-1372 silly addNameRange     '2.1.0',
-1372 silly addNameRange     '2.1.1',
-1372 silly addNameRange     '2.1.2',
-1372 silly addNameRange     '2.1.3',
-1372 silly addNameRange     '2.1.4',
-1372 silly addNameRange     '2.2.0',
-1372 silly addNameRange     '2.2.1',
-1372 silly addNameRange     '2.2.2',
-1372 silly addNameRange     '2.2.3',
-1372 silly addNameRange     '2.2.4',
-1372 silly addNameRange     '2.2.5',
-1372 silly addNameRange     '2.2.6',
-1372 silly addNameRange     '2.2.8' ] ]
-1373 verbose addNamed [ 'rimraf', '2.2.8' ]
-1374 verbose addNamed [ '2.2.8', '2.2.8' ]
-1375 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
-1376 verbose lock rimraf@2.2.8 C:\Users\tjerk\AppData\Roaming\npm-cache\b87241a4-rimraf-2-2-8.lock
-1377 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
-1378 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
-1379 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
-1380 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
-1381 error Failed to parse json
-1381 error Unexpected token  
-1382 error File: C:\Users\tjerk\AppData\Roaming\npm-cache\lru-cache\2.5.0\package\package.json
-1383 error Failed to parse package.json data.
-1383 error package.json must be actual JSON, not just JavaScript.
-1383 error
-1383 error This is not a bug in npm.
-1383 error Tell the package author to fix their package.json file. JSON.parse
-1384 error System Windows_NT 6.2.9200
-1385 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bower"
-1386 error cwd D:\websites\GitHub\mcda2
-1387 error node -v v0.10.25
-1388 error npm -v 1.3.24
-1389 error file C:\Users\tjerk\AppData\Roaming\npm-cache\lru-cache\2.5.0\package\package.json
-1390 error code EJSONPARSE
-1391 verbose exit [ 1, true ]
+1344 verbose etag osenv from cache
+1345 http 304 https://registry.npmjs.org/q
+1346 silly registry.get cb [ 304,
+1346 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1346 silly registry.get     server: 'Apache',
+1346 silly registry.get     via: '1.1 varnish',
+1346 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1346 silly registry.get     'cache-control': 'max-age=1',
+1346 silly registry.get     etag: '"8TD8RR5SWP9KP11M01UGVC1N"',
+1346 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1346 silly registry.get     'x-cache': 'HIT',
+1346 silly registry.get     'x-cache-hits': '1',
+1346 silly registry.get     'x-timer': 'S1399458703.520873547,VS0,VE86',
+1346 silly registry.get     vary: 'Accept',
+1346 silly registry.get     'content-length': '0',
+1346 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1346 silly registry.get     connection: 'Keep-Alive' } ]
+1347 verbose etag q from cache
+1348 http 304 https://registry.npmjs.org/fstream
+1349 silly registry.get cb [ 304,
+1349 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1349 silly registry.get     server: 'Apache',
+1349 silly registry.get     via: '1.1 varnish',
+1349 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1349 silly registry.get     'cache-control': 'max-age=1',
+1349 silly registry.get     etag: '"83I50Z4UFBRHZIITH0F7A966D"',
+1349 silly registry.get     'x-served-by': 'cache-am77-AMS',
+1349 silly registry.get     'x-cache': 'MISS',
+1349 silly registry.get     'x-cache-hits': '0',
+1349 silly registry.get     'x-timer': 'S1399458703.434922218,VS0,VE180',
+1349 silly registry.get     vary: 'Accept',
+1349 silly registry.get     'content-length': '0',
+1349 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1349 silly registry.get     connection: 'Keep-Alive' } ]
+1350 verbose etag fstream from cache
+1351 silly addNameRange number 2 { name: 'osenv', range: '>=0.0.3-0 <0.1.0-0', hasData: true }
+1352 silly addNameRange versions [ 'osenv', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+1353 verbose addNamed [ 'osenv', '0.0.3' ]
+1354 verbose addNamed [ '0.0.3', '0.0.3' ]
+1355 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
+1356 verbose lock osenv@0.0.3 C:\Users\tjerk\AppData\Roaming\npm-cache\4085d016-osenv-0-0-3.lock
+1357 silly addNameRange number 2 { name: 'q', range: '>=1.0.1-0 <1.1.0-0', hasData: true }
+1358 silly addNameRange versions [ 'q',
+1358 silly addNameRange   [ '0.0.0',
+1358 silly addNameRange     '0.0.1',
+1358 silly addNameRange     '0.0.2',
+1358 silly addNameRange     '0.0.3',
+1358 silly addNameRange     '0.1.0',
+1358 silly addNameRange     '0.1.1',
+1358 silly addNameRange     '0.1.2',
+1358 silly addNameRange     '0.1.3',
+1358 silly addNameRange     '0.1.4',
+1358 silly addNameRange     '0.1.5',
+1358 silly addNameRange     '0.1.6',
+1358 silly addNameRange     '0.1.7',
+1358 silly addNameRange     '0.1.8',
+1358 silly addNameRange     '0.1.9',
+1358 silly addNameRange     '0.2.0-rc1',
+1358 silly addNameRange     '0.2.0',
+1358 silly addNameRange     '0.2.1',
+1358 silly addNameRange     '0.2.2',
+1358 silly addNameRange     '0.2.3',
+1358 silly addNameRange     '0.2.4',
+1358 silly addNameRange     '0.2.5',
+1358 silly addNameRange     '0.2.6',
+1358 silly addNameRange     '0.2.7',
+1358 silly addNameRange     '0.2.8',
+1358 silly addNameRange     '0.2.9',
+1358 silly addNameRange     '0.3.0',
+1358 silly addNameRange     '0.2.10',
+1358 silly addNameRange     '0.4.0',
+1358 silly addNameRange     '0.4.1',
+1358 silly addNameRange     '0.4.2',
+1358 silly addNameRange     '0.4.4',
+1358 silly addNameRange     '0.5.0',
+1358 silly addNameRange     '0.5.1',
+1358 silly addNameRange     '0.5.2',
+1358 silly addNameRange     '0.5.3',
+1358 silly addNameRange     '0.6.0',
+1358 silly addNameRange     '0.7.0',
+1358 silly addNameRange     '0.7.1',
+1358 silly addNameRange     '0.7.2',
+1358 silly addNameRange     '0.8.0',
+1358 silly addNameRange     '0.8.1',
+1358 silly addNameRange     '0.8.2',
+1358 silly addNameRange     '0.8.3',
+1358 silly addNameRange     '0.8.4',
+1358 silly addNameRange     '0.8.5',
+1358 silly addNameRange     '0.8.6',
+1358 silly addNameRange     '0.8.7',
+1358 silly addNameRange     '0.8.8',
+1358 silly addNameRange     '0.8.9',
+1358 silly addNameRange     '0.8.10',
+1358 silly addNameRange     '0.8.11',
+1358 silly addNameRange     '0.8.12',
+1358 silly addNameRange     '0.9.0',
+1358 silly addNameRange     '0.9.1',
+1358 silly addNameRange     '0.9.2',
+1358 silly addNameRange     '0.9.3',
+1358 silly addNameRange     '0.9.4',
+1358 silly addNameRange     '0.9.5',
+1358 silly addNameRange     '0.9.6',
+1358 silly addNameRange     '0.9.7',
+1358 silly addNameRange     '1.0.0',
+1358 silly addNameRange     '1.0.1',
+1358 silly addNameRange     '2.0.0',
+1358 silly addNameRange     '2.0.1' ] ]
+1359 verbose addNamed [ 'q', '1.0.1' ]
+1360 verbose addNamed [ '1.0.1', '1.0.1' ]
+1361 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+1362 verbose lock q@1.0.1 C:\Users\tjerk\AppData\Roaming\npm-cache\5720ee24-q-1-0-1.lock
+1363 silly addNameRange number 2 { name: 'fstream', range: '>=0.1.22-0 <0.2.0-0', hasData: true }
+1364 silly addNameRange versions [ 'fstream',
+1364 silly addNameRange   [ '0.0.0',
+1364 silly addNameRange     '0.0.1',
+1364 silly addNameRange     '0.1.0',
+1364 silly addNameRange     '0.1.1',
+1364 silly addNameRange     '0.1.2',
+1364 silly addNameRange     '0.1.3',
+1364 silly addNameRange     '0.1.5',
+1364 silly addNameRange     '0.1.6',
+1364 silly addNameRange     '0.1.7',
+1364 silly addNameRange     '0.1.8',
+1364 silly addNameRange     '0.1.9',
+1364 silly addNameRange     '0.1.10',
+1364 silly addNameRange     '0.1.11',
+1364 silly addNameRange     '0.1.12',
+1364 silly addNameRange     '0.1.13',
+1364 silly addNameRange     '0.1.14',
+1364 silly addNameRange     '0.1.15',
+1364 silly addNameRange     '0.1.16',
+1364 silly addNameRange     '0.1.17',
+1364 silly addNameRange     '0.1.18',
+1364 silly addNameRange     '0.1.19',
+1364 silly addNameRange     '0.1.20',
+1364 silly addNameRange     '0.1.21',
+1364 silly addNameRange     '0.1.22',
+1364 silly addNameRange     '0.1.23',
+1364 silly addNameRange     '0.1.24',
+1364 silly addNameRange     '0.1.25' ] ]
+1365 verbose addNamed [ 'fstream', '0.1.25' ]
+1366 verbose addNamed [ '0.1.25', '0.1.25' ]
+1367 silly lockFile 11eef8ec-fstream-0-1-25 fstream@0.1.25
+1368 verbose lock fstream@0.1.25 C:\Users\tjerk\AppData\Roaming\npm-cache\11eef8ec-fstream-0-1-25.lock
+1369 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
+1370 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
+1371 silly lockFile 7367c0c9-osenv-0-0-3 osenv@~0.0.3
+1372 silly lockFile 7367c0c9-osenv-0-0-3 osenv@~0.0.3
+1373 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+1374 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+1375 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
+1376 silly lockFile bfcfee2e-q-1-0-1 q@~1.0.1
+1377 silly lockFile 11eef8ec-fstream-0-1-25 fstream@0.1.25
+1378 silly lockFile 11eef8ec-fstream-0-1-25 fstream@0.1.25
+1379 silly lockFile 75ffa414-fstream-0-1-22 fstream@~0.1.22
+1380 silly lockFile 75ffa414-fstream-0-1-22 fstream@~0.1.22
+1381 http 304 https://registry.npmjs.org/rimraf
+1382 silly registry.get cb [ 304,
+1382 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1382 silly registry.get     server: 'Apache',
+1382 silly registry.get     via: '1.1 varnish',
+1382 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1382 silly registry.get     'cache-control': 'max-age=1',
+1382 silly registry.get     etag: '"5W3WXV577LVH5XUHYL029X5R9"',
+1382 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1382 silly registry.get     'x-cache': 'HIT',
+1382 silly registry.get     'x-cache-hits': '1',
+1382 silly registry.get     'x-timer': 'S1399458703.553721905,VS0,VE89',
+1382 silly registry.get     vary: 'Accept',
+1382 silly registry.get     'content-length': '0',
+1382 silly registry.get     'keep-alive': 'timeout=10, max=43',
+1382 silly registry.get     connection: 'Keep-Alive' } ]
+1383 verbose etag rimraf from cache
+1384 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.0-0 <2.3.0-0', hasData: true }
+1385 silly addNameRange versions [ 'rimraf',
+1385 silly addNameRange   [ '1.0.0',
+1385 silly addNameRange     '1.0.1',
+1385 silly addNameRange     '1.0.2',
+1385 silly addNameRange     '1.0.4',
+1385 silly addNameRange     '1.0.5',
+1385 silly addNameRange     '1.0.6',
+1385 silly addNameRange     '1.0.7',
+1385 silly addNameRange     '1.0.8',
+1385 silly addNameRange     '1.0.9',
+1385 silly addNameRange     '2.0.0',
+1385 silly addNameRange     '2.0.1',
+1385 silly addNameRange     '2.0.2',
+1385 silly addNameRange     '2.0.3',
+1385 silly addNameRange     '2.1.0',
+1385 silly addNameRange     '2.1.1',
+1385 silly addNameRange     '2.1.2',
+1385 silly addNameRange     '2.1.3',
+1385 silly addNameRange     '2.1.4',
+1385 silly addNameRange     '2.2.0',
+1385 silly addNameRange     '2.2.1',
+1385 silly addNameRange     '2.2.2',
+1385 silly addNameRange     '2.2.3',
+1385 silly addNameRange     '2.2.4',
+1385 silly addNameRange     '2.2.5',
+1385 silly addNameRange     '2.2.6',
+1385 silly addNameRange     '2.2.8' ] ]
+1386 verbose addNamed [ 'rimraf', '2.2.8' ]
+1387 verbose addNamed [ '2.2.8', '2.2.8' ]
+1388 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+1389 verbose lock rimraf@2.2.8 C:\Users\tjerk\AppData\Roaming\npm-cache\b87241a4-rimraf-2-2-8.lock
+1390 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+1391 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+1392 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
+1393 silly lockFile 69dbd68f-rimraf-2-2-0 rimraf@~2.2.0
+1394 http 304 https://registry.npmjs.org/promptly
+1395 silly registry.get cb [ 304,
+1395 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1395 silly registry.get     server: 'Apache',
+1395 silly registry.get     via: '1.1 varnish',
+1395 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1395 silly registry.get     'cache-control': 'max-age=1',
+1395 silly registry.get     etag: '"GUYI98TDI8A6RYCNTEFTI0NS"',
+1395 silly registry.get     'x-served-by': 'cache-am70-AMS',
+1395 silly registry.get     'x-cache': 'HIT',
+1395 silly registry.get     'x-cache-hits': '1',
+1395 silly registry.get     'x-timer': 'S1399458703.513204098,VS0,VE177',
+1395 silly registry.get     vary: 'Accept',
+1395 silly registry.get     'content-length': '0',
+1395 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1395 silly registry.get     connection: 'Keep-Alive' } ]
+1396 verbose etag promptly from cache
+1397 http 304 https://registry.npmjs.org/tar
+1398 silly registry.get cb [ 304,
+1398 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1398 silly registry.get     server: 'Apache',
+1398 silly registry.get     via: '1.1 varnish',
+1398 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1398 silly registry.get     'cache-control': 'max-age=1',
+1398 silly registry.get     etag: '"4DD8W4J7NN69UKXNIXZ2KZRSQ"',
+1398 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1398 silly registry.get     'x-cache': 'HIT',
+1398 silly registry.get     'x-cache-hits': '1',
+1398 silly registry.get     'x-timer': 'S1399458703.616497755,VS0,VE87',
+1398 silly registry.get     vary: 'Accept',
+1398 silly registry.get     'content-length': '0',
+1398 silly registry.get     'keep-alive': 'timeout=10, max=43',
+1398 silly registry.get     connection: 'Keep-Alive' } ]
+1399 verbose etag tar from cache
+1400 silly addNameRange number 2 { name: 'promptly', range: '>=0.2.0-0 <0.3.0-0', hasData: true }
+1401 silly addNameRange versions [ 'promptly', [ '0.0.0', '0.0.1', '0.1.0', '0.2.0' ] ]
+1402 verbose addNamed [ 'promptly', '0.2.0' ]
+1403 verbose addNamed [ '0.2.0', '0.2.0' ]
+1404 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+1405 verbose lock promptly@0.2.0 C:\Users\tjerk\AppData\Roaming\npm-cache\c940dc36-promptly-0-2-0.lock
+1406 silly addNameRange number 2 { name: 'tar', range: '>=0.1.17-0 <0.2.0-0', hasData: true }
+1407 silly addNameRange versions [ 'tar',
+1407 silly addNameRange   [ '0.0.1',
+1407 silly addNameRange     '0.1.0',
+1407 silly addNameRange     '0.1.2',
+1407 silly addNameRange     '0.1.3',
+1407 silly addNameRange     '0.1.4',
+1407 silly addNameRange     '0.1.5',
+1407 silly addNameRange     '0.1.6',
+1407 silly addNameRange     '0.1.7',
+1407 silly addNameRange     '0.1.8',
+1407 silly addNameRange     '0.1.9',
+1407 silly addNameRange     '0.1.10',
+1407 silly addNameRange     '0.1.11',
+1407 silly addNameRange     '0.1.12',
+1407 silly addNameRange     '0.1.13',
+1407 silly addNameRange     '0.1.14',
+1407 silly addNameRange     '0.1.15',
+1407 silly addNameRange     '0.1.16',
+1407 silly addNameRange     '0.1.17',
+1407 silly addNameRange     '0.1.18',
+1407 silly addNameRange     '0.1.19' ] ]
+1408 verbose addNamed [ 'tar', '0.1.19' ]
+1409 verbose addNamed [ '0.1.19', '0.1.19' ]
+1410 silly lockFile 9cd6579d-tar-0-1-19 tar@0.1.19
+1411 verbose lock tar@0.1.19 C:\Users\tjerk\AppData\Roaming\npm-cache\9cd6579d-tar-0-1-19.lock
+1412 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+1413 silly lockFile c940dc36-promptly-0-2-0 promptly@0.2.0
+1414 silly lockFile 6286f2d5-promptly-0-2-0 promptly@~0.2.0
+1415 silly lockFile 6286f2d5-promptly-0-2-0 promptly@~0.2.0
+1416 silly lockFile 9cd6579d-tar-0-1-19 tar@0.1.19
+1417 silly lockFile 9cd6579d-tar-0-1-19 tar@0.1.19
+1418 silly lockFile 27b9f27e-tar-0-1-17 tar@~0.1.17
+1419 silly lockFile 27b9f27e-tar-0-1-17 tar@~0.1.17
+1420 http 304 https://registry.npmjs.org/update-notifier
+1421 silly registry.get cb [ 304,
+1421 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1421 silly registry.get     server: 'Apache',
+1421 silly registry.get     via: '1.1 varnish',
+1421 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1421 silly registry.get     'cache-control': 'max-age=1',
+1421 silly registry.get     etag: '"9DXGQQFJIIGM3WN9SFGW30SIT"',
+1421 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1421 silly registry.get     'x-cache': 'MISS',
+1421 silly registry.get     'x-cache-hits': '0',
+1421 silly registry.get     'x-timer': 'S1399458703.651574612,VS0,VE92',
+1421 silly registry.get     vary: 'Accept',
+1421 silly registry.get     'content-length': '0',
+1421 silly registry.get     'keep-alive': 'timeout=10, max=42',
+1421 silly registry.get     connection: 'Keep-Alive' } ]
+1422 verbose etag update-notifier from cache
+1423 silly addNameRange number 2 { name: 'update-notifier',
+1423 silly addNameRange   range: '>=0.1.8-0 <0.2.0-0',
+1423 silly addNameRange   hasData: true }
+1424 silly addNameRange versions [ 'update-notifier',
+1424 silly addNameRange   [ '0.1.0',
+1424 silly addNameRange     '0.1.1',
+1424 silly addNameRange     '0.1.2',
+1424 silly addNameRange     '0.1.3',
+1424 silly addNameRange     '0.1.4',
+1424 silly addNameRange     '0.1.5',
+1424 silly addNameRange     '0.1.6',
+1424 silly addNameRange     '0.1.7',
+1424 silly addNameRange     '0.1.8' ] ]
+1425 verbose addNamed [ 'update-notifier', '0.1.8' ]
+1426 verbose addNamed [ '0.1.8', '0.1.8' ]
+1427 silly lockFile 6a3c539b-update-notifier-0-1-8 update-notifier@0.1.8
+1428 verbose lock update-notifier@0.1.8 C:\Users\tjerk\AppData\Roaming\npm-cache\6a3c539b-update-notifier-0-1-8.lock
+1429 silly lockFile 6a3c539b-update-notifier-0-1-8 update-notifier@0.1.8
+1430 silly lockFile 6a3c539b-update-notifier-0-1-8 update-notifier@0.1.8
+1431 silly lockFile 162cceb2-update-notifier-0-1-8 update-notifier@~0.1.8
+1432 silly lockFile 162cceb2-update-notifier-0-1-8 update-notifier@~0.1.8
+1433 http 304 https://registry.npmjs.org/stringify-object
+1434 silly registry.get cb [ 304,
+1434 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1434 silly registry.get     server: 'Apache',
+1434 silly registry.get     via: '1.1 varnish',
+1434 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1434 silly registry.get     'cache-control': 'max-age=1',
+1434 silly registry.get     etag: '"5EN3N7EDMIO34DQZCTNNI7M22"',
+1434 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1434 silly registry.get     'x-cache': 'HIT',
+1434 silly registry.get     'x-cache-hits': '1',
+1434 silly registry.get     'x-timer': 'S1399458703.613732815,VS0,VE176',
+1434 silly registry.get     vary: 'Accept',
+1434 silly registry.get     'content-length': '0',
+1434 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1434 silly registry.get     connection: 'Keep-Alive' } ]
+1435 verbose etag stringify-object from cache
+1436 silly addNameRange number 2 { name: 'stringify-object',
+1436 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+1436 silly addNameRange   hasData: true }
+1437 silly addNameRange versions [ 'stringify-object',
+1437 silly addNameRange   [ '0.1.0',
+1437 silly addNameRange     '0.1.1',
+1437 silly addNameRange     '0.1.2',
+1437 silly addNameRange     '0.1.3',
+1437 silly addNameRange     '0.1.4',
+1437 silly addNameRange     '0.1.5',
+1437 silly addNameRange     '0.1.6',
+1437 silly addNameRange     '0.1.7',
+1437 silly addNameRange     '0.1.8',
+1437 silly addNameRange     '0.2.0',
+1437 silly addNameRange     '0.2.1' ] ]
+1438 verbose addNamed [ 'stringify-object', '0.2.1' ]
+1439 verbose addNamed [ '0.2.1', '0.2.1' ]
+1440 silly lockFile 8b60337e-stringify-object-0-2-1 stringify-object@0.2.1
+1441 verbose lock stringify-object@0.2.1 C:\Users\tjerk\AppData\Roaming\npm-cache\8b60337e-stringify-object-0-2-1.lock
+1442 http 304 https://registry.npmjs.org/which
+1443 silly registry.get cb [ 304,
+1443 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1443 silly registry.get     server: 'Apache',
+1443 silly registry.get     via: '1.1 varnish',
+1443 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:38 GMT',
+1443 silly registry.get     'cache-control': 'max-age=1',
+1443 silly registry.get     etag: '"4U42AUANZD43I26W7W04SHTG3"',
+1443 silly registry.get     'x-served-by': 'cache-am71-AMS',
+1443 silly registry.get     'x-cache': 'HIT',
+1443 silly registry.get     'x-cache-hits': '3',
+1443 silly registry.get     'x-timer': 'S1399458703.754797697,VS0,VE47',
+1443 silly registry.get     vary: 'Accept',
+1443 silly registry.get     'content-length': '0',
+1443 silly registry.get     'keep-alive': 'timeout=10, max=41',
+1443 silly registry.get     connection: 'Keep-Alive' } ]
+1444 verbose etag which from cache
+1445 http 304 https://registry.npmjs.org/semver
+1446 silly registry.get cb [ 304,
+1446 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1446 silly registry.get     server: 'Apache',
+1446 silly registry.get     via: '1.1 varnish',
+1446 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1446 silly registry.get     'cache-control': 'max-age=1',
+1446 silly registry.get     etag: '"T4NBD4IYGN8BIC090V2SICIE"',
+1446 silly registry.get     'x-served-by': 'cache-am77-AMS',
+1446 silly registry.get     'x-cache': 'MISS',
+1446 silly registry.get     'x-cache-hits': '0',
+1446 silly registry.get     'x-timer': 'S1399458703.624236107,VS0,VE182',
+1446 silly registry.get     vary: 'Accept',
+1446 silly registry.get     'content-length': '0',
+1446 silly registry.get     'keep-alive': 'timeout=10, max=43',
+1446 silly registry.get     connection: 'Keep-Alive' } ]
+1447 verbose etag semver from cache
+1448 silly lockFile 8b60337e-stringify-object-0-2-1 stringify-object@0.2.1
+1449 silly lockFile 8b60337e-stringify-object-0-2-1 stringify-object@0.2.1
+1450 silly lockFile 6527850d-stringify-object-0-2-0 stringify-object@~0.2.0
+1451 silly lockFile 6527850d-stringify-object-0-2-0 stringify-object@~0.2.0
+1452 silly addNameRange number 2 { name: 'semver', range: '>=2.2.1-0 <2.3.0-0', hasData: true }
+1453 silly addNameRange versions [ 'semver',
+1453 silly addNameRange   [ '1.0.0',
+1453 silly addNameRange     '1.0.1',
+1453 silly addNameRange     '1.0.2',
+1453 silly addNameRange     '1.0.3',
+1453 silly addNameRange     '1.0.4',
+1453 silly addNameRange     '1.0.5',
+1453 silly addNameRange     '1.0.6',
+1453 silly addNameRange     '1.0.7',
+1453 silly addNameRange     '1.0.8',
+1453 silly addNameRange     '1.0.9',
+1453 silly addNameRange     '1.0.10',
+1453 silly addNameRange     '1.0.11',
+1453 silly addNameRange     '1.0.12',
+1453 silly addNameRange     '1.0.13',
+1453 silly addNameRange     '1.0.14',
+1453 silly addNameRange     '1.1.0',
+1453 silly addNameRange     '1.1.1',
+1453 silly addNameRange     '1.1.2',
+1453 silly addNameRange     '1.1.3',
+1453 silly addNameRange     '1.1.4',
+1453 silly addNameRange     '2.0.0-alpha',
+1453 silly addNameRange     '2.0.0-beta',
+1453 silly addNameRange     '2.0.1',
+1453 silly addNameRange     '2.0.2',
+1453 silly addNameRange     '2.0.3',
+1453 silly addNameRange     '2.0.4',
+1453 silly addNameRange     '2.0.5',
+1453 silly addNameRange     '2.0.6',
+1453 silly addNameRange     '2.0.7',
+1453 silly addNameRange     '2.0.8',
+1453 silly addNameRange     '2.0.9',
+1453 silly addNameRange     '2.0.10',
+1453 silly addNameRange     '2.0.11',
+1453 silly addNameRange     '2.1.0',
+1453 silly addNameRange     '2.2.0',
+1453 silly addNameRange     '2.2.1',
+1453 silly addNameRange     '2.3.0' ] ]
+1454 verbose addNamed [ 'semver', '2.2.1' ]
+1455 verbose addNamed [ '2.2.1', '2.2.1' ]
+1456 silly lockFile 609d7676-semver-2-2-1 semver@2.2.1
+1457 verbose lock semver@2.2.1 C:\Users\tjerk\AppData\Roaming\npm-cache\609d7676-semver-2-2-1.lock
+1458 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+1459 silly addNameRange versions [ 'which', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.5' ] ]
+1460 verbose addNamed [ 'which', '1.0.5' ]
+1461 verbose addNamed [ '1.0.5', '1.0.5' ]
+1462 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1463 verbose lock which@1.0.5 C:\Users\tjerk\AppData\Roaming\npm-cache\4aed4494-which-1-0-5.lock
+1464 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1465 silly lockFile 4aed4494-which-1-0-5 which@1.0.5
+1466 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1467 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+1468 silly lockFile 609d7676-semver-2-2-1 semver@2.2.1
+1469 silly lockFile 609d7676-semver-2-2-1 semver@2.2.1
+1470 silly lockFile 1708eccd-semver-2-2-1 semver@~2.2.1
+1471 silly lockFile 1708eccd-semver-2-2-1 semver@~2.2.1
+1472 http 304 https://registry.npmjs.org/shell-quote
+1473 silly registry.get cb [ 304,
+1473 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1473 silly registry.get     server: 'Apache',
+1473 silly registry.get     via: '1.1 varnish',
+1473 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1473 silly registry.get     'cache-control': 'max-age=1',
+1473 silly registry.get     etag: '"5H5FPWF8ST18RL6G9YG9VFMCF"',
+1473 silly registry.get     'x-served-by': 'cache-am76-AMS',
+1473 silly registry.get     'x-cache': 'HIT',
+1473 silly registry.get     'x-cache-hits': '1',
+1473 silly registry.get     'x-timer': 'S1399458703.712168217,VS0,VE170',
+1473 silly registry.get     vary: 'Accept',
+1473 silly registry.get     'content-length': '0',
+1473 silly registry.get     'keep-alive': 'timeout=10, max=42',
+1473 silly registry.get     connection: 'Keep-Alive' } ]
+1474 verbose etag shell-quote from cache
+1475 http 304 https://registry.npmjs.org/tmp
+1476 silly registry.get cb [ 304,
+1476 silly registry.get   { date: 'Wed, 07 May 2014 10:31:43 GMT',
+1476 silly registry.get     server: 'Apache',
+1476 silly registry.get     via: '1.1 varnish',
+1476 silly registry.get     'last-modified': 'Wed, 07 May 2014 10:31:43 GMT',
+1476 silly registry.get     'cache-control': 'max-age=1',
+1476 silly registry.get     etag: '"37U0J6B5O8396C0U62D8C0321"',
+1476 silly registry.get     'x-served-by': 'cache-am70-AMS',
+1476 silly registry.get     'x-cache': 'HIT',
+1476 silly registry.get     'x-cache-hits': '1',
+1476 silly registry.get     'x-timer': 'S1399458703.699925184,VS0,VE188',
+1476 silly registry.get     vary: 'Accept',
+1476 silly registry.get     'content-length': '0',
+1476 silly registry.get     'keep-alive': 'timeout=10, max=44',
+1476 silly registry.get     connection: 'Keep-Alive' } ]
+1477 verbose etag tmp from cache
+1478 silly addNameRange number 2 { name: 'shell-quote',
+1478 silly addNameRange   range: '>=1.4.1-0 <1.5.0-0',
+1478 silly addNameRange   hasData: true }
+1479 silly addNameRange versions [ 'shell-quote',
+1479 silly addNameRange   [ '0.0.0',
+1479 silly addNameRange     '0.0.1',
+1479 silly addNameRange     '0.1.0',
+1479 silly addNameRange     '0.1.1',
+1479 silly addNameRange     '1.0.0',
+1479 silly addNameRange     '1.1.0',
+1479 silly addNameRange     '1.2.0',
+1479 silly addNameRange     '1.3.0',
+1479 silly addNameRange     '1.3.1',
+1479 silly addNameRange     '1.3.2',
+1479 silly addNameRange     '1.3.3',
+1479 silly addNameRange     '1.4.0',
+1479 silly addNameRange     '1.4.1' ] ]
+1480 verbose addNamed [ 'shell-quote', '1.4.1' ]
+1481 verbose addNamed [ '1.4.1', '1.4.1' ]
+1482 silly lockFile 9c5cf85e-shell-quote-1-4-1 shell-quote@1.4.1
+1483 verbose lock shell-quote@1.4.1 C:\Users\tjerk\AppData\Roaming\npm-cache\9c5cf85e-shell-quote-1-4-1.lock
+1484 silly addNameRange number 2 { name: 'tmp', range: '>=0.0.20-0 <0.1.0-0', hasData: true }
+1485 silly addNameRange versions [ 'tmp',
+1485 silly addNameRange   [ '0.0.1',
+1485 silly addNameRange     '0.0.2',
+1485 silly addNameRange     '0.0.3',
+1485 silly addNameRange     '0.0.4',
+1485 silly addNameRange     '0.0.5',
+1485 silly addNameRange     '0.0.6',
+1485 silly addNameRange     '0.0.7',
+1485 silly addNameRange     '0.0.8',
+1485 silly addNameRange     '0.0.9',
+1485 silly addNameRange     '0.0.10',
+1485 silly addNameRange     '0.0.11',
+1485 silly addNameRange     '0.0.12',
+1485 silly addNameRange     '0.0.13',
+1485 silly addNameRange     '0.0.14',
+1485 silly addNameRange     '0.0.15',
+1485 silly addNameRange     '0.0.16',
+1485 silly addNameRange     '0.0.17',
+1485 silly addNameRange     '0.0.18',
+1485 silly addNameRange     '0.0.20',
+1485 silly addNameRange     '0.0.21',
+1485 silly addNameRange     '0.0.22',
+1485 silly addNameRange     '0.0.23' ] ]
+1486 verbose addNamed [ 'tmp', '0.0.23' ]
+1487 verbose addNamed [ '0.0.23', '0.0.23' ]
+1488 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+1489 verbose lock tmp@0.0.23 C:\Users\tjerk\AppData\Roaming\npm-cache\f7638ceb-tmp-0-0-23.lock
+1490 silly lockFile 9c5cf85e-shell-quote-1-4-1 shell-quote@1.4.1
+1491 silly lockFile 9c5cf85e-shell-quote-1-4-1 shell-quote@1.4.1
+1492 silly lockFile cfbfb4a3-shell-quote-1-4-1 shell-quote@~1.4.1
+1493 silly lockFile cfbfb4a3-shell-quote-1-4-1 shell-quote@~1.4.1
+1494 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+1495 silly lockFile f7638ceb-tmp-0-0-23 tmp@0.0.23
+1496 silly lockFile d5057ccc-tmp-0-0-20 tmp@~0.0.20
+1497 silly lockFile d5057ccc-tmp-0-0-20 tmp@~0.0.20
+1498 error Failed to parse json
+1498 error Unexpected token  
+1499 error File: C:\Users\tjerk\AppData\Roaming\npm-cache\lru-cache\2.5.0\package\package.json
+1500 error Failed to parse package.json data.
+1500 error package.json must be actual JSON, not just JavaScript.
+1500 error
+1500 error This is not a bug in npm.
+1500 error Tell the package author to fix their package.json file. JSON.parse
+1501 error System Windows_NT 6.2.9200
+1502 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bower"
+1503 error cwd D:\websites\GitHub\mcda2
+1504 error node -v v0.10.25
+1505 error npm -v 1.3.24
+1506 error file C:\Users\tjerk\AppData\Roaming\npm-cache\lru-cache\2.5.0\package\package.json
+1507 error code EJSONPARSE
+1508 verbose exit [ 1, true ]
