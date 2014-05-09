@@ -7,15 +7,15 @@
 
   <title>Preference elicitation</title>
 
-  <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/nprogress/nprogress.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/jslider/dist/jquery.slider.min.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/nvd3/src/nv.d3.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/mcda-web/app/css/mcda-plain.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/nprogress/nprogress.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/jslider/dist/jquery.slider.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/jquery.mobile/jquery.mobile.custom.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/nvd3/src/nv.d3.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/mcda-web/app/css/mcda-plain.css">
 
-  <script src="bower_components/foundation/js/vendor/custom.modernizr.js"></script>
-
-  <script src="bower_components/requirejs/require.js" data-main="app/js/main.js"></script>
+    <script src="bower_components/foundation/js/vendor/custom.modernizr.js"></script>
+    <script src="bower_components/requirejs/require.js" data-main="app/js/main.js"></script>
 </head>
 <body>
   <div class="row">
@@ -30,9 +30,10 @@
   <div ui-view></div>
 
   <script>
-  window.patavi = { "WS_URI": "wss://patavi.drugis.org/ws" };
-   window.config = { examplesRepository: "/examples/",
-workspacesRepository: { service: "LocalWorkspaces" } };
+    window.patavi = { "WS_URI": "wss://patavi.drugis.org/ws" };
+    window.config = { examplesRepository: "/examples/",
+    workspacesRepository: { service: "LocalWorkspaces" } };
   </script>
+
 </body>
 </html>
