@@ -58,18 +58,14 @@
 		}
 
   .effectstable caption {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #222222;
+        text-rendering: optimizeLegibility;
+        margin-bottom: 1rem;
+        font-size: 1.6875rem;
         text-align: left;
-		line-height: 1.5rem;
-		background: #210F5B;
-		width: 50%;
-		padding: 0.5rem;
-		font-size: 1.2rem;
-		color: #fff;
-		border: #210F5B 1px solid;
-		border-bottom: none;
-		letter-spacing: 0.1rem;
-		margin-bottom: 1rem;
-        opacity: 1;
   }
 
   .effectstable th {

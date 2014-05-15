@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Effects table with collapse</title>
+
+      <link rel="stylesheet" type="text/css" href="../app/css/nv.d3.css">
+      <link rel="stylesheet" type="text/css" href="../app/css/mcda-plain.css">
+      <link rel="stylesheet" type="text/css" href="static.css">
+      <script src="bower_components/requirejs/require.js" data-main="app/js/main.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>      
+      <script language="javascript">
+
+// Set the default "show" mode to that specified by W3C DOM
+// compliant browsers
+
+var showMode = 'table-cell';
+
+// However, IE5 at least does not render table cells correctly
+// using the style 'table-cell', but does when the style 'block'
+// is used, so handle this
+
+if (document.all) showMode='block';
+
+	// This is the function that actually does the manipulation
+
+	function toggleVis(btn){
+
+	// First isolate the checkbox by name using the
+	// name of the form and the name of the checkbox
+
+	btn   = document.forms['tcol'].elements[btn];
+
+	// Next find all the table cells by using the DOM function
+	// getElementsByName passing in the constructed name of
+	// the cells, derived from the checkbox name
+
+	cells = document.getElementsByName('t'+ btn.name);
+
+	// Once the cells and checkbox object has been retrieved
+	// the show hide choice is simply whether the checkbox is
+	// checked or clear
+
+	mode = btn.checked ? showMode : 'none';
+
+	// Apply the style to the CSS display property for the cells
+
+	for(j = 0; j < cells.length; j++) cells[j].style.display = mode;
+}
+
+</script>
+</head>
+<body>
+    
+<div class="row">  
+    
+   <div class="sidepanel shadow"><div class="button closebutt">Close</div>
+    <h1>PGA% no worse</h1>
+        <table cellspacing="0px">
+            <tr>
+                <th>Alternatives</th>
+                <th>%</th>
+            </tr>
+            <tr>
+                <td>Placebo</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>10mg</td>
+                <td>53</td>
+            </tr>
+            <tr>
+                <td>1 mg</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>Lorum</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td>Ipsum</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>Amet</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>Dolor</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Consectetur</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>Adipisicing</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>Elit</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>Incididunt</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Labore</td>
+                <td>31</td>
+            </tr>
+        </table>
+        
+	</div>      
+    
+    <form name="tcol" onsubmit="return false">
+        Show columns
+        <input type=checkbox name="col5" onclick="toggleVis(this.name)" > Placebo
+        <input type=checkbox name="col6" onclick="toggleVis(this.name)" > 10 Mg
+        <input type=checkbox name="col7" onclick="toggleVis(this.name)" > 1 Mg
+        <input type=checkbox name="col8" onclick="toggleVis(this.name)" > Lorum
+        <input type=checkbox name="col9" onclick="toggleVis(this.name)" > Ipsum
+        <input type=checkbox name="col10" onclick="toggleVis(this.name)" > Dolor
+        <input type=checkbox name="col11" onclick="toggleVis(this.name)" checked> Uncertainties
+    </form>
+    
+    <table id="effectstable" class="effectstable tableshadow " summary="table summary" data-role="table" data-mode="columntoggle">
+   
+    <caption>
+        Benlysta effects
+    </caption>
+    <thead>
+    <tr>
+        <th name="tcol1" id="tcol1" class="rem10">Name</th>
+        <th name="tcol2" id="tcol2">Description</th>
+        <th name="tcol3" id="tcol3">Units</th>
+        <th name="tcol4" id="tcol4">Alternatives</th>
+        <th name="tcol5" id="tcol5">Placebo</th>
+        <th name="tcol6" id="tcol6">10mg</th>
+        <th name="tcol7" id="tcol7">1mg</th>
+        <th name="tcol8" id="tcol8">Lorum</th>
+        <th name="tcol9" id="tcol9">Ipsum</th>
+        <th name="tcol10" id="tcol10">Dolor</th>
+        <th name="tcol11" id="tcol11" class="rem14" ">Uncertainties (See EPAR &para;2.8)</th>
+    </tr>
+        </thead>
+        <tbody>
+    <tr>
+        <td colspan="11" class="firstheader favorable greenarrow">
+        <div class="firstheadertext">Favourable effects<span class="extratext"> (pooled data based on the EPAR)</span></div>
+        <div class="secondheader rounded-small">SLE Responder Index (SRI)</div>
+        </td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">SLEDAI<span>% Improved &ge; 4</span></td>
+        <td name="tcol2" id="tcol2">Percentage of patients with at least 4 points' reduction in SLEDAI<span class="sup">3</span></td>
+        <td name="tcol3" id="tcol3">%</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        <td name="tcol11" id="tcol11" rowspan="4">Approved only for patients with high disease activity.<br>
+            Uncertaintlies remain about optimal treatment duration, maintenance doses, treatment holidays and rebound phenomenon</td>
+    </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">PGA% no worse</td>
+        <td name="tcol2" id="tcol2">Percentage of patients with no worsening in Physician's Global Assessment4 (worsening = an increase of less than 0.3 points)</td>
+        <td name="tcol3" id="tcol3">%</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">PGA<span>Mean score</span></td>
+        <td name="tcol2" id="tcol2">Overall mean change of PGA score from baseline for the study population</td>
+        <td name="tcol3" id="tcol3">Difference</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">BILAG A/B</td>
+        <td name="tcol2" id="tcol2">Percentage of patients with no new BILAG3 A/2B</td>
+        <td name="tcol3" id="tcol3">%</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        </tr>
+    <tr>
+        <td colspan="11" class="firstheader favorable greenarrow">
+        <div class="firstheadertext">Favourable effects</div>
+        <div class="secondheader rounded-small">Secondary Endpoints</div>
+        </td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">CS Sparing</td>
+        <td name="tcol2" id="tcol2">Percentage of patients that reduced the dose of costicosteroids by more than 25% and to less than 7.5 mg/day</td>
+        <td name="tcol3" id="tcol3">%</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        <td name="tcol11" id="tcol11" rowspan="3">Support from the analyses of the secondary endpoints is weak for the overall population</td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">Flare rate</td>
+        <td name="tcol2" id="tcol2">Number of new BILAG A Cases per patient year</td>
+        <td name="tcol3" id="tcol3">Number</td>
+       <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">QoL</td>
+        <td name="tcol2" id="tcol2">Mean change in the total score of SF 36 (Short Form)</td>
+        <td name="tcol3" id="tcol3">Difference</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        </tr>
+    <tr>
+        <td colspan="11" class="firstheader unfavorable redarrow">
+        <div class="firstheadertext">Unfavourable effects</div></td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">Potential SAEs</td>
+        <td name="tcol2" id="tcol2">Potential for developing tumour, opportunistic infections of PML</td>
+        <td name="tcol3" id="tcol3">Judgement</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        <td name="tcol11" id="tcol11" rowspan="3">The mechanism of action could increase potential for developing infections</td>
+        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">Infections</td>
+        <td name="tcol2" id="tcol2">Proportion of patients with serious infections that are life-threatening</td>
+        <td name="tcol3" id="tcol3">%</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        <!--<td>&nbsp;</td>-->        </tr>
+    <tr>
+        <td name="tcol1" id="tcol1">Sensitivity Reaction</td>
+        <td name="tcol2" id="tcol2">Proportion of patients with hypersensitivity reactions at any time in the study</td>
+        <td name="tcol3" id="tcol3">%</td>
+        <td name="tcol4" id="tcol4"><div class="slidesidepanel button closebutt">View</div></td>
+        <td name="tcol5" id="tcol5">&nbsp;</td>
+        <td name="tcol6" id="tcol6">&nbsp;</td>
+        <td name="tcol7" id="tcol7">&nbsp;</td>
+        <td name="tcol8" id="tcol8">&nbsp;</td>
+        <td name="tcol9" id="tcol9">&nbsp;</td>
+        <td name="tcol10" id="tcol10">&nbsp;</td>
+        <!--<td>&nbsp;</td>-->        </tr>
+    </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+
+    <div class="effectstable-footer">
+        (1) Best and Worst: For similar scales, the most preffered and least preferred values that would be realistically realisable (e.g., 0 to 100% for both SLEDAI and PGA scales). For dissimilar scales, a range that facilitaties comparing the relative importance of the scales (e.g., Infections 0-10%, and Sensitivity Reaction 0-2%).<br>
+            (2) Treatment effect estimates.
+    </div>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".slidesidepanel").click(function () {
+
+                $(".sidepanel").slideToggle("slow", "swing");
+
+                //  $(".sidepanel").animate({ right: '0%' });
+
+                $(".sidepanel").css({
+                    'position': 'fixed !important',
+                    'top': '10%'
+                });
+
+                $(".sidepanel").css({
+                    'margin-top': -this.outerHeight() / 2 + 'px'
+                });
+
+            });
+
+            $(".sidepanel .button").click(function () {
+                $(".sidepanel").slideToggle("slow", "swing");
+            });
+        });
+
+    </script>
+     
+   <script>
+    $(function ()
+    { 
+    $(".showpop").popover({placement:'top', title: 'Alternatives', content: "Hier komen de waarden te staan nnnnnn nnnnnnn nnnnnnnnnnnnn nnnnnn nnnnnnnnn"});
+    });
+    </script>
+
+</body>
+</html>

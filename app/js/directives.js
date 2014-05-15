@@ -1,5 +1,5 @@
 'use strict';
-define(['require', 'angular', 'underscore', 'jQuery', 'd3', 'nvd3'], function(require, angular, _, $, d3, nv) {
+define(['require', 'angular', 'underscore', 'jquery', 'd3', 'nvd3'], function(require, angular, _, $, d3, nv) {
 
   var directives = angular.module('elicit.directives', []);
 
