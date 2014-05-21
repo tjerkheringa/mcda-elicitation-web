@@ -6,7 +6,7 @@
 </head>
 <script>
     $(document).ready(function () {
-        $('input[type="checkbox"]').click(function () {
+        $('.klikkie[type="checkbox"]').click(function () {
             var index = $(this).attr('name').substr(3);
             index--;
             $('table tr').each(function () {
@@ -17,6 +17,11 @@
     });
 </script>
 <body>
+    <form>
+        <input type="checkbox" name="col1" class="klikkie" checked /> 1
+        <input type="checkbox" name="col2" class="klikkie" /> 2
+        <input type="checkbox" name="col3" class="klikkie" /> 3 <br />
+    </form>
 <table>
 <thead>
     <tr>
@@ -31,10 +36,6 @@
 <tr><td>Column1</td><td>Column2</td><td>Column3</td></tr>
 </table>
 
-<form>
-    <input type="checkbox" name="col1" checked="checked" /> Hide/Show Column 1 <br />
-    <input type="checkbox" name="col2" checked="checked" /> Hide/Show Column 2 <br />
-    <input type="checkbox" name="col3" checked="checked" /> Hide/Show Column 3 <br />
-</form>
+
 </body>
 </html>
