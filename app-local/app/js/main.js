@@ -8,6 +8,7 @@ require.config({
         'angular': 'bower_components/angular/angular.min',
         'angular-resource': 'bower_components/angular-resource/angular-resource.min',
         'angular-ui-router': 'bower_components/angular-ui-router/release/angular-ui-router.min',
+        'angularanimate': 'bower_components/angular-animate/angular-animate.min',
         'NProgress': 'bower_components/nprogress/nprogress',
         'jquery-slider': 'bower_components/jslider/dist/jquery.slider.min',
   //      'columnmanager': 'bower_components/columnmanager/jquery.columnmanager.min',
