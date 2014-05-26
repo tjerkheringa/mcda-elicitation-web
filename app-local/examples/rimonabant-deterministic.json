@@ -1,0 +1,242 @@
+{
+  "title": "Rimonabant deterministic analysis",
+  "criteria": {
+    "Hypo": {
+      "title": "Hypoglyceamia",
+      "description": "Incidence of hypoglyceamia.",
+      "unitOfMeasurement": "Proportion",
+      "scale": [0.0, 1.0],
+      "pvf": {
+        "range": [0.0, 0.1],
+        "type": "linear",
+        "direction": "decreasing"
+      }
+    },
+    "Fasting": {
+      "title": "Fasting glucose",
+      "description": "Change in fasting glucose concentrations from baseline.",
+      "unitOfMeasurement": "mmol/L",
+      "scale": [-5, 3],
+      "pvf": {
+        "range": [-2, 2],
+        "type": "linear",
+        "direction": "decreasing"
+      }
+    },
+    "SBP": {
+      "title": "SBP",
+      "description": "Change in systolic blood pressure from baseline.",
+      "unitOfMeasurement": "mm Hg",
+      "scale": [-30, 10],
+      "pvf": {
+        "range": [-10, 5],
+        "type": "linear",
+        "direction": "decreasing"
+      }
+    },
+    "HDL": {
+      "title": "HDL cholesterol",
+      "description": "Change in HDL cholesterol from baseline.",
+      "unitOfMeasurement": "mmol/L",
+      "scale": [-2, 2],
+      "pvf": {
+        "range": [0.0, 1.0],
+        "type": "linear",
+        "direction": "increasing"
+      }
+    },
+    "Anxiety": {
+      "title": "Anxiety",
+      "description": "Incidence of anxiety.",
+      "unitOfMeasurement": "proportion",
+      "scale": [0.0, 1.0],
+      "pvf": {
+        "range": [0.0, 0.10],
+        "type": "linear",
+        "direction": "decreasing"
+      }
+    },
+     "Waist": {
+      "title": "Waist circumference",
+      "description": "Change in waist circumference from baseline.",
+      "unitOfMeasurement": "cm",
+      "scale": [-15, 5],
+      "pvf": {
+        "range": [-10, 0],
+        "type": "linear",
+        "direction": "decreasing"
+      }
+    }
+  },
+  "valueTree": {
+    "title": "Benefit-risk balance", 
+    "children": [
+      {
+        "title": "Favorable effects",
+        "criteria": [ "Fasting", "Waist", "SBP", "HDL" ]
+      },
+      {
+        "title": "Unfavorable effects",
+        "criteria": [ "Hypo", "Anxiety" ]
+      }
+    ]
+  },
+  "alternatives": {
+    "placebo": {
+      "title": "Placebo"
+    },
+    "5mg": {
+      "title": "Rimonabant 5 mg/day"
+    },
+    "20mg": {
+      "title": "Rimonabant 20 mg/day"
+    }
+  },
+  "performanceTable": [
+  {
+    "alternative": "placebo",
+    "criterion": "Hypo",
+    "performance": {
+      "type": "exact",
+      "value": 0.02
+    }
+  },
+  {
+    "alternative": "5mg",
+    "criterion": "Hypo",
+    "performance": {
+      "type": "exact",
+      "value": 0.01
+    }
+  },
+  {
+    "alternative": "20mg",
+    "criterion": "Hypo",
+    "performance": {
+      "type": "exact",
+      "value": 0.05
+    }
+  },
+    {
+    "alternative": "placebo",
+    "criterion": "Fasting",
+    "performance": {
+      "type": "exact",
+      "value": 0.33
+    }
+  },
+  {
+    "alternative": "5mg",
+    "criterion": "Fasting",
+    "performance": {
+      "type": "exact",
+      "value": 0.30
+    }
+  },
+  {
+    "alternative": "20mg",
+    "criterion": "Fasting",
+    "performance": {
+      "type": "exact",
+      "value": -0.64
+    }
+  },
+    {
+    "alternative": "placebo",
+    "criterion": "SBP",
+    "performance": {
+      "type": "exact",
+      "value": 1.6
+    }
+  },
+  {
+    "alternative": "5mg",
+    "criterion": "SBP",
+    "performance": {
+      "type": "exact",
+      "value": -0.4
+    }
+  },
+  {
+    "alternative": "20mg",
+    "criterion": "SBP",
+    "performance": {
+      "type": "exact",
+      "value": -0.8
+    }
+  },
+    {
+    "alternative": "placebo",
+    "criterion": "HDL",
+    "performance": {
+      "type": "exact",
+      "value": 0.07
+    }
+  },
+  {
+    "alternative": "5mg",
+    "criterion": "HDL",
+    "performance": {
+      "type": "exact",
+      "value": 0.11
+    }
+  },
+  {
+    "alternative": "20mg",
+    "criterion": "HDL",
+    "performance": {
+      "type": "exact",
+      "value": 0.17
+    }
+  },
+    {
+    "alternative": "placebo",
+    "criterion": "Anxiety",
+    "performance": {
+      "type": "exact",
+      "value": 0.03
+    }
+  },
+  {
+    "alternative": "5mg",
+    "criterion": "Anxiety",
+    "performance": {
+      "type": "exact",
+      "value": 0.01
+    }
+  },
+  {
+    "alternative": "20mg",
+    "criterion": "Anxiety",
+    "performance": {
+      "type": "exact",
+      "value": 0.05
+    }
+  },
+   {
+    "alternative": "placebo",
+    "criterion": "Waist",
+    "performance": {
+      "type": "exact",
+      "value": -1.9
+    }
+  },
+  {
+    "alternative": "5mg",
+    "criterion": "Waist",
+    "performance": {
+      "type": "exact",
+      "value": -2.9
+    }
+  },
+  {
+    "alternative": "20mg",
+    "criterion": "Waist",
+    "performance": {
+      "type": "exact",
+      "value": -5.2
+    }
+  }
+  ],
+  "preferences": {}
+}
