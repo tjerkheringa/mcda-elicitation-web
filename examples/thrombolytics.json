@@ -4,6 +4,7 @@
     "Prox DVT": {
       "title": "Proximal DVT",
       "description": "Proximal deep vein thrombolytic events, often associated with serious complications.",
+	  "remark": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada adipiscing sagittis. Morbi rutrum felis at malesuada lacinia. Praesent ut leo vel sem ornare ultricies. Sed volutpat sollicitudin consectetur. Vivamus ultricies diam eget urna cursus porttitor id quis lectus. Ut luctus interdum enim eu dapibus. Vivamus venenatis mi ut pharetra imperdiet.",
       "unitOfMeasurement": "Proportion",
       "scale": [0.0, 1.0],
       "pvf": {
@@ -32,6 +33,7 @@
     "Bleed": {
       "title": "Major bleeding",
       "description": "Major bleeding events.",
+	  "remark": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada adipiscing sagittis. Morbi rutrum felis at malesuada lacinia. Praesent ut leo vel sem ornare ultricies. Sed volutpat sollicitudin consectetur. Vivamus ultricies diam eget urna cursus porttitor id quis lectus. Ut luctus interdum enim eu dapibus. Vivamus venenatis mi ut pharetra imperdiet.",
       "unitOfMeasurement": "Proportion",
       "scale": [0.0, 1.0],
       "pvf": {
@@ -49,6 +51,7 @@
     "children": [
       {
         "title": "Favourable effects",
+		"remark": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada adipiscing sagittis. Morbi rutrum felis at malesuada lacinia. Praesent ut leo vel sem ornare ultricies. Sed volutpat sollicitudin consectetur. Vivamus ultricies diam eget urna cursus porttitor id quis lectus. Ut luctus interdum enim eu dapibus. Vivamus venenatis mi ut pharetra imperdiet.",
         "children": [
           {
             "title": "Primary efficacy",
@@ -56,6 +59,7 @@
           },
           {
             "title": "Secondary efficacy",
+			"remark": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent malesuada adipiscing sagittis. Morbi rutrum felis at malesuada lacinia. Praesent ut leo vel sem ornare ultricies. Sed volutpat sollicitudin consectetur. Vivamus ultricies diam eget urna cursus porttitor id quis lectus. Ut luctus interdum enim eu dapibus. Vivamus venenatis mi ut pharetra imperdiet.",
             "criteria": [ "Dist DVT" ]
           }
         ]
